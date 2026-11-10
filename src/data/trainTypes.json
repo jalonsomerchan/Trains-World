@@ -1,0 +1,5 @@
+[
+  { "id": "standard", "name": "Tren estándar", "description": "Equilibrado para líneas cortas y medias.", "viajeros": 200, "velocidad_maxima": 100, "coste_al_dia": 2000 },
+  { "id": "fast", "name": "Tren rápido", "description": "Más velocidad en vías rápidas, con la misma capacidad.", "viajeros": 200, "velocidad_maxima": 150, "coste_al_dia": 3500 },
+  { "id": "long", "name": "Tren largo", "description": "Más plazas para rutas con mucha demanda.", "viajeros": 400, "velocidad_maxima": 200, "coste_al_dia": 5000 }
+]

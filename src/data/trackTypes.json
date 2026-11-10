@@ -1,0 +1,11 @@
+[
+  { "id": "basic", "name": "Básica", "speed": 40, "capacity": 1, "color": "#b8c3ce", "costPerKm": 0 },
+  { "id": "normal", "name": "Normal", "speed": 80, "capacity": 1, "color": "#58b8ff", "costPerKm": 400 },
+  { "id": "high_capacity", "name": "Alta ocupación", "speed": 50, "capacity": 2, "color": "#f3bc68", "costPerKm": 600 },
+  { "id": "fast", "name": "Rápida", "speed": 120, "capacity": 1, "color": "#87dfaa", "costPerKm": 900 },
+  { "id": "very_fast", "name": "Muy rápida", "speed": 180, "capacity": 1, "color": "#b6a4ff", "costPerKm": 1400 },
+  { "id": "high_speed", "name": "Alta velocidad", "speed": 260, "capacity": 1, "color": "#fb8c95", "costPerKm": 2100 },
+  { "id": "fast_high_capacity", "name": "Rápida alta ocupación", "speed": 120, "capacity": 2, "color": "#36d1c5", "costPerKm": 1900 },
+  { "id": "high_speed_dual", "name": "Alta velocidad alta ocupación", "speed": 260, "capacity": 2, "color": "#fa8ad3", "costPerKm": 3200 },
+  { "id": "ultra_fast", "name": "Ultrarrápida", "speed": 350, "capacity": 1, "color": "#f5ea74", "costPerKm": 3500 }
+]

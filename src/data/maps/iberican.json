@@ -1,0 +1,1622 @@
+{
+    "metadatos": {
+        "total": 200,
+        "territorio": "Península ibérica (España y Portugal continentales)",
+        "criterio": "200 municipios seleccionados principalmente por población municipal aproximada",
+        "poblacion": "Valores orientativos, no cifras oficiales verificadas individualmente; diferentes años de referencia",
+        "coordenadas": "Coordenadas aproximadas del núcleo urbano (WGS84)",
+        "fuentes_referencia": [
+            "https://www.ine.es/jaxiT3/Tabla.htm?t=29005",
+            "https://www.pordata.pt/",
+            "https://www.geonames.org/"
+        ]
+    },
+    "mapa": {
+        "nombre": "Península Ibérica",
+        "latitud": 40.4637,
+        "longitud": -3.725,
+        "zoom": 5
+    },
+    "ciudades": [
+        {
+            "nombre": "Madrid",
+            "pais": "España",
+            "latitud": 40.4168,
+            "longitud": -3.7038,
+            "poblacion": 3506900,
+            "id": 1
+        },
+        {
+            "nombre": "Barcelona",
+            "pais": "España",
+            "latitud": 41.3874,
+            "longitud": 2.1686,
+            "poblacion": 1731700,
+            "id": 2
+        },
+        {
+            "nombre": "Valencia",
+            "pais": "España",
+            "latitud": 39.4699,
+            "longitud": -0.3763,
+            "poblacion": 840800,
+            "id": 3
+        },
+        {
+            "nombre": "Zaragoza",
+            "pais": "España",
+            "latitud": 41.6488,
+            "longitud": -0.8891,
+            "poblacion": 691000,
+            "id": 4
+        },
+        {
+            "nombre": "Sevilla",
+            "pais": "España",
+            "latitud": 37.3891,
+            "longitud": -5.9845,
+            "poblacion": 689400,
+            "id": 5
+        },
+        {
+            "nombre": "Málaga",
+            "pais": "España",
+            "latitud": 36.7213,
+            "longitud": -4.4214,
+            "poblacion": 599000,
+            "id": 6
+        },
+        {
+            "nombre": "Lisboa",
+            "pais": "Portugal",
+            "latitud": 38.7223,
+            "longitud": -9.1393,
+            "poblacion": 567000,
+            "id": 7
+        },
+        {
+            "nombre": "Murcia",
+            "pais": "España",
+            "latitud": 37.9922,
+            "longitud": -1.1307,
+            "poblacion": 475000,
+            "id": 8
+        },
+        {
+            "nombre": "Sintra",
+            "pais": "Portugal",
+            "latitud": 38.8029,
+            "longitud": -9.3817,
+            "poblacion": 395000,
+            "id": 9
+        },
+        {
+            "nombre": "Alicante",
+            "pais": "España",
+            "latitud": 38.3452,
+            "longitud": -0.481,
+            "poblacion": 358000,
+            "id": 10
+        },
+        {
+            "nombre": "Bilbao",
+            "pais": "España",
+            "latitud": 43.263,
+            "longitud": -2.935,
+            "poblacion": 348000,
+            "id": 11
+        },
+        {
+            "nombre": "Córdoba",
+            "pais": "España",
+            "latitud": 37.8882,
+            "longitud": -4.7794,
+            "poblacion": 326000,
+            "id": 12
+        },
+        {
+            "nombre": "Vila Nova de Gaia",
+            "pais": "Portugal",
+            "latitud": 41.1336,
+            "longitud": -8.6174,
+            "poblacion": 304000,
+            "id": 13
+        },
+        {
+            "nombre": "Valladolid",
+            "pais": "España",
+            "latitud": 41.6523,
+            "longitud": -4.7245,
+            "poblacion": 300000,
+            "id": 14
+        },
+        {
+            "nombre": "Vigo",
+            "pais": "España",
+            "latitud": 42.2406,
+            "longitud": -8.7207,
+            "poblacion": 294000,
+            "id": 15
+        },
+        {
+            "nombre": "L'Hospitalet de Llobregat",
+            "pais": "España",
+            "latitud": 41.3597,
+            "longitud": 2.1003,
+            "poblacion": 282000,
+            "id": 16
+        },
+        {
+            "nombre": "Gijón",
+            "pais": "España",
+            "latitud": 43.5322,
+            "longitud": -5.6611,
+            "poblacion": 269000,
+            "id": 17
+        },
+        {
+            "nombre": "Vitoria-Gasteiz",
+            "pais": "España",
+            "latitud": 42.8467,
+            "longitud": -2.6716,
+            "poblacion": 259000,
+            "id": 18
+        },
+        {
+            "nombre": "A Coruña",
+            "pais": "España",
+            "latitud": 43.3623,
+            "longitud": -8.4115,
+            "poblacion": 249000,
+            "id": 19
+        },
+        {
+            "nombre": "Elche",
+            "pais": "España",
+            "latitud": 38.2699,
+            "longitud": -0.7126,
+            "poblacion": 245000,
+            "id": 20
+        },
+        {
+            "nombre": "Granada",
+            "pais": "España",
+            "latitud": 37.1773,
+            "longitud": -3.5986,
+            "poblacion": 233000,
+            "id": 21
+        },
+        {
+            "nombre": "Porto",
+            "pais": "Portugal",
+            "latitud": 41.1579,
+            "longitud": -8.6291,
+            "poblacion": 232000,
+            "id": 22
+        },
+        {
+            "nombre": "Terrassa",
+            "pais": "España",
+            "latitud": 41.5632,
+            "longitud": 2.0089,
+            "poblacion": 231000,
+            "id": 23
+        },
+        {
+            "nombre": "Badalona",
+            "pais": "España",
+            "latitud": 41.4469,
+            "longitud": 2.245,
+            "poblacion": 228000,
+            "id": 24
+        },
+        {
+            "nombre": "Sabadell",
+            "pais": "España",
+            "latitud": 41.5463,
+            "longitud": 2.1086,
+            "poblacion": 222000,
+            "id": 25
+        },
+        {
+            "nombre": "Oviedo",
+            "pais": "España",
+            "latitud": 43.3619,
+            "longitud": -5.8494,
+            "poblacion": 220000,
+            "id": 26
+        },
+        {
+            "nombre": "Cartagena",
+            "pais": "España",
+            "latitud": 37.6257,
+            "longitud": -0.9966,
+            "poblacion": 220000,
+            "id": 27
+        },
+        {
+            "nombre": "Cascais",
+            "pais": "Portugal",
+            "latitud": 38.697,
+            "longitud": -9.4215,
+            "poblacion": 216000,
+            "id": 28
+        },
+        {
+            "nombre": "Jerez de la Frontera",
+            "pais": "España",
+            "latitud": 36.685,
+            "longitud": -6.1261,
+            "poblacion": 214000,
+            "id": 29
+        },
+        {
+            "nombre": "Móstoles",
+            "pais": "España",
+            "latitud": 40.3223,
+            "longitud": -3.8649,
+            "poblacion": 214000,
+            "id": 30
+        },
+        {
+            "nombre": "Pamplona",
+            "pais": "España",
+            "latitud": 42.8125,
+            "longitud": -1.6458,
+            "poblacion": 209000,
+            "id": 31
+        },
+        {
+            "nombre": "Loures",
+            "pais": "Portugal",
+            "latitud": 38.8309,
+            "longitud": -9.1684,
+            "poblacion": 207000,
+            "id": 32
+        },
+        {
+            "nombre": "Almería",
+            "pais": "España",
+            "latitud": 36.834,
+            "longitud": -2.4637,
+            "poblacion": 204000,
+            "id": 33
+        },
+        {
+            "nombre": "Braga",
+            "pais": "Portugal",
+            "latitud": 41.5454,
+            "longitud": -8.4265,
+            "poblacion": 201000,
+            "id": 34
+        },
+        {
+            "nombre": "Alcalá de Henares",
+            "pais": "España",
+            "latitud": 40.4818,
+            "longitud": -3.3643,
+            "poblacion": 200000,
+            "id": 35
+        },
+        {
+            "nombre": "Fuenlabrada",
+            "pais": "España",
+            "latitud": 40.2839,
+            "longitud": -3.7942,
+            "poblacion": 191000,
+            "id": 36
+        },
+        {
+            "nombre": "Leganés",
+            "pais": "España",
+            "latitud": 40.3272,
+            "longitud": -3.7635,
+            "poblacion": 190000,
+            "id": 37
+        },
+        {
+            "nombre": "Getafe",
+            "pais": "España",
+            "latitud": 40.3083,
+            "longitud": -3.7327,
+            "poblacion": 190000,
+            "id": 38
+        },
+        {
+            "nombre": "Donostia-San Sebastián",
+            "pais": "España",
+            "latitud": 43.3183,
+            "longitud": -1.9812,
+            "poblacion": 189000,
+            "id": 39
+        },
+        {
+            "nombre": "Castellón de la Plana",
+            "pais": "España",
+            "latitud": 39.9864,
+            "longitud": -0.0513,
+            "poblacion": 183000,
+            "id": 40
+        },
+        {
+            "nombre": "Oeiras",
+            "pais": "Portugal",
+            "latitud": 38.697,
+            "longitud": -9.3017,
+            "poblacion": 178000,
+            "id": 41
+        },
+        {
+            "nombre": "Burgos",
+            "pais": "España",
+            "latitud": 42.3439,
+            "longitud": -3.6969,
+            "poblacion": 177000,
+            "id": 42
+        },
+        {
+            "nombre": "Almada",
+            "pais": "Portugal",
+            "latitud": 38.6765,
+            "longitud": -9.1652,
+            "poblacion": 177000,
+            "id": 43
+        },
+        {
+            "nombre": "Santander",
+            "pais": "España",
+            "latitud": 43.4623,
+            "longitud": -3.81,
+            "poblacion": 175000,
+            "id": 44
+        },
+        {
+            "nombre": "Matosinhos",
+            "pais": "Portugal",
+            "latitud": 41.1821,
+            "longitud": -8.6891,
+            "poblacion": 175000,
+            "id": 45
+        },
+        {
+            "nombre": "Albacete",
+            "pais": "España",
+            "latitud": 38.9943,
+            "longitud": -1.8585,
+            "poblacion": 174000,
+            "id": 46
+        },
+        {
+            "nombre": "Alcorcón",
+            "pais": "España",
+            "latitud": 40.3458,
+            "longitud": -3.8249,
+            "poblacion": 174000,
+            "id": 47
+        },
+        {
+            "nombre": "Amadora",
+            "pais": "Portugal",
+            "latitud": 38.7538,
+            "longitud": -9.2308,
+            "poblacion": 171000,
+            "id": 48
+        },
+        {
+            "nombre": "Seixal",
+            "pais": "Portugal",
+            "latitud": 38.64,
+            "longitud": -9.1,
+            "poblacion": 169000,
+            "id": 49
+        },
+        {
+            "nombre": "Gondomar",
+            "pais": "Portugal",
+            "latitud": 41.1445,
+            "longitud": -8.5322,
+            "poblacion": 166000,
+            "id": 50
+        },
+        {
+            "nombre": "Marbella",
+            "pais": "España",
+            "latitud": 36.5101,
+            "longitud": -4.8824,
+            "poblacion": 159000,
+            "id": 51
+        },
+        {
+            "nombre": "Guimarães",
+            "pais": "Portugal",
+            "latitud": 41.4444,
+            "longitud": -8.2962,
+            "poblacion": 156000,
+            "id": 52
+        },
+        {
+            "nombre": "Odivelas",
+            "pais": "Portugal",
+            "latitud": 38.7927,
+            "longitud": -9.1838,
+            "poblacion": 154000,
+            "id": 53
+        },
+        {
+            "nombre": "Logroño",
+            "pais": "España",
+            "latitud": 42.4627,
+            "longitud": -2.4449,
+            "poblacion": 152000,
+            "id": 54
+        },
+        {
+            "nombre": "Badajoz",
+            "pais": "España",
+            "latitud": 38.8794,
+            "longitud": -6.9707,
+            "poblacion": 151000,
+            "id": 55
+        },
+        {
+            "nombre": "Coimbra",
+            "pais": "Portugal",
+            "latitud": 40.2033,
+            "longitud": -8.4103,
+            "poblacion": 145000,
+            "id": 56
+        },
+        {
+            "nombre": "Salamanca",
+            "pais": "España",
+            "latitud": 40.9701,
+            "longitud": -5.6635,
+            "poblacion": 144000,
+            "id": 57
+        },
+        {
+            "nombre": "Lleida",
+            "pais": "España",
+            "latitud": 41.6176,
+            "longitud": 0.62,
+            "poblacion": 144000,
+            "id": 58
+        },
+        {
+            "nombre": "Huelva",
+            "pais": "España",
+            "latitud": 37.2614,
+            "longitud": -6.9447,
+            "poblacion": 143000,
+            "id": 59
+        },
+        {
+            "nombre": "Tarragona",
+            "pais": "España",
+            "latitud": 41.1189,
+            "longitud": 1.2445,
+            "poblacion": 141000,
+            "id": 60
+        },
+        {
+            "nombre": "Torrejón de Ardoz",
+            "pais": "España",
+            "latitud": 40.4554,
+            "longitud": -3.4697,
+            "poblacion": 141000,
+            "id": 61
+        },
+        {
+            "nombre": "Santa Maria da Feira",
+            "pais": "Portugal",
+            "latitud": 40.9254,
+            "longitud": -8.5428,
+            "poblacion": 141000,
+            "id": 62
+        },
+        {
+            "nombre": "Dos Hermanas",
+            "pais": "España",
+            "latitud": 37.2866,
+            "longitud": -5.9244,
+            "poblacion": 140000,
+            "id": 63
+        },
+        {
+            "nombre": "Maia",
+            "pais": "Portugal",
+            "latitud": 41.2357,
+            "longitud": -8.6199,
+            "poblacion": 138000,
+            "id": 64
+        },
+        {
+            "nombre": "Vila Franca de Xira",
+            "pais": "Portugal",
+            "latitud": 38.955,
+            "longitud": -8.9897,
+            "poblacion": 137000,
+            "id": 65
+        },
+        {
+            "nombre": "Vila Nova de Famalicão",
+            "pais": "Portugal",
+            "latitud": 41.4065,
+            "longitud": -8.5198,
+            "poblacion": 135000,
+            "id": 66
+        },
+        {
+            "nombre": "Parla",
+            "pais": "España",
+            "latitud": 40.2375,
+            "longitud": -3.7733,
+            "poblacion": 134000,
+            "id": 67
+        },
+        {
+            "nombre": "Mataró",
+            "pais": "España",
+            "latitud": 41.5381,
+            "longitud": 2.4445,
+            "poblacion": 131000,
+            "id": 68
+        },
+        {
+            "nombre": "Leiria",
+            "pais": "Portugal",
+            "latitud": 39.7436,
+            "longitud": -8.8071,
+            "poblacion": 129000,
+            "id": 69
+        },
+        {
+            "nombre": "Algeciras",
+            "pais": "España",
+            "latitud": 36.1408,
+            "longitud": -5.4562,
+            "poblacion": 124000,
+            "id": 70
+        },
+        {
+            "nombre": "Setúbal",
+            "pais": "Portugal",
+            "latitud": 38.5244,
+            "longitud": -8.8882,
+            "poblacion": 124000,
+            "id": 71
+        },
+        {
+            "nombre": "León",
+            "pais": "España",
+            "latitud": 42.5987,
+            "longitud": -5.5671,
+            "poblacion": 122000,
+            "id": 72
+        },
+        {
+            "nombre": "Santa Coloma de Gramenet",
+            "pais": "España",
+            "latitud": 41.4515,
+            "longitud": 2.2081,
+            "poblacion": 120000,
+            "id": 73
+        },
+        {
+            "nombre": "Alcobendas",
+            "pais": "España",
+            "latitud": 40.54,
+            "longitud": -3.6355,
+            "poblacion": 118000,
+            "id": 74
+        },
+        {
+            "nombre": "Barcelos",
+            "pais": "Portugal",
+            "latitud": 41.5317,
+            "longitud": -8.6184,
+            "poblacion": 116000,
+            "id": 75
+        },
+        {
+            "nombre": "Cádiz",
+            "pais": "España",
+            "latitud": 36.5271,
+            "longitud": -6.2886,
+            "poblacion": 112000,
+            "id": 76
+        },
+        {
+            "nombre": "Jaén",
+            "pais": "España",
+            "latitud": 37.7796,
+            "longitud": -3.7849,
+            "poblacion": 112000,
+            "id": 77
+        },
+        {
+            "nombre": "Roquetas de Mar",
+            "pais": "España",
+            "latitud": 36.7642,
+            "longitud": -2.6148,
+            "poblacion": 111000,
+            "id": 78
+        },
+        {
+            "nombre": "Reus",
+            "pais": "España",
+            "latitud": 41.1548,
+            "longitud": 1.1087,
+            "poblacion": 110000,
+            "id": 79
+        },
+        {
+            "nombre": "Girona",
+            "pais": "España",
+            "latitud": 41.9794,
+            "longitud": 2.8214,
+            "poblacion": 106000,
+            "id": 80
+        },
+        {
+            "nombre": "Ourense",
+            "pais": "España",
+            "latitud": 42.3358,
+            "longitud": -7.8639,
+            "poblacion": 105000,
+            "id": 81
+        },
+        {
+            "nombre": "Viseu",
+            "pais": "Portugal",
+            "latitud": 40.661,
+            "longitud": -7.9097,
+            "poblacion": 103000,
+            "id": 82
+        },
+        {
+            "nombre": "Barakaldo",
+            "pais": "España",
+            "latitud": 43.2974,
+            "longitud": -2.985,
+            "poblacion": 101000,
+            "id": 83
+        },
+        {
+            "nombre": "Rivas-Vaciamadrid",
+            "pais": "España",
+            "latitud": 40.3266,
+            "longitud": -3.517,
+            "poblacion": 101000,
+            "id": 84
+        },
+        {
+            "nombre": "Lugo",
+            "pais": "España",
+            "latitud": 43.0097,
+            "longitud": -7.5568,
+            "poblacion": 100000,
+            "id": 85
+        },
+        {
+            "nombre": "Santiago de Compostela",
+            "pais": "España",
+            "latitud": 42.8782,
+            "longitud": -8.5448,
+            "poblacion": 99000,
+            "id": 86
+        },
+        {
+            "nombre": "Sant Cugat del Vallès",
+            "pais": "España",
+            "latitud": 41.4735,
+            "longitud": 2.0865,
+            "poblacion": 98000,
+            "id": 87
+        },
+        {
+            "nombre": "Lorca",
+            "pais": "España",
+            "latitud": 37.6712,
+            "longitud": -1.7017,
+            "poblacion": 98000,
+            "id": 88
+        },
+        {
+            "nombre": "Cáceres",
+            "pais": "España",
+            "latitud": 39.4765,
+            "longitud": -6.3722,
+            "poblacion": 97000,
+            "id": 89
+        },
+        {
+            "nombre": "Las Rozas de Madrid",
+            "pais": "España",
+            "latitud": 40.4929,
+            "longitud": -3.8737,
+            "poblacion": 97000,
+            "id": 90
+        },
+        {
+            "nombre": "San Fernando",
+            "pais": "España",
+            "latitud": 36.4657,
+            "longitud": -6.196,
+            "poblacion": 95000,
+            "id": 91
+        },
+        {
+            "nombre": "Valongo",
+            "pais": "Portugal",
+            "latitud": 41.1889,
+            "longitud": -8.4989,
+            "poblacion": 95000,
+            "id": 92
+        },
+        {
+            "nombre": "Torrevieja",
+            "pais": "España",
+            "latitud": 37.9787,
+            "longitud": -0.6822,
+            "poblacion": 94000,
+            "id": 93
+        },
+        {
+            "nombre": "San Sebastián de los Reyes",
+            "pais": "España",
+            "latitud": 40.5475,
+            "longitud": -3.6264,
+            "poblacion": 93000,
+            "id": 94
+        },
+        {
+            "nombre": "Mijas",
+            "pais": "España",
+            "latitud": 36.5957,
+            "longitud": -4.6373,
+            "poblacion": 93000,
+            "id": 95
+        },
+        {
+            "nombre": "Guadalajara",
+            "pais": "España",
+            "latitud": 40.6327,
+            "longitud": -3.1671,
+            "poblacion": 91000,
+            "id": 96
+        },
+        {
+            "nombre": "El Ejido",
+            "pais": "España",
+            "latitud": 36.7763,
+            "longitud": -2.8146,
+            "poblacion": 91000,
+            "id": 97
+        },
+        {
+            "nombre": "El Puerto de Santa María",
+            "pais": "España",
+            "latitud": 36.5939,
+            "longitud": -6.232,
+            "poblacion": 90000,
+            "id": 98
+        },
+        {
+            "nombre": "Cornellà de Llobregat",
+            "pais": "España",
+            "latitud": 41.3556,
+            "longitud": 2.0704,
+            "poblacion": 90000,
+            "id": 99
+        },
+        {
+            "nombre": "Chiclana de la Frontera",
+            "pais": "España",
+            "latitud": 36.4198,
+            "longitud": -6.1499,
+            "poblacion": 90000,
+            "id": 100
+        },
+        {
+            "nombre": "Mafra",
+            "pais": "Portugal",
+            "latitud": 38.9381,
+            "longitud": -9.3276,
+            "poblacion": 90000,
+            "id": 101
+        },
+        {
+            "nombre": "Pozuelo de Alarcón",
+            "pais": "España",
+            "latitud": 40.434,
+            "longitud": -3.8146,
+            "poblacion": 89000,
+            "id": 102
+        },
+        {
+            "nombre": "Toledo",
+            "pais": "España",
+            "latitud": 39.8628,
+            "longitud": -4.0273,
+            "poblacion": 87000,
+            "id": 103
+        },
+        {
+            "nombre": "Paredes",
+            "pais": "Portugal",
+            "latitud": 41.2049,
+            "longitud": -8.331,
+            "poblacion": 87000,
+            "id": 104
+        },
+        {
+            "nombre": "Torrent",
+            "pais": "España",
+            "latitud": 39.4371,
+            "longitud": -0.4655,
+            "poblacion": 86000,
+            "id": 105
+        },
+        {
+            "nombre": "Sant Boi de Llobregat",
+            "pais": "España",
+            "latitud": 41.3438,
+            "longitud": 2.0368,
+            "poblacion": 85000,
+            "id": 106
+        },
+        {
+            "nombre": "Fuengirola",
+            "pais": "España",
+            "latitud": 36.539,
+            "longitud": -4.6244,
+            "poblacion": 85000,
+            "id": 107
+        },
+        {
+            "nombre": "Viana do Castelo",
+            "pais": "Portugal",
+            "latitud": 41.6932,
+            "longitud": -8.8329,
+            "poblacion": 85000,
+            "id": 108
+        },
+        {
+            "nombre": "Talavera de la Reina",
+            "pais": "España",
+            "latitud": 39.9629,
+            "longitud": -4.8308,
+            "poblacion": 84000,
+            "id": 109
+        },
+        {
+            "nombre": "Orihuela",
+            "pais": "España",
+            "latitud": 38.0848,
+            "longitud": -0.944,
+            "poblacion": 84000,
+            "id": 110
+        },
+        {
+            "nombre": "Vélez-Málaga",
+            "pais": "España",
+            "latitud": 36.7819,
+            "longitud": -4.1005,
+            "poblacion": 84000,
+            "id": 111
+        },
+        {
+            "nombre": "Pontevedra",
+            "pais": "España",
+            "latitud": 42.4338,
+            "longitud": -8.648,
+            "poblacion": 83000,
+            "id": 112
+        },
+        {
+            "nombre": "Torres Vedras",
+            "pais": "Portugal",
+            "latitud": 39.0911,
+            "longitud": -9.2586,
+            "poblacion": 83000,
+            "id": 113
+        },
+        {
+            "nombre": "Valdemoro",
+            "pais": "España",
+            "latitud": 40.1908,
+            "longitud": -3.6789,
+            "poblacion": 82000,
+            "id": 114
+        },
+        {
+            "nombre": "Rubí",
+            "pais": "España",
+            "latitud": 41.4923,
+            "longitud": 2.0319,
+            "poblacion": 81000,
+            "id": 115
+        },
+        {
+            "nombre": "Aveiro",
+            "pais": "Portugal",
+            "latitud": 40.6405,
+            "longitud": -8.6538,
+            "poblacion": 81000,
+            "id": 116
+        },
+        {
+            "nombre": "Coslada",
+            "pais": "España",
+            "latitud": 40.4238,
+            "longitud": -3.5613,
+            "poblacion": 80000,
+            "id": 117
+        },
+        {
+            "nombre": "Gandia",
+            "pais": "España",
+            "latitud": 38.9685,
+            "longitud": -0.181,
+            "poblacion": 79000,
+            "id": 118
+        },
+        {
+            "nombre": "Manresa",
+            "pais": "España",
+            "latitud": 41.7289,
+            "longitud": 1.8239,
+            "poblacion": 79000,
+            "id": 119
+        },
+        {
+            "nombre": "Barreiro",
+            "pais": "Portugal",
+            "latitud": 38.6631,
+            "longitud": -9.0724,
+            "poblacion": 79000,
+            "id": 120
+        },
+        {
+            "nombre": "Palencia",
+            "pais": "España",
+            "latitud": 42.0095,
+            "longitud": -4.5288,
+            "poblacion": 77000,
+            "id": 121
+        },
+        {
+            "nombre": "Alcalá de Guadaíra",
+            "pais": "España",
+            "latitud": 37.3374,
+            "longitud": -5.8395,
+            "poblacion": 77000,
+            "id": 122
+        },
+        {
+            "nombre": "Molina de Segura",
+            "pais": "España",
+            "latitud": 38.0546,
+            "longitud": -1.2076,
+            "poblacion": 77000,
+            "id": 123
+        },
+        {
+            "nombre": "Ciudad Real",
+            "pais": "España",
+            "latitud": 38.9848,
+            "longitud": -3.9274,
+            "poblacion": 76000,
+            "id": 124
+        },
+        {
+            "nombre": "Estepona",
+            "pais": "España",
+            "latitud": 36.4285,
+            "longitud": -5.145,
+            "poblacion": 76000,
+            "id": 125
+        },
+        {
+            "nombre": "Benalmádena",
+            "pais": "España",
+            "latitud": 36.5988,
+            "longitud": -4.5168,
+            "poblacion": 76000,
+            "id": 126
+        },
+        {
+            "nombre": "Getxo",
+            "pais": "España",
+            "latitud": 43.3478,
+            "longitud": -3.0088,
+            "poblacion": 76000,
+            "id": 127
+        },
+        {
+            "nombre": "Benidorm",
+            "pais": "España",
+            "latitud": 38.5411,
+            "longitud": -0.1225,
+            "poblacion": 75000,
+            "id": 128
+        },
+        {
+            "nombre": "Paterna",
+            "pais": "España",
+            "latitud": 39.5026,
+            "longitud": -0.4408,
+            "poblacion": 74000,
+            "id": 129
+        },
+        {
+            "nombre": "Majadahonda",
+            "pais": "España",
+            "latitud": 40.4735,
+            "longitud": -3.8718,
+            "poblacion": 73000,
+            "id": 130
+        },
+        {
+            "nombre": "Loulé",
+            "pais": "Portugal",
+            "latitud": 37.1377,
+            "longitud": -8.0197,
+            "poblacion": 73000,
+            "id": 131
+        },
+        {
+            "nombre": "Torremolinos",
+            "pais": "España",
+            "latitud": 36.6218,
+            "longitud": -4.4996,
+            "poblacion": 71000,
+            "id": 132
+        },
+        {
+            "nombre": "Sagunto",
+            "pais": "España",
+            "latitud": 39.6806,
+            "longitud": -0.2785,
+            "poblacion": 70000,
+            "id": 133
+        },
+        {
+            "nombre": "Vilanova i la Geltrú",
+            "pais": "España",
+            "latitud": 41.2239,
+            "longitud": 1.7251,
+            "poblacion": 70000,
+            "id": 134
+        },
+        {
+            "nombre": "Sanlúcar de Barrameda",
+            "pais": "España",
+            "latitud": 36.7789,
+            "longitud": -6.353,
+            "poblacion": 70000,
+            "id": 135
+        },
+        {
+            "nombre": "Castelldefels",
+            "pais": "España",
+            "latitud": 41.28,
+            "longitud": 1.9769,
+            "poblacion": 69000,
+            "id": 136
+        },
+        {
+            "nombre": "Oliveira de Azeméis",
+            "pais": "Portugal",
+            "latitud": 40.84,
+            "longitud": -8.475,
+            "poblacion": 68000,
+            "id": 137
+        },
+        {
+            "nombre": "Viladecans",
+            "pais": "España",
+            "latitud": 41.316,
+            "longitud": 2.02,
+            "poblacion": 67000,
+            "id": 138
+        },
+        {
+            "nombre": "Faro",
+            "pais": "Portugal",
+            "latitud": 37.0194,
+            "longitud": -7.9304,
+            "poblacion": 67000,
+            "id": 139
+        },
+        {
+            "nombre": "El Prat de Llobregat",
+            "pais": "España",
+            "latitud": 41.3278,
+            "longitud": 2.0947,
+            "poblacion": 66000,
+            "id": 140
+        },
+        {
+            "nombre": "Ferrol",
+            "pais": "España",
+            "latitud": 43.4832,
+            "longitud": -8.2369,
+            "poblacion": 65000,
+            "id": 141
+        },
+        {
+            "nombre": "Collado Villalba",
+            "pais": "España",
+            "latitud": 40.6261,
+            "longitud": -4.0087,
+            "poblacion": 65000,
+            "id": 142
+        },
+        {
+            "nombre": "Boadilla del Monte",
+            "pais": "España",
+            "latitud": 40.405,
+            "longitud": -3.8783,
+            "poblacion": 65000,
+            "id": 143
+        },
+        {
+            "nombre": "La Línea de la Concepción",
+            "pais": "España",
+            "latitud": 36.1681,
+            "longitud": -5.3478,
+            "poblacion": 64000,
+            "id": 144
+        },
+        {
+            "nombre": "Granollers",
+            "pais": "España",
+            "latitud": 41.6079,
+            "longitud": 2.2877,
+            "poblacion": 63000,
+            "id": 145
+        },
+        {
+            "nombre": "Irun",
+            "pais": "España",
+            "latitud": 43.3382,
+            "longitud": -1.7894,
+            "poblacion": 63000,
+            "id": 146
+        },
+        {
+            "nombre": "Aranjuez",
+            "pais": "España",
+            "latitud": 40.0311,
+            "longitud": -3.603,
+            "poblacion": 62000,
+            "id": 147
+        },
+        {
+            "nombre": "Alcoy",
+            "pais": "España",
+            "latitud": 38.6987,
+            "longitud": -0.4735,
+            "poblacion": 60000,
+            "id": 148
+        },
+        {
+            "nombre": "San Vicente del Raspeig",
+            "pais": "España",
+            "latitud": 38.3964,
+            "longitud": -0.5255,
+            "poblacion": 60000,
+            "id": 149
+        },
+        {
+            "nombre": "Mérida",
+            "pais": "España",
+            "latitud": 38.916,
+            "longitud": -6.3437,
+            "poblacion": 60000,
+            "id": 150
+        },
+        {
+            "nombre": "Portimão",
+            "pais": "Portugal",
+            "latitud": 37.1366,
+            "longitud": -8.5377,
+            "poblacion": 60000,
+            "id": 151
+        },
+        {
+            "nombre": "Zamora",
+            "pais": "España",
+            "latitud": 41.5035,
+            "longitud": -5.7466,
+            "poblacion": 59000,
+            "id": 152
+        },
+        {
+            "nombre": "Motril",
+            "pais": "España",
+            "latitud": 36.7484,
+            "longitud": -3.5167,
+            "poblacion": 59000,
+            "id": 153
+        },
+        {
+            "nombre": "Figueira da Foz",
+            "pais": "Portugal",
+            "latitud": 40.1509,
+            "longitud": -8.8618,
+            "poblacion": 59000,
+            "id": 154
+        },
+        {
+            "nombre": "Ávila",
+            "pais": "España",
+            "latitud": 40.6564,
+            "longitud": -4.7003,
+            "poblacion": 58000,
+            "id": 155
+        },
+        {
+            "nombre": "Cerdanyola del Vallès",
+            "pais": "España",
+            "latitud": 41.4911,
+            "longitud": 2.1408,
+            "poblacion": 58000,
+            "id": 156
+        },
+        {
+            "nombre": "Arganda del Rey",
+            "pais": "España",
+            "latitud": 40.3008,
+            "longitud": -3.438,
+            "poblacion": 58000,
+            "id": 157
+        },
+        {
+            "nombre": "Santarém",
+            "pais": "Portugal",
+            "latitud": 39.2369,
+            "longitud": -8.685,
+            "poblacion": 58000,
+            "id": 158
+        },
+        {
+            "nombre": "Pinto",
+            "pais": "España",
+            "latitud": 40.2415,
+            "longitud": -3.6995,
+            "poblacion": 55000,
+            "id": 159
+        },
+        {
+            "nombre": "Linares",
+            "pais": "España",
+            "latitud": 38.0952,
+            "longitud": -3.636,
+            "poblacion": 55000,
+            "id": 160
+        },
+        {
+            "nombre": "Montijo",
+            "pais": "Portugal",
+            "latitud": 38.705,
+            "longitud": -8.9739,
+            "poblacion": 55000,
+            "id": 161
+        },
+        {
+            "nombre": "Cuenca",
+            "pais": "España",
+            "latitud": 40.0704,
+            "longitud": -2.1374,
+            "poblacion": 54000,
+            "id": 162
+        },
+        {
+            "nombre": "Huesca",
+            "pais": "España",
+            "latitud": 42.1401,
+            "longitud": -0.4089,
+            "poblacion": 54000,
+            "id": 163
+        },
+        {
+            "nombre": "Colmenar Viejo",
+            "pais": "España",
+            "latitud": 40.6606,
+            "longitud": -3.7678,
+            "poblacion": 54000,
+            "id": 164
+        },
+        {
+            "nombre": "Alcobaça",
+            "pais": "Portugal",
+            "latitud": 39.5524,
+            "longitud": -8.9775,
+            "poblacion": 54000,
+            "id": 165
+        },
+        {
+            "nombre": "Elda",
+            "pais": "España",
+            "latitud": 38.478,
+            "longitud": -0.796,
+            "poblacion": 53000,
+            "id": 166
+        },
+        {
+            "nombre": "Tres Cantos",
+            "pais": "España",
+            "latitud": 40.6009,
+            "longitud": -3.7108,
+            "poblacion": 53000,
+            "id": 167
+        },
+        {
+            "nombre": "Pombal",
+            "pais": "Portugal",
+            "latitud": 39.9167,
+            "longitud": -8.6286,
+            "poblacion": 53000,
+            "id": 168
+        },
+        {
+            "nombre": "Évora",
+            "pais": "Portugal",
+            "latitud": 38.5714,
+            "longitud": -7.9135,
+            "poblacion": 53000,
+            "id": 169
+        },
+        {
+            "nombre": "Segovia",
+            "pais": "España",
+            "latitud": 40.9429,
+            "longitud": -4.1088,
+            "poblacion": 52000,
+            "id": 170
+        },
+        {
+            "nombre": "Vila-real",
+            "pais": "España",
+            "latitud": 39.938,
+            "longitud": -0.1,
+            "poblacion": 52000,
+            "id": 171
+        },
+        {
+            "nombre": "Mollet del Vallès",
+            "pais": "España",
+            "latitud": 41.5405,
+            "longitud": 2.2131,
+            "poblacion": 52000,
+            "id": 172
+        },
+        {
+            "nombre": "Utrera",
+            "pais": "España",
+            "latitud": 37.1852,
+            "longitud": -5.7809,
+            "poblacion": 52000,
+            "id": 173
+        },
+        {
+            "nombre": "Caldas da Rainha",
+            "pais": "Portugal",
+            "latitud": 39.4033,
+            "longitud": -9.1384,
+            "poblacion": 52000,
+            "id": 174
+        },
+        {
+            "nombre": "Castelo Branco",
+            "pais": "Portugal",
+            "latitud": 39.8222,
+            "longitud": -7.4909,
+            "poblacion": 52000,
+            "id": 175
+        },
+        {
+            "nombre": "Vic",
+            "pais": "España",
+            "latitud": 41.9301,
+            "longitud": 2.2549,
+            "poblacion": 49000,
+            "id": 176
+        },
+        {
+            "nombre": "Vila Real",
+            "pais": "Portugal",
+            "latitud": 41.3006,
+            "longitud": -7.7441,
+            "poblacion": 49000,
+            "id": 177
+        },
+        {
+            "nombre": "Figueres",
+            "pais": "España",
+            "latitud": 42.2675,
+            "longitud": 2.9616,
+            "poblacion": 48000,
+            "id": 178
+        },
+        {
+            "nombre": "Mairena del Aljarafe",
+            "pais": "España",
+            "latitud": 37.3448,
+            "longitud": -6.0634,
+            "poblacion": 48000,
+            "id": 179
+        },
+        {
+            "nombre": "Esplugues de Llobregat",
+            "pais": "España",
+            "latitud": 41.3773,
+            "longitud": 2.0881,
+            "poblacion": 47000,
+            "id": 180
+        },
+        {
+            "nombre": "Alzira",
+            "pais": "España",
+            "latitud": 39.1516,
+            "longitud": -0.4351,
+            "poblacion": 46000,
+            "id": 181
+        },
+        {
+            "nombre": "Santurtzi",
+            "pais": "España",
+            "latitud": 43.3286,
+            "longitud": -3.031,
+            "poblacion": 46000,
+            "id": 182
+        },
+        {
+            "nombre": "Covilhã",
+            "pais": "Portugal",
+            "latitud": 40.2801,
+            "longitud": -7.5045,
+            "poblacion": 46000,
+            "id": 183
+        },
+        {
+            "nombre": "Mislata",
+            "pais": "España",
+            "latitud": 39.4751,
+            "longitud": -0.418,
+            "poblacion": 45000,
+            "id": 184
+        },
+        {
+            "nombre": "Portugalete",
+            "pais": "España",
+            "latitud": 43.3207,
+            "longitud": -3.0203,
+            "poblacion": 45000,
+            "id": 185
+        },
+        {
+            "nombre": "Albufeira",
+            "pais": "Portugal",
+            "latitud": 37.0891,
+            "longitud": -8.2479,
+            "poblacion": 44000,
+            "id": 186
+        },
+        {
+            "nombre": "Lucena",
+            "pais": "España",
+            "latitud": 37.409,
+            "longitud": -4.4852,
+            "poblacion": 43000,
+            "id": 187
+        },
+        {
+            "nombre": "Alcantarilla",
+            "pais": "España",
+            "latitud": 37.9694,
+            "longitud": -1.2189,
+            "poblacion": 43000,
+            "id": 188
+        },
+        {
+            "nombre": "Igualada",
+            "pais": "España",
+            "latitud": 41.5786,
+            "longitud": 1.6172,
+            "poblacion": 42000,
+            "id": 189
+        },
+        {
+            "nombre": "Ponte de Lima",
+            "pais": "Portugal",
+            "latitud": 41.7672,
+            "longitud": -8.5839,
+            "poblacion": 42000,
+            "id": 190
+        },
+        {
+            "nombre": "Blanes",
+            "pais": "España",
+            "latitud": 41.6741,
+            "longitud": 2.7928,
+            "poblacion": 41000,
+            "id": 191
+        },
+        {
+            "nombre": "Lloret de Mar",
+            "pais": "España",
+            "latitud": 41.6999,
+            "longitud": 2.8457,
+            "poblacion": 41000,
+            "id": 192
+        },
+        {
+            "nombre": "Vilafranca del Penedès",
+            "pais": "España",
+            "latitud": 41.3462,
+            "longitud": 1.6971,
+            "poblacion": 41000,
+            "id": 193
+        },
+        {
+            "nombre": "Antequera",
+            "pais": "España",
+            "latitud": 37.0207,
+            "longitud": -4.5599,
+            "poblacion": 41000,
+            "id": 194
+        },
+        {
+            "nombre": "Basauri",
+            "pais": "España",
+            "latitud": 43.2362,
+            "longitud": -2.8898,
+            "poblacion": 41000,
+            "id": 195
+        },
+        {
+            "nombre": "Guarda",
+            "pais": "Portugal",
+            "latitud": 40.5373,
+            "longitud": -7.2675,
+            "poblacion": 41000,
+            "id": 196
+        },
+        {
+            "nombre": "Soria",
+            "pais": "España",
+            "latitud": 41.7636,
+            "longitud": -2.4649,
+            "poblacion": 40000,
+            "id": 197
+        },
+        {
+            "nombre": "El Vendrell",
+            "pais": "España",
+            "latitud": 41.2209,
+            "longitud": 1.5342,
+            "poblacion": 40000,
+            "id": 198
+        },
+        {
+            "nombre": "La Rinconada",
+            "pais": "España",
+            "latitud": 37.4865,
+            "longitud": -5.981,
+            "poblacion": 40000,
+            "id": 199
+        },
+        {
+            "nombre": "Plasencia",
+            "pais": "España",
+            "latitud": 40.0312,
+            "longitud": -6.0884,
+            "poblacion": 40000,
+            "id": 200
+        }
+    ]
+}
