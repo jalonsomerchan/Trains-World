@@ -31,6 +31,7 @@ function Game({ session }) {
   const [editingLine, setEditingLine] = useState(null);
   const [editingTrack, setEditingTrack] = useState(null);
   const [selectedTrain, setSelectedTrain] = useState(null);
+  const [trainListBack, setTrainListBack] = useState('more');
   const [confirmation, setConfirmation] = useState(null);
   const [statsTarget, setStatsTarget] = useState(null);
   const [lineFilterCity, setLineFilterCity] = useState(null);
@@ -213,9 +214,8 @@ function Game({ session }) {
     if (!line) return;
     requestConfirmation('Retirar línea', 'Se retirará ' + line.name + ' y dejará de generar ingresos.', () => setGame(previous => ({ ...previous, lines: previous.lines.filter(item => item.id !== line.id) })));
   }
-  function confirmPause() {
-    const paused = game.paused;
-    requestConfirmation(paused ? 'Reanudar simulación' : 'Pausar simulación', paused ? 'Los trenes volverán a circular.' : 'Los trenes se detendrán hasta que reanudes la simulación.', () => setGame(previous => ({ ...previous, paused: !paused })));
+  function changeSimulationSpeed(speed) {
+    setGame(previous => ({ ...previous, speed, paused: speed === 0 }));
   }
   function openStats(group, id, title, back) {
     setStatsTarget({ group, id: String(id), title, back });
@@ -232,6 +232,14 @@ function Game({ session }) {
   function openTrain(index, trainIndex) {
     if (screen || confirmation || !game.lines[index]) return;
     setSelectedTrain({ lineIndex: index, trainIndex });
+    setScreen('trainInfo');
+  }
+  function openTrainList(back) {
+    setTrainListBack(back);
+    setScreen('trains');
+  }
+  function viewTrain(lineIndex, trainIndex) {
+    setSelectedTrain({ lineIndex, trainIndex });
     setScreen('trainInfo');
   }
   function toggleTrainPause(trainId) {
@@ -263,10 +271,10 @@ function Game({ session }) {
   return <main className="game">
     <div className="game-content">
     <GameMap cities={cities} tracks={game.tracks} lines={game.lines} arrivals={game.arrivals || []} onCityClick={selectCity} onTrainClick={openTrain} onTrackClick={openTrack} trackSelectionEnabled={!screen} mapConfig={map} zoomRequest={zoomRequest} onMapStatus={setMapStatus} selectedOrigin={screen === 'chooseDestination' ? selected : null} previewTrack={screen === 'confirmTrack' ? { a: origin, b: selected, color: findTrackType(buildType)?.color } : null} />
-    <TopControls game={game} income={income} expenses={expenses} onPause={confirmPause} onZoom={direction => setZoomRequest({ direction, at: Date.now() })} />
+    <TopControls game={game} income={income} expenses={expenses} onSpeedChange={changeSimulationSpeed} onZoom={direction => setZoomRequest({ direction, at: Date.now() })} />
     {!screen && <BottomNav onOpen={target => target === 'lines' ? openAllLines() : setScreen(target)} />}
     {screen === 'chooseDestination' && cities[String(selected)] && <TrackSelectionHint city={cities[String(selected)]} onCancel={() => setScreen(null)} />}
-    <GameSheet key={screen === 'newLine' ? 'line-editor' : 'sheet'} screen={screen} setScreen={setScreen} selected={selected} origin={origin} draft={draft} setDraft={setDraft} game={game} cities={cities} income={income} lineFilterCity={lineFilterCity} onManageCityLines={openCityLines} onManageAllLines={openAllLines} onClose={() => setScreen(null)} onBuild={confirmBuild} buildType={buildType} onBuildTypeChange={setBuildType} editingTrack={editingTrack} onChooseTrack={openTrack} onUpgrade={confirmUpgrade} onSaveLine={confirmLine} editingLine={editingLine === null ? null : game.lines[editingLine]} onEditLine={startLineEdit} onNewLine={startNewLine} onRemoveLine={confirmRemoveLine} onChangeTrainCount={changeTrainCount} onChangeStationCapacity={changeStationCapacity} selectedTrain={selectedTrain} onToggleTrainPause={toggleTrainPause} onRenewTrain={confirmRenewTrain} statsTarget={statsTarget} onOpenStats={openStats} confirmationOpen={!!confirmation} onSelectCity={selectCity} onChangeDestination={chooseAnotherDestination} status={cityStatus} />
+    <GameSheet key={screen === 'newLine' ? 'line-editor' : 'sheet'} screen={screen} setScreen={setScreen} selected={selected} origin={origin} draft={draft} setDraft={setDraft} game={game} cities={cities} income={income} lineFilterCity={lineFilterCity} onManageCityLines={openCityLines} onManageAllLines={openAllLines} onOpenTrainList={openTrainList} trainListBack={trainListBack} onViewTrain={viewTrain} onClose={() => setScreen(null)} onBuild={confirmBuild} buildType={buildType} onBuildTypeChange={setBuildType} editingTrack={editingTrack} onChooseTrack={openTrack} onUpgrade={confirmUpgrade} onSaveLine={confirmLine} editingLine={editingLine === null ? null : game.lines[editingLine]} onEditLine={startLineEdit} onNewLine={startNewLine} onRemoveLine={confirmRemoveLine} onChangeTrainCount={changeTrainCount} onChangeStationCapacity={changeStationCapacity} selectedTrain={selectedTrain} onToggleTrainPause={toggleTrainPause} onRenewTrain={confirmRenewTrain} statsTarget={statsTarget} onOpenStats={openStats} confirmationOpen={!!confirmation} onSelectCity={selectCity} onChangeDestination={chooseAnotherDestination} status={cityStatus} />
     {mapStatus === 'error' && <div className="map-error" role="status">No se ha podido cargar el mapa. Comprueba tu conexión.</div>}
     {notice && <div className="notice" role="status">{notice}</div>}
     <span className="data-status" title={cityStatus}>{cityStatus}</span>

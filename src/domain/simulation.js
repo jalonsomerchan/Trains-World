@@ -2,7 +2,7 @@ import { distance, findTrack } from './game';
 import { trackCanEnter, trackType } from './trackTypes';
 import { stationCapacity } from './stations';
 import { recordJourneyStatistics, recordStatistics, trackStatsKey } from './statistics';
-import { initialTrain, lineTrains, trainSpeed } from './trains';
+import { initialTrain, lineTrains, trainMaintenance, trainSpeed } from './trains';
 import { trainType } from './trainTypes';
 import { advanceQueues, boardPassengers, networkDemandRates, lineHeadwayDays, trainPassengerCount } from './passengers';
 export { initialTrain } from './trains';
@@ -160,7 +160,7 @@ export function advanceSimulation(game, cities, elapsedSeconds) {
     }
     for (const line of lines) {
       const t = line.train;
-      const expenseProgress = Math.max(0, Number(t.expenseRemainder) || 0) + step * trainType(line).coste_al_dia;
+      const expenseProgress = Math.max(0, Number(t.expenseRemainder) || 0) + step * trainMaintenance(line, t, game.day);
       const expense = Math.floor(expenseProgress + EPSILON);
       t.expenseRemainder = expenseProgress - expense;
       if (expense > 0) {

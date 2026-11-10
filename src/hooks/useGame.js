@@ -4,14 +4,13 @@ import { advanceSimulation, estimateLineIncome } from '../domain/simulation';
 import { saveGame } from '../services/storage';
 import { getMap } from '../data/maps';
 import { lineTrainLimit } from '../domain/stations';
-import { initialTrain, lineTrains, resizeLineTrains } from '../domain/trains';
+import { initialTrain, lineTrains, resizeLineTrains, trainMaintenance } from '../domain/trains';
 import { networkDemandRates } from '../domain/passengers';
-import { trainType } from '../domain/trainTypes';
 
 export function useGame(session) {
   const [game, setGame] = useState(() => {
     const saved = { ...initialGame, ...(session.saved || {}), mapId: session.mapId || session.saved?.mapId || 'iberican' };
-    const speed = Number.isFinite(saved.speed) ? saved.speed : saved.paused ? 0 : 1;
+    const speed = Number.isFinite(session.saved?.speed) ? session.saved.speed : saved.paused ? 0 : 1;
     return { ...saved, speed, paused: speed === 0, lines: saved.lines.map((line, index) => {
       const trains = lineTrains(line).map(train => ({ ...train, id: train.id || initialTrain(saved.day).id, acquiredDay: Number.isFinite(train.acquiredDay) ? train.acquiredDay : saved.day || 1 }));
       const withId = { ...line, id: line.id || 'legacy-' + index, trains, train: trains[0] };
@@ -27,7 +26,7 @@ export function useGame(session) {
   }, [game.mapId, game.cities]);
   const networkRates = useMemo(() => networkDemandRates(game.lines, cities, game.tracks), [game.lines, cities, game.tracks]);
   const income = game.lines.reduce((sum, line) => sum + estimateLineIncome(line, cities, game.tracks, game.lines, networkRates), 0);
-  const expenses = game.lines.reduce((sum, line) => sum + lineTrains(line).length * trainType(line).coste_al_dia, 0);
+  const expenses = game.lines.reduce((sum, line) => sum + lineTrains(line).reduce((lineSum, train) => lineSum + trainMaintenance(line, train, game.day), 0), 0);
   useEffect(() => {
     // Simulation updates frequently; debounce persistence while paused and
     // checkpoint periodically while moving, plus on page exit.

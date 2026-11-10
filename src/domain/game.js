@@ -1,4 +1,4 @@
-export const initialGame = { money: 500000, day: 1, tracks: [], lines: [], cities: {}, paused: true };
+export const initialGame = { money: 500000, day: 1, tracks: [], lines: [], cities: {}, paused: true, speed: 0 };
 export const formatMoney = value => new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(value);
 export const compactMoney = value => value >= 1000000 ? (value / 1000000).toLocaleString('es-ES', { maximumFractionDigits: 1 }) + ' M' : value >= 1000 ? Math.floor(value / 1000) + ' K' : String(value);
 export const formatNumber = value => new Intl.NumberFormat('es-ES').format(Math.round(value));

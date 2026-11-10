@@ -21,7 +21,7 @@ export function TopControls({ game, income, expenses = 0, onSpeedChange, onZoom 
 export function BottomNav({ onOpen }) {
   return <nav className="bottom-nav" aria-label="Menú principal">
     <button onClick={() => onOpen('cities')}><Globe2 size={22} strokeWidth={1.8}/><span>Ciudades</span></button>
-    <button onClick={() => onOpen('tracks')}><TrainFront size={22} strokeWidth={1.8}/><span>Estaciones</span></button>
+    <button onClick={() => onOpen('tracks')}><TrainFront size={22} strokeWidth={1.8}/><span>Vías</span></button>
     <button onClick={() => onOpen('lines')}><Route size={22} strokeWidth={1.8}/><span>Líneas</span></button>
     <button onClick={() => onOpen('more')}><MoreHorizontal size={23} strokeWidth={2}/><span>Más</span></button>
   </nav>;

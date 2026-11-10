@@ -12,6 +12,10 @@ export function trainSpeed(line, train, day = 1) {
   const ageFactor = Math.max(.5, 1 - trainAge(train, day) * .005);
   return trainType(line).velocidad_maxima * ageFactor;
 }
+// Daily maintenance rises by 0.5% of the base cost per game day of age.
+export function trainMaintenance(line, train, day = 1) {
+  return trainType(line).coste_al_dia * (1 + trainAge(train, day) * .005);
+}
 export function lineTrains(line) {
   return Array.isArray(line.trains) && line.trains.length ? line.trains : [line.train || initialTrain()];
 }
