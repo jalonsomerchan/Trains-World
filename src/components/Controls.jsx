@@ -2,10 +2,12 @@ import { CircleDollarSign, Globe2, Minus, MoreHorizontal, Plus, Route, TrainFron
 import { compactMoney, formatMoney } from '../domain/game';
 
 export function TopControls({ game, income, expenses = 0, onSpeedChange, onZoom }) {
+  const minutes = Math.floor(((game.simTime || 0) % 1) * 24 * 60);
+  const clock = `${String(Math.floor(minutes / 60)).padStart(2, '0')}:${String(minutes % 60).padStart(2, '0')}`;
   return <header className="top-controls">
     <div className="balance" title={'Capital disponible: ' + formatMoney(game.money) + ' · Ingresos estimados: ' + formatMoney(income) + ' al día · Gastos de trenes: ' + formatMoney(expenses) + ' al día'}>
       <span className="balance-icon"><CircleDollarSign size={19} strokeWidth={2} /></span>
-      <span className="balance-copy"><span className="control-caption">CAPITAL</span><strong>{compactMoney(game.money)}</strong></span>
+      <span className="balance-copy"><span className="control-caption">CAPITAL</span><strong>{compactMoney(game.money)}</strong><span className="game-clock">Día {game.day || 1} · {clock}</span></span>
     </div>
     <div className="top-actions">
       <select className="speed-selector" value={game.paused ? '0' : String(game.speed || 1)} onChange={event => onSpeedChange(Number(event.target.value))} aria-label="Velocidad de simulación" title="Velocidad de simulación">

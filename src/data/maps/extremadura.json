@@ -1,0 +1,1022 @@
+{
+    "metadatos": {
+        "total": 100,
+        "territorio": "Extremadura (España), provincias de Badajoz y Cáceres",
+        "criterio": "100 municipios más poblados según las cifras oficiales del padrón municipal a 1 de enero de 2025",
+        "poblacion": "Población oficial municipal del INE a 1 de enero de 2025; no representa solo el núcleo urbano",
+        "coordenadas": "Coordenadas aproximadas de los núcleos urbanos, sistema WGS84; no georreferenciación oficial verificada individualmente",
+        "fuentes_referencia": [
+            "https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177011&idp=1254734710990&menu=resultados",
+            "https://inestats.es/comunidades/extremadura",
+            "https://www.ign.es/"
+        ]
+    },
+    "mapa": {
+        "nombre": "Extremadura",
+        "latitud": 39.2,
+        "longitud": -6.1,
+        "zoom": 8
+    },
+    "ciudades": [
+        {
+            "nombre": "Badajoz",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06015",
+            "latitud": 38.8794,
+            "longitud": -6.9707,
+            "poblacion": 150209,
+            "id": 1
+        },
+        {
+            "nombre": "Cáceres",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10037",
+            "latitud": 39.4753,
+            "longitud": -6.3724,
+            "poblacion": 96651,
+            "id": 2
+        },
+        {
+            "nombre": "Mérida",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06083",
+            "latitud": 38.9161,
+            "longitud": -6.3437,
+            "poblacion": 60225,
+            "id": 3
+        },
+        {
+            "nombre": "Plasencia",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10148",
+            "latitud": 40.0311,
+            "longitud": -6.0885,
+            "poblacion": 40132,
+            "id": 4
+        },
+        {
+            "nombre": "Don Benito",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06044",
+            "latitud": 38.9563,
+            "longitud": -5.8616,
+            "poblacion": 37986,
+            "id": 5
+        },
+        {
+            "nombre": "Almendralejo",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06011",
+            "latitud": 38.6832,
+            "longitud": -6.4075,
+            "poblacion": 34587,
+            "id": 6
+        },
+        {
+            "nombre": "Villanueva de la Serena",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06153",
+            "latitud": 38.9766,
+            "longitud": -5.7974,
+            "poblacion": 25773,
+            "id": 7
+        },
+        {
+            "nombre": "Navalmoral de la Mata",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10131",
+            "latitud": 39.8916,
+            "longitud": -5.5406,
+            "poblacion": 17352,
+            "id": 8
+        },
+        {
+            "nombre": "Zafra",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06158",
+            "latitud": 38.4254,
+            "longitud": -6.4174,
+            "poblacion": 16735,
+            "id": 9
+        },
+        {
+            "nombre": "Montijo",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06088",
+            "latitud": 38.9085,
+            "longitud": -6.6187,
+            "poblacion": 15198,
+            "id": 10
+        },
+        {
+            "nombre": "Villafranca de los Barros",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06149",
+            "latitud": 38.5615,
+            "longitud": -6.3381,
+            "poblacion": 12284,
+            "id": 11
+        },
+        {
+            "nombre": "Coria",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10067",
+            "latitud": 39.9841,
+            "longitud": -6.5364,
+            "poblacion": 12001,
+            "id": 12
+        },
+        {
+            "nombre": "Olivenza",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06095",
+            "latitud": 38.6831,
+            "longitud": -7.0996,
+            "poblacion": 11789,
+            "id": 13
+        },
+        {
+            "nombre": "Miajadas",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10121",
+            "latitud": 39.1536,
+            "longitud": -5.9078,
+            "poblacion": 9396,
+            "id": 14
+        },
+        {
+            "nombre": "Jerez de los Caballeros",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06070",
+            "latitud": 38.3206,
+            "longitud": -6.7734,
+            "poblacion": 9095,
+            "id": 15
+        },
+        {
+            "nombre": "Trujillo",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10195",
+            "latitud": 39.4581,
+            "longitud": -5.8829,
+            "poblacion": 8611,
+            "id": 16
+        },
+        {
+            "nombre": "Los Santos de Maimona",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06122",
+            "latitud": 38.4493,
+            "longitud": -6.3844,
+            "poblacion": 8088,
+            "id": 17
+        },
+        {
+            "nombre": "Azuaga",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06014",
+            "latitud": 38.2583,
+            "longitud": -5.6776,
+            "poblacion": 7587,
+            "id": 18
+        },
+        {
+            "nombre": "Talayuela",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10180",
+            "latitud": 39.9868,
+            "longitud": -5.6089,
+            "poblacion": 7439,
+            "id": 19
+        },
+        {
+            "nombre": "Jaraíz de la Vera",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10104",
+            "latitud": 40.0608,
+            "longitud": -5.7543,
+            "poblacion": 6831,
+            "id": 20
+        },
+        {
+            "nombre": "Guareña",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06060",
+            "latitud": 38.8597,
+            "longitud": -6.1037,
+            "poblacion": 6665,
+            "id": 21
+        },
+        {
+            "nombre": "Moraleja",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10128",
+            "latitud": 40.0659,
+            "longitud": -6.6596,
+            "poblacion": 6562,
+            "id": 22
+        },
+        {
+            "nombre": "Fuente del Maestre",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06054",
+            "latitud": 38.5253,
+            "longitud": -6.4474,
+            "poblacion": 6499,
+            "id": 23
+        },
+        {
+            "nombre": "Calamonte",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06025",
+            "latitud": 38.8902,
+            "longitud": -6.3878,
+            "poblacion": 6104,
+            "id": 24
+        },
+        {
+            "nombre": "Puebla de la Calzada",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06103",
+            "latitud": 38.8946,
+            "longitud": -6.625,
+            "poblacion": 5815,
+            "id": 25
+        },
+        {
+            "nombre": "Llerena",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06074",
+            "latitud": 38.236,
+            "longitud": -6.015,
+            "poblacion": 5642,
+            "id": 26
+        },
+        {
+            "nombre": "Montehermoso",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10127",
+            "latitud": 40.086,
+            "longitud": -6.3497,
+            "poblacion": 5552,
+            "id": 27
+        },
+        {
+            "nombre": "Arroyo de la Luz",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10021",
+            "latitud": 39.4865,
+            "longitud": -6.5848,
+            "poblacion": 5495,
+            "id": 28
+        },
+        {
+            "nombre": "Castuera",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06036",
+            "latitud": 38.7235,
+            "longitud": -5.5447,
+            "poblacion": 5457,
+            "id": 29
+        },
+        {
+            "nombre": "Aceuchal",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06002",
+            "latitud": 38.646,
+            "longitud": -6.4875,
+            "poblacion": 5307,
+            "id": 30
+        },
+        {
+            "nombre": "Talavera la Real",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06128",
+            "latitud": 38.8793,
+            "longitud": -6.7742,
+            "poblacion": 5288,
+            "id": 31
+        },
+        {
+            "nombre": "San Vicente de Alcántara",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06123",
+            "latitud": 39.3614,
+            "longitud": -7.1383,
+            "poblacion": 5227,
+            "id": 32
+        },
+        {
+            "nombre": "Valencia de Alcántara",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10203",
+            "latitud": 39.4103,
+            "longitud": -7.244,
+            "poblacion": 5150,
+            "id": 33
+        },
+        {
+            "nombre": "Alburquerque",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06006",
+            "latitud": 39.2208,
+            "longitud": -7.0007,
+            "poblacion": 4928,
+            "id": 34
+        },
+        {
+            "nombre": "Oliva de la Frontera",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06093",
+            "latitud": 38.275,
+            "longitud": -6.919,
+            "poblacion": 4907,
+            "id": 35
+        },
+        {
+            "nombre": "Fregenal de la Sierra",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06050",
+            "latitud": 38.1697,
+            "longitud": -6.6533,
+            "poblacion": 4715,
+            "id": 36
+        },
+        {
+            "nombre": "Campanario",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06028",
+            "latitud": 38.8636,
+            "longitud": -5.6166,
+            "poblacion": 4702,
+            "id": 37
+        },
+        {
+            "nombre": "Malpartida de Plasencia",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10116",
+            "latitud": 39.9813,
+            "longitud": -6.0456,
+            "poblacion": 4666,
+            "id": 38
+        },
+        {
+            "nombre": "Fuente de Cantos",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06052",
+            "latitud": 38.2473,
+            "longitud": -6.3082,
+            "poblacion": 4583,
+            "id": 39
+        },
+        {
+            "nombre": "Casar de Cáceres",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10049",
+            "latitud": 39.5608,
+            "longitud": -6.4142,
+            "poblacion": 4511,
+            "id": 40
+        },
+        {
+            "nombre": "Cabeza del Buey",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06023",
+            "latitud": 38.723,
+            "longitud": -5.219,
+            "poblacion": 4489,
+            "id": 41
+        },
+        {
+            "nombre": "Quintana de la Serena",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06109",
+            "latitud": 38.745,
+            "longitud": -5.672,
+            "poblacion": 4429,
+            "id": 42
+        },
+        {
+            "nombre": "Navalvillar de Pela",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06091",
+            "latitud": 39.0948,
+            "longitud": -5.4698,
+            "poblacion": 4303,
+            "id": 43
+        },
+        {
+            "nombre": "Monesterio",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06085",
+            "latitud": 38.0872,
+            "longitud": -6.2723,
+            "poblacion": 4245,
+            "id": 44
+        },
+        {
+            "nombre": "Valverde de Leganés",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06143",
+            "latitud": 38.6709,
+            "longitud": -6.9839,
+            "poblacion": 4230,
+            "id": 45
+        },
+        {
+            "nombre": "Santa Marta",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06121",
+            "latitud": 38.614,
+            "longitud": -6.626,
+            "poblacion": 4201,
+            "id": 46
+        },
+        {
+            "nombre": "Malpartida de Cáceres",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10115",
+            "latitud": 39.4439,
+            "longitud": -6.5044,
+            "poblacion": 4027,
+            "id": 47
+        },
+        {
+            "nombre": "Arroyo de San Serván",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06012",
+            "latitud": 38.8536,
+            "longitud": -6.4554,
+            "poblacion": 4001,
+            "id": 48
+        },
+        {
+            "nombre": "Hervás",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10096",
+            "latitud": 40.2707,
+            "longitud": -5.8672,
+            "poblacion": 3898,
+            "id": 49
+        },
+        {
+            "nombre": "Santa Amalia",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06120",
+            "latitud": 39.0138,
+            "longitud": -6.0118,
+            "poblacion": 3881,
+            "id": 50
+        },
+        {
+            "nombre": "Barcarrota",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06016",
+            "latitud": 38.514,
+            "longitud": -6.85,
+            "poblacion": 3456,
+            "id": 51
+        },
+        {
+            "nombre": "Herrera del Duque",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06063",
+            "latitud": 39.1678,
+            "longitud": -5.0515,
+            "poblacion": 3385,
+            "id": 52
+        },
+        {
+            "nombre": "Hornachos",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06069",
+            "latitud": 38.5544,
+            "longitud": -6.0691,
+            "poblacion": 3375,
+            "id": 53
+        },
+        {
+            "nombre": "Zalamea de la Serena",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06160",
+            "latitud": 38.651,
+            "longitud": -5.655,
+            "poblacion": 3371,
+            "id": 54
+        },
+        {
+            "nombre": "La Zarza",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06162",
+            "latitud": 38.817,
+            "longitud": -6.217,
+            "poblacion": 3339,
+            "id": 55
+        },
+        {
+            "nombre": "Talarrubias",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06127",
+            "latitud": 39.0364,
+            "longitud": -5.2354,
+            "poblacion": 3251,
+            "id": 56
+        },
+        {
+            "nombre": "Villanueva del Fresno",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06154",
+            "latitud": 38.3767,
+            "longitud": -7.1666,
+            "poblacion": 3247,
+            "id": 57
+        },
+        {
+            "nombre": "Ribera del Fresno",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06113",
+            "latitud": 38.5516,
+            "longitud": -6.2377,
+            "poblacion": 3130,
+            "id": 58
+        },
+        {
+            "nombre": "Burguillos del Cerro",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06022",
+            "latitud": 38.3772,
+            "longitud": -6.5918,
+            "poblacion": 2940,
+            "id": 59
+        },
+        {
+            "nombre": "Jarandilla de la Vera",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10105",
+            "latitud": 40.1272,
+            "longitud": -5.6605,
+            "poblacion": 2894,
+            "id": 60
+        },
+        {
+            "nombre": "Losar de la Vera",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10110",
+            "latitud": 40.1213,
+            "longitud": -5.6046,
+            "poblacion": 2799,
+            "id": 61
+        },
+        {
+            "nombre": "Zahínos",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06159",
+            "latitud": 38.331,
+            "longitud": -6.954,
+            "poblacion": 2766,
+            "id": 62
+        },
+        {
+            "nombre": "Lobón",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06072",
+            "latitud": 38.8474,
+            "longitud": -6.6256,
+            "poblacion": 2756,
+            "id": 63
+        },
+        {
+            "nombre": "Torrejoncillo",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10189",
+            "latitud": 39.8986,
+            "longitud": -6.4676,
+            "poblacion": 2743,
+            "id": 64
+        },
+        {
+            "nombre": "Valdelacalzada",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06901",
+            "latitud": 38.8936,
+            "longitud": -6.7002,
+            "poblacion": 2743,
+            "id": 65
+        },
+        {
+            "nombre": "Puebla de Sancho Pérez",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06108",
+            "latitud": 38.3978,
+            "longitud": -6.4019,
+            "poblacion": 2634,
+            "id": 66
+        },
+        {
+            "nombre": "Orellana la Vieja",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06097",
+            "latitud": 39.0072,
+            "longitud": -5.5317,
+            "poblacion": 2580,
+            "id": 67
+        },
+        {
+            "nombre": "Solana de los Barros",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06126",
+            "latitud": 38.724,
+            "longitud": -6.537,
+            "poblacion": 2522,
+            "id": 68
+        },
+        {
+            "nombre": "Alcuéscar",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10010",
+            "latitud": 39.1824,
+            "longitud": -6.228,
+            "poblacion": 2447,
+            "id": 69
+        },
+        {
+            "nombre": "Guadiana",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06903",
+            "latitud": 38.9298,
+            "longitud": -6.6898,
+            "poblacion": 2444,
+            "id": 70
+        },
+        {
+            "nombre": "Madroñera",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10113",
+            "latitud": 39.4256,
+            "longitud": -5.7595,
+            "poblacion": 2349,
+            "id": 71
+        },
+        {
+            "nombre": "La Garrovilla",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06058",
+            "latitud": 38.9201,
+            "longitud": -6.4798,
+            "poblacion": 2310,
+            "id": 72
+        },
+        {
+            "nombre": "Medellín",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06080",
+            "latitud": 38.962,
+            "longitud": -5.9574,
+            "poblacion": 2241,
+            "id": 73
+        },
+        {
+            "nombre": "Torremejía",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06133",
+            "latitud": 38.789,
+            "longitud": -6.377,
+            "poblacion": 2238,
+            "id": 74
+        },
+        {
+            "nombre": "Higuera la Real",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06067",
+            "latitud": 38.1404,
+            "longitud": -6.6898,
+            "poblacion": 2186,
+            "id": 75
+        },
+        {
+            "nombre": "Berlanga",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06019",
+            "latitud": 38.283,
+            "longitud": -5.8294,
+            "poblacion": 2171,
+            "id": 76
+        },
+        {
+            "nombre": "Monterrubio de la Serena",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06087",
+            "latitud": 38.5887,
+            "longitud": -5.4453,
+            "poblacion": 2157,
+            "id": 77
+        },
+        {
+            "nombre": "Valverde del Fresno",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10205",
+            "latitud": 40.2235,
+            "longitud": -6.8776,
+            "poblacion": 2143,
+            "id": 78
+        },
+        {
+            "nombre": "La Coronada",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06039",
+            "latitud": 38.9205,
+            "longitud": -5.6709,
+            "poblacion": 2136,
+            "id": 79
+        },
+        {
+            "nombre": "Fuentes de León",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06055",
+            "latitud": 38.0698,
+            "longitud": -6.5394,
+            "poblacion": 2118,
+            "id": 80
+        },
+        {
+            "nombre": "Villanueva de la Vera",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10212",
+            "latitud": 40.1287,
+            "longitud": -5.4649,
+            "poblacion": 2108,
+            "id": 81
+        },
+        {
+            "nombre": "Sierra de Fuentes",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10177",
+            "latitud": 39.4384,
+            "longitud": -6.2741,
+            "poblacion": 2081,
+            "id": 82
+        },
+        {
+            "nombre": "Villar del Rey",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06155",
+            "latitud": 39.1334,
+            "longitud": -6.8477,
+            "poblacion": 2064,
+            "id": 83
+        },
+        {
+            "nombre": "Cabezuela del Valle",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10035",
+            "latitud": 40.193,
+            "longitud": -5.808,
+            "poblacion": 2049,
+            "id": 84
+        },
+        {
+            "nombre": "Navaconcejo",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10130",
+            "latitud": 40.177,
+            "longitud": -5.832,
+            "poblacion": 2037,
+            "id": 85
+        },
+        {
+            "nombre": "Bienvenida",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06020",
+            "latitud": 38.298,
+            "longitud": -6.209,
+            "poblacion": 1999,
+            "id": 86
+        },
+        {
+            "nombre": "La Albuera",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06005",
+            "latitud": 38.7173,
+            "longitud": -6.823,
+            "poblacion": 1995,
+            "id": 87
+        },
+        {
+            "nombre": "La Codosera",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06037",
+            "latitud": 39.208,
+            "longitud": -7.1715,
+            "poblacion": 1983,
+            "id": 88
+        },
+        {
+            "nombre": "Aldeanueva de la Vera",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10014",
+            "latitud": 40.1275,
+            "longitud": -5.7019,
+            "poblacion": 1966,
+            "id": 89
+        },
+        {
+            "nombre": "Pueblonuevo del Guadiana",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06902",
+            "latitud": 38.9269,
+            "longitud": -6.7565,
+            "poblacion": 1955,
+            "id": 90
+        },
+        {
+            "nombre": "Garrovillas de Alconétar",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10082",
+            "latitud": 39.71,
+            "longitud": -6.5493,
+            "poblacion": 1941,
+            "id": 91
+        },
+        {
+            "nombre": "Granja de Torrehermosa",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06059",
+            "latitud": 38.3112,
+            "longitud": -5.598,
+            "poblacion": 1913,
+            "id": 92
+        },
+        {
+            "nombre": "Valencia del Ventoso",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06141",
+            "latitud": 38.2664,
+            "longitud": -6.4756,
+            "poblacion": 1870,
+            "id": 93
+        },
+        {
+            "nombre": "Logrosán",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10109",
+            "latitud": 39.3364,
+            "longitud": -5.4881,
+            "poblacion": 1852,
+            "id": 94
+        },
+        {
+            "nombre": "Higuera de Vargas",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06066",
+            "latitud": 38.4483,
+            "longitud": -6.9756,
+            "poblacion": 1830,
+            "id": 95
+        },
+        {
+            "nombre": "Zarza de Granadilla",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10216",
+            "latitud": 40.2374,
+            "longitud": -6.048,
+            "poblacion": 1815,
+            "id": 96
+        },
+        {
+            "nombre": "Puebla de Obando",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06107",
+            "latitud": 39.177,
+            "longitud": -6.6284,
+            "poblacion": 1809,
+            "id": 97
+        },
+        {
+            "nombre": "Alange",
+            "pais": "España",
+            "provincia": "Badajoz",
+            "codigo_ine": "06004",
+            "latitud": 38.7853,
+            "longitud": -6.2433,
+            "poblacion": 1802,
+            "id": 98
+        },
+        {
+            "nombre": "Pinofranqueado",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10146",
+            "latitud": 40.3046,
+            "longitud": -6.3338,
+            "poblacion": 1783,
+            "id": 99
+        },
+        {
+            "nombre": "Almoharín",
+            "pais": "España",
+            "provincia": "Cáceres",
+            "codigo_ine": "10020",
+            "latitud": 39.1764,
+            "longitud": -6.0435,
+            "poblacion": 1771,
+            "id": 100
+        }
+    ]
+}

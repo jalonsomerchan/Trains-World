@@ -98,10 +98,10 @@ describe('demanda de viajeros', () => {
     expect(first.stats.operations.lines.l.occupancySum).toBe(.25);
     expect(first.stats.operations.lines.l.occupancySamples).toBe(1);
     expect(trainOccupancy(first.lines[0].train)).toBe(15);
-    const second = advanceSimulation(first, cities, 12.5);
+    const second = advanceSimulation(first, cities, 17.5);
     expect(second.lines[0].train.passengers.c).toBeUndefined();
     expect(second.stats.operations.lines.l.passengers).toBeGreaterThanOrEqual(80);
-    expect(second.money).toBeGreaterThan(first.money);
+    expect(second.stats.total.income).toBeGreaterThan(first.stats.total.income);
   });
   it('conserva ingresos, pasajeros y colas al dividir el mismo avance en ciclos', () => {
     const game = { paused: false, day: 1, money: 0, tracks, lines: [line] };

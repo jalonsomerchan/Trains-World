@@ -33,7 +33,7 @@ function recolorMap(map) {
   }
 }
 
-export default function GameMap({ cities, tracks, lines, arrivals, onCityClick, onTrainClick, onTrackClick, trackSelectionEnabled, mapConfig, zoomRequest, onMapStatus, selectedOrigin, previewTrack }) {
+export default function GameMap({ cities, tracks, lines, arrivals, onCityClick, onCityDrag, cityDragEnabled, onTrainClick, onTrackClick, trackSelectionEnabled, mapConfig, zoomRequest, onMapStatus, selectedOrigin, previewTrack }) {
   const containerRef = useRef(null);
   const mapRef = useRef(null);
   const markersRef = useRef([]);
@@ -41,9 +41,11 @@ export default function GameMap({ cities, tracks, lines, arrivals, onCityClick, 
   const constructionMarkers = useRef(new Map());
   const arrivalMarkers = useRef(new Map());
   const lastArrivalId = useRef(null);
+  const [dragPreview, setDragPreview] = useState(null);
   const [viewport, setViewport] = useState({ zoom: mapConfig.zoom, revision: 0 });
-  const callbacks = useRef({ onCityClick, onTrainClick, onTrackClick, trackSelectionEnabled, onMapStatus });
-  callbacks.current = { onCityClick, onTrainClick, onTrackClick, trackSelectionEnabled, onMapStatus };
+  const callbacks = useRef({ onCityClick, onCityDrag, cityDragEnabled, onTrainClick, onTrackClick, trackSelectionEnabled, onMapStatus });
+  callbacks.current = { onCityClick, onCityDrag, cityDragEnabled, onTrainClick, onTrackClick, trackSelectionEnabled, onMapStatus };
+  const stationKey = tracks.map(track => [track.a, track.b].join('|')).join(',');
 
   useEffect(() => {
     const map = new maplibregl.Map({
@@ -127,10 +129,52 @@ export default function GameMap({ cities, tracks, lines, arrivals, onCityClick, 
         badge.style.left = `calc(50% + ${size / 2 - 3}px)`;
         element.append(badge);
       }
-      element.addEventListener('click', event => { event.stopPropagation(); callbacks.current.onCityClick(city); });
+      let suppressClick = false;
+      element.addEventListener('pointerdown', event => {
+        if (!callbacks.current.cityDragEnabled || event.button !== 0) return;
+        event.stopPropagation();
+        const startX = event.clientX, startY = event.clientY;
+        let dragging = false;
+        const destinationAt = e => {
+          const target = document.elementsFromPoint(e.clientX, e.clientY).map(node => node.closest?.('[data-city-id]')).find(node => node && node !== element);
+          return target && cities[target.dataset.cityId];
+        };
+        const move = e => {
+          if (e.pointerId !== event.pointerId) return;
+          if (!dragging && Math.hypot(e.clientX - startX, e.clientY - startY) > 10) {
+            dragging = true;
+            map.dragPan.disable();
+          }
+          if (dragging) {
+            e.preventDefault();
+            const destination = destinationAt(e);
+            const bounds = map.getContainer().getBoundingClientRect();
+            const point = map.unproject([e.clientX - bounds.left, e.clientY - bounds.top]);
+            setDragPreview({ a: city, b: destination || { longitude: point.lng, latitude: point.lat } });
+          }
+        };
+        const finish = e => {
+          if (e.pointerId !== event.pointerId) return;
+          window.removeEventListener('pointermove', move);
+          window.removeEventListener('pointerup', finish);
+          window.removeEventListener('pointercancel', finish);
+          if (!dragging) return;
+          map.dragPan.enable();
+          setDragPreview(null);
+          suppressClick = true;
+          setTimeout(() => { suppressClick = false; }, 500);
+          if (e.type === 'pointercancel') return;
+          const destination = destinationAt(e);
+          if (destination) callbacks.current.onCityDrag(city, destination);
+        };
+        window.addEventListener('pointermove', move, { passive: false });
+        window.addEventListener('pointerup', finish);
+        window.addEventListener('pointercancel', finish);
+      });
+      element.addEventListener('click', event => { event.stopPropagation(); if (!suppressClick) callbacks.current.onCityClick(city); });
       markersRef.current.push(new maplibregl.Marker({ element, anchor: 'center' }).setLngLat([city.longitude, city.latitude]).addTo(map));
     }
-  }, [cities, tracks, viewport, selectedOrigin]);
+  }, [cities, stationKey, viewport, selectedOrigin]);
 
   useEffect(() => {
     const served = new Set(lines.flatMap(line => line.stops.map(String)));
@@ -221,8 +265,8 @@ export default function GameMap({ cities, tracks, lines, arrivals, onCityClick, 
     if (!map) return;
     const renderPreview = () => {
       if (!map.isStyleLoaded()) return;
-      const a = previewTrack && cities[String(previewTrack.a)];
-      const b = previewTrack && cities[String(previewTrack.b)];
+      const a = dragPreview?.a || (previewTrack && cities[String(previewTrack.a)]);
+      const b = dragPreview?.b || (previewTrack && cities[String(previewTrack.b)]);
       const data = { type: 'FeatureCollection', features: a && b ? [{
         type: 'Feature', properties: {},
         geometry: trackGeometry(a, b),
@@ -242,7 +286,7 @@ export default function GameMap({ cities, tracks, lines, arrivals, onCityClick, 
     if (map.isStyleLoaded()) renderPreview();
     else map.once('load', renderPreview);
     return () => map.off('load', renderPreview);
-  }, [previewTrack?.a, previewTrack?.b, previewTrack?.color, cities]);
+  }, [previewTrack?.a, previewTrack?.b, previewTrack?.color, dragPreview, cities]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -275,10 +319,10 @@ export default function GameMap({ cities, tracks, lines, arrivals, onCityClick, 
       }
       const occupancy = trainOccupancy(train, trainType(line).viajeros);
       marker.getElement().querySelector('.train-occupancy').textContent = occupancy + '%';
-      marker.getElement().title = line.name + (train?.paused ? ' · Tren pausado' : train?.moving ? ' · En viaje' : ' · En estación o esperando vía') + ' · Ocupación: ' + occupancy + '%';
+      marker.getElement().title = line.name + (train?.paused ? ' · Tren pausado' : train?.breakdownRemaining > 0 ? ' · Averiado' : train?.moving ? ' · En viaje' : ' · En estación o esperando vía') + ' · Ocupación: ' + occupancy + '%';
       marker.getElement().setAttribute('aria-label', 'Ver tren ' + (trainIndex + 1) + ' de ' + line.name + ', ocupación ' + occupancy + ' %');
       marker.getElement().classList.toggle('train-marker-waiting', !!train && !train.moving);
-      marker.getElement().classList.toggle('train-marker-paused', !!train?.paused);
+      marker.getElement().classList.toggle('train-marker-paused', !!train?.paused || train?.breakdownRemaining > 0);
       marker.setLngLat(position);
     }));
     trainMarkers.current.forEach((marker, key) => {

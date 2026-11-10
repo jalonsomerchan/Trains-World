@@ -80,6 +80,15 @@ function Game({ session }) {
     setScreen('cityMenu');
   }
 
+  function dragTrack(from, to) {
+    if (String(from.id) === String(to.id)) return;
+    if (findTrack(game.tracks, from.id, to.id)) return notify('Ya existe una vía entre estas ciudades.');
+    setOrigin(String(from.id));
+    setSelected(String(to.id));
+    setBuildType('basic');
+    setScreen('confirmTrack');
+  }
+
   function chooseAnotherDestination() {
     setSelected(origin);
     setOrigin(null);
@@ -270,7 +279,7 @@ function Game({ session }) {
 
   return <main className="game">
     <div className="game-content">
-    <GameMap cities={cities} tracks={game.tracks} lines={game.lines} arrivals={game.arrivals || []} onCityClick={selectCity} onTrainClick={openTrain} onTrackClick={openTrack} trackSelectionEnabled={!screen} mapConfig={map} zoomRequest={zoomRequest} onMapStatus={setMapStatus} selectedOrigin={screen === 'chooseDestination' ? selected : null} previewTrack={screen === 'confirmTrack' ? { a: origin, b: selected, color: findTrackType(buildType)?.color } : null} />
+    <GameMap cities={cities} tracks={game.tracks} lines={game.lines} arrivals={game.arrivals || []} onCityClick={selectCity} onCityDrag={dragTrack} cityDragEnabled={!screen || screen === 'chooseDestination'} onTrainClick={openTrain} onTrackClick={openTrack} trackSelectionEnabled={!screen} mapConfig={map} zoomRequest={zoomRequest} onMapStatus={setMapStatus} selectedOrigin={screen === 'chooseDestination' ? selected : null} previewTrack={screen === 'confirmTrack' ? { a: origin, b: selected, color: findTrackType(buildType)?.color } : null} />
     <TopControls game={game} income={income} expenses={expenses} onSpeedChange={changeSimulationSpeed} onZoom={direction => setZoomRequest({ direction, at: Date.now() })} />
     {!screen && <BottomNav onOpen={target => target === 'lines' ? openAllLines() : setScreen(target)} />}
     {screen === 'chooseDestination' && cities[String(selected)] && <TrackSelectionHint city={cities[String(selected)]} onCancel={() => setScreen(null)} />}

@@ -10,7 +10,7 @@ import { networkDemandRates } from '../domain/passengers';
 export function useGame(session) {
   const [game, setGame] = useState(() => {
     const saved = { ...initialGame, ...(session.saved || {}), mapId: session.mapId || session.saved?.mapId || 'iberican' };
-    const speed = Number.isFinite(session.saved?.speed) ? session.saved.speed : saved.paused ? 0 : 1;
+    const speed = 1;
     return { ...saved, speed, paused: speed === 0, lines: saved.lines.map((line, index) => {
       const trains = lineTrains(line).map(train => ({ ...train, id: train.id || initialTrain(saved.day).id, acquiredDay: Number.isFinite(train.acquiredDay) ? train.acquiredDay : saved.day || 1 }));
       const withId = { ...line, id: line.id || 'legacy-' + index, trains, train: trains[0] };

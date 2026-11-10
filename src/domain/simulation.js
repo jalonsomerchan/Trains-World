@@ -2,7 +2,7 @@ import { distance, findTrack } from './game';
 import { trackCanEnter, trackType } from './trackTypes';
 import { stationCapacity } from './stations';
 import { recordJourneyStatistics, recordStatistics, trackStatsKey } from './statistics';
-import { initialTrain, lineTrains, trainMaintenance, trainSpeed } from './trains';
+import { initialTrain, lineTrains, trainMaintenance, trainSpeed, trainAge } from './trains';
 import { trainType } from './trainTypes';
 import { advanceQueues, boardPassengers, networkDemandRates, lineHeadwayDays, trainPassengerCount } from './passengers';
 export { initialTrain } from './trains';
@@ -121,7 +121,7 @@ export function advanceSimulation(game, cities, elapsedSeconds) {
       if (!track || !from || !to) continue;
       const key = trackKey(from.id, to.id), counts = occupancy.get(key) || { forward: 0, backward: 0 };
       const forward = String(from.id) === String(track.a);
-      if (!track.construction && trackCanEnter(trackType(track), counts, forward) && (reserved.get(String(to.id)) || 0) < stationCapacity(game, to.id)) {
+      if ((t.stopRemaining || 0) <= EPSILON && !track.construction && trackCanEnter(trackType(track), counts, forward) && (reserved.get(String(to.id)) || 0) < stationCapacity(game, to.id)) {
         boardPassengers(line, t, passengerLines[line.lineIndex].queues);
         t.moving = true;
         t.tripStatsReady = true;
@@ -135,7 +135,19 @@ export function advanceSimulation(game, cities, elapsedSeconds) {
     let step = remaining;
     for (const line of lines) {
       const t = line.train;
-      if (!t.moving) continue;
+      if (!t.moving) {
+        if (!t.paused && t.stopRemaining > EPSILON) step = Math.min(step, t.stopRemaining);
+        continue;
+      }
+      if (t.paused) continue;
+      if (t.breakdownRemaining > EPSILON) { step = Math.min(step, t.breakdownRemaining); continue; }
+      const age = trainAge(t, 1 + Math.floor(time));
+      if (age >= 5) {
+        if (!(t.breakdownCountdown > 0)) t.breakdownCountdown = -Math.log(Math.max(Number.MIN_VALUE, 1 - Math.random())) / (0.15 + (age - 5) * 0.03);
+        step = Math.min(step, t.breakdownCountdown);
+      } else {
+        step = Math.min(step, Math.max(EPSILON, (Number(t.acquiredDay) || 1) + 4 - time));
+      }
       const from = cities[String(line.stops[t.stopIndex])], to = cities[String(line.stops[t.stopIndex + t.direction])];
       const track = findTrack(tracks, line.stops[t.stopIndex], line.stops[t.stopIndex + t.direction]);
       if (!track || !from || !to) { t.moving = false; t.progress = 0; continue; }
@@ -168,8 +180,18 @@ export function advanceSimulation(game, cities, elapsedSeconds) {
         stats = recordStatistics(stats, { kind: 'expenses', amount: expense, lineId: line.id, trainId: t.id, trackKeys: routeKeys });
         money -= expense;
       }
-      if (!t.moving) continue;
+      if (!t.moving) {
+        if (!t.paused) t.stopRemaining = Math.max(0, (t.stopRemaining || 0) - step);
+        continue;
+      }
       if (t.paused) continue;
+      if (t.breakdownRemaining > EPSILON) {
+        t.breakdownRemaining = Math.max(0, t.breakdownRemaining - step);
+        if (t.tripStatsReady) t.travelDays = (Number(t.travelDays) || 0) + step;
+        continue;
+      }
+      const wasEligible = trainAge(t, 1 + Math.floor(time - step + EPSILON)) >= 5;
+      if (wasEligible && t.breakdownCountdown > 0) t.breakdownCountdown = Math.max(0, t.breakdownCountdown - step);
       const from = cities[String(line.stops[t.stopIndex])], to = cities[String(line.stops[t.stopIndex + t.direction])];
       const track = findTrack(tracks, line.stops[t.stopIndex], line.stops[t.stopIndex + t.direction]);
       if (!track || !from || !to) continue;
@@ -192,9 +214,13 @@ export function advanceSimulation(game, cities, elapsedSeconds) {
         t.progress = 0;
         t.moving = false;
         t.waitingSince = time;
+        t.stopRemaining = Math.max(0, Number(trainType(line).stop_seconds) || 0) / SECONDS_PER_DAY;
         money += amount;
         stats = recordStatistics(stats, { kind: 'income', amount, lineId: line.id, trainId: t.id, cityIds: [to.id], trackKeys: [trackStatsKey(from.id, to.id)] });
         arrivals.push({ id: ++sequence, cityId: String(to.id), cityName: to.name, lineName: line.name, amount });
+      } else if (wasEligible && t.breakdownCountdown <= EPSILON) {
+        t.breakdownRemaining = (3 + Math.random() * 5) / SECONDS_PER_DAY;
+        t.breakdownCountdown = null;
       }
     }
   }

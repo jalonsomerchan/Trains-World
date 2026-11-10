@@ -352,3 +352,8 @@ button:focus-visible, input:focus-visible { outline: 3px solid #9cdeff; outline-
 .station-crowding-medium { background: #986116; }
 .station-crowding-high { background: #b23d38; }
 .train-occupancy { position: absolute; top: -11px; left: 18px; min-width: 26px; padding: 1px 4px; border-radius: 8px; background: #254757; color: #fff; border: 1px solid #d5edf0; font-size: 9px; font-weight: 800; line-height: 12px; white-space: nowrap; }
+
+.game-clock { color: #607681; font-size: 11px; font-weight: 650; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.city-marker { min-height: 44px; justify-content: center; touch-action: none; -webkit-user-select: none; user-select: none; }
+.city-marker > * { pointer-events: none; }
+.train-marker { min-width: 44px; min-height: 44px; touch-action: manipulation; }

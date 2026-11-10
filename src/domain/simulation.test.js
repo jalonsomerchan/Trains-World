@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { advanceSimulation, arrivalIncome, estimateLineIncome } from './simulation';
 import { trainPosition } from './trainPosition';
 import { journeyStatsFor, statsFor } from './statistics';
@@ -22,9 +22,32 @@ describe('simulación de trenes', () => {
     expect(arrived.stats.tracks['a|b'].income).toBe(arrived.arrivals[0].amount);
     expect(arrived.stats.cities.b.income).toBe(arrived.arrivals[0].amount);
     expect(arrived.lines[0].train.stopIndex).toBe(1);
-    const returned = advanceSimulation(arrived, cities, 12.5);
+    const returned = advanceSimulation(arrived, cities, 17.5);
     expect(returned.money).toBe(arrived.money - (returned.stats.total.expenses - arrived.stats.total.expenses) + returned.arrivals.reduce((sum, event) => sum + event.amount, 0));
     expect(returned.lines[0].train.stopIndex).toBe(0);
+  });
+  it('respeta la parada configurada antes de salir de la estación', () => {
+    const arrived = advanceSimulation(base, cities, 12.5);
+    const waiting = advanceSimulation(arrived, cities, 4);
+    expect(waiting.lines[0].train.moving).toBe(false);
+    expect(waiting.lines[0].train.stopRemaining * 120).toBeCloseTo(1);
+    const departed = advanceSimulation(waiting, cities, 2);
+    expect(departed.lines[0].train.moving).toBe(true);
+    expect(departed.lines[0].train.progress).toBeCloseTo(1 / 12.5);
+  });
+  it('inmoviliza temporalmente un tren averiado y conserva la ocupación de la vía', () => {
+    const train = { id: 'old', acquiredDay: 1, stopIndex: 0, direction: 1, progress: .2, moving: true, breakdownCountdown: .001 };
+    const random = vi.spyOn(Math, 'random').mockReturnValue(.5);
+    try {
+      const broken = advanceSimulation({ ...base, day: 6, simTime: 5, lines: [{ ...base.lines[0], train }] }, cities, .2);
+      expect(broken.lines[0].train.breakdownRemaining).toBeGreaterThan(0);
+      const progress = broken.lines[0].train.progress;
+      const waiting = advanceSimulation(broken, cities, 1);
+      expect(waiting.lines[0].train.progress).toBe(progress);
+      expect(waiting.lines[0].train.moving).toBe(true);
+      const repaired = advanceSimulation(waiting, cities, 6);
+      expect(repaired.lines[0].train.progress).toBeGreaterThan(progress);
+    } finally { random.mockRestore(); }
   });
   it('limita la vía básica a un tren aunque circulen en sentidos opuestos', () => {
     const game = { ...base, lines: [base.lines[0], { name: 'Dos', stops: ['b', 'a'] }] };
@@ -103,7 +126,7 @@ describe('simulación de trenes', () => {
     const resumed = advanceSimulation({ ...blocked, lines: [blocked.lines[0]] }, cities, 12.5);
     expect(resumed.arrivals[0].amount).toBe(arrivalIncome(resumed.stats.operations.lines['line-1'].passengers, 100, 40, 2.5 / 24));
     expect(resumed.lines[0].train.waitDays).toBe(0);
-    const returned = advanceSimulation(resumed, cities, 12.5);
+    const returned = advanceSimulation(resumed, cities, 17.5);
     expect(returned.arrivals[0].amount).toBeGreaterThan(0);
   });
   it('conserva la espera entre actualizaciones y no cuenta el tiempo en pausa', () => {
@@ -130,7 +153,7 @@ describe('simulación de trenes', () => {
     expect(trainStats.passengers).toBeGreaterThan(0);
     expect(trainStats.income).toBe(completed.arrivals[0].amount);
     expect(statsFor(completed.stats, 'trains', train.id).income).toBe(completed.arrivals[0].amount);
-    const returned = advanceSimulation(completed, cities, 12.5);
+    const returned = advanceSimulation(completed, cities, 17.5);
     expect(journeyStatsFor(returned.stats, 'trains', train.id).trips).toBe(2);
     expect(journeyStatsFor(returned.stats, 'trains', train.id).trainIds).toEqual([train.id]);
   });
