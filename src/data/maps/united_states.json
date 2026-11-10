@@ -1,0 +1,2723 @@
+{
+    "metadatos": {
+        "total": 300,
+        "territorio": "Estados Unidos de América (50 estados y Distrito de Columbia; incluye Alaska y Hawái)",
+        "criterio": "300 ciudades seleccionadas principalmente por población municipal estimada, no por área metropolitana; orden aproximado",
+        "poblacion": "Para las principales 50 ciudades, cifras de 2025 publicadas en el listado Census Vintage 2025; para el resto, valores orientativos redondeados y no verificados individualmente. El ranking completo no es oficial.",
+        "coordenadas": "Coordenadas aproximadas de los centros urbanos (WGS84); no son centroides oficiales de los límites municipales",
+        "fuentes_referencia": [
+            "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html",
+            "https://www.everycityintheusa.com/data/city-population-csv/",
+            "https://www.geonames.org/"
+        ],
+        "nota": "Archivo orientativo para mapas; para usos estadísticos se recomienda sustituir las estimaciones aproximadas por los datos completos del Censo 2025."
+    },
+    "mapa": {
+        "nombre": "Estados Unidos",
+        "latitud": 39.5,
+        "longitud": -98.35,
+        "zoom": 4
+    },
+    "ciudades": [
+        {
+            "nombre": "New York",
+            "estado": "NY",
+            "pais": "Estados Unidos",
+            "latitud": 40.7128,
+            "longitud": -74.006,
+            "poblacion": 8584629,
+            "id": 1
+        },
+        {
+            "nombre": "Los Angeles",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.0522,
+            "longitud": -118.2437,
+            "poblacion": 3869089,
+            "id": 2
+        },
+        {
+            "nombre": "Chicago",
+            "estado": "IL",
+            "pais": "Estados Unidos",
+            "latitud": 41.8781,
+            "longitud": -87.6298,
+            "poblacion": 2731585,
+            "id": 3
+        },
+        {
+            "nombre": "Houston",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 29.7604,
+            "longitud": -95.3698,
+            "poblacion": 2397315,
+            "id": 4
+        },
+        {
+            "nombre": "Phoenix",
+            "estado": "AZ",
+            "pais": "Estados Unidos",
+            "latitud": 33.4484,
+            "longitud": -112.074,
+            "poblacion": 1665481,
+            "id": 5
+        },
+        {
+            "nombre": "Philadelphia",
+            "estado": "PA",
+            "pais": "Estados Unidos",
+            "latitud": 39.9526,
+            "longitud": -75.1652,
+            "poblacion": 1574281,
+            "id": 6
+        },
+        {
+            "nombre": "San Antonio",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 29.4241,
+            "longitud": -98.4936,
+            "poblacion": 1548422,
+            "id": 7
+        },
+        {
+            "nombre": "San Diego",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 32.7157,
+            "longitud": -117.1611,
+            "poblacion": 1406106,
+            "id": 8
+        },
+        {
+            "nombre": "Dallas",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 32.7767,
+            "longitud": -96.797,
+            "poblacion": 1329491,
+            "id": 9
+        },
+        {
+            "nombre": "Fort Worth",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 32.7555,
+            "longitud": -97.3308,
+            "poblacion": 1028117,
+            "id": 10
+        },
+        {
+            "nombre": "Jacksonville",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 30.3322,
+            "longitud": -81.6557,
+            "poblacion": 1017689,
+            "id": 11
+        },
+        {
+            "nombre": "Austin",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 30.2672,
+            "longitud": -97.7431,
+            "poblacion": 1002632,
+            "id": 12
+        },
+        {
+            "nombre": "San Jose",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.3382,
+            "longitud": -121.8863,
+            "poblacion": 989814,
+            "id": 13
+        },
+        {
+            "nombre": "Charlotte",
+            "estado": "NC",
+            "pais": "Estados Unidos",
+            "latitud": 35.2271,
+            "longitud": -80.8431,
+            "poblacion": 964784,
+            "id": 14
+        },
+        {
+            "nombre": "Columbus",
+            "estado": "OH",
+            "pais": "Estados Unidos",
+            "latitud": 39.9612,
+            "longitud": -82.9988,
+            "poblacion": 938396,
+            "id": 15
+        },
+        {
+            "nombre": "Indianapolis",
+            "estado": "IN",
+            "pais": "Estados Unidos",
+            "latitud": 39.7684,
+            "longitud": -86.1581,
+            "poblacion": 910638,
+            "id": 16
+        },
+        {
+            "nombre": "San Francisco",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.7749,
+            "longitud": -122.4194,
+            "poblacion": 826079,
+            "id": 17
+        },
+        {
+            "nombre": "Louisville",
+            "estado": "KY",
+            "pais": "Estados Unidos",
+            "latitud": 38.2527,
+            "longitud": -85.7585,
+            "poblacion": 795222,
+            "id": 18
+        },
+        {
+            "nombre": "Seattle",
+            "estado": "WA",
+            "pais": "Estados Unidos",
+            "latitud": 47.6062,
+            "longitud": -122.3321,
+            "poblacion": 784777,
+            "id": 19
+        },
+        {
+            "nombre": "Nashville",
+            "estado": "TN",
+            "pais": "Estados Unidos",
+            "latitud": 36.1627,
+            "longitud": -86.7816,
+            "poblacion": 745904,
+            "id": 20
+        },
+        {
+            "nombre": "Denver",
+            "estado": "CO",
+            "pais": "Estados Unidos",
+            "latitud": 39.7392,
+            "longitud": -104.9903,
+            "poblacion": 740613,
+            "id": 21
+        },
+        {
+            "nombre": "Oklahoma City",
+            "estado": "OK",
+            "pais": "Estados Unidos",
+            "latitud": 35.4676,
+            "longitud": -97.5164,
+            "poblacion": 719849,
+            "id": 22
+        },
+        {
+            "nombre": "Washington",
+            "estado": "DC",
+            "pais": "Estados Unidos",
+            "latitud": 38.9072,
+            "longitud": -77.0369,
+            "poblacion": 693645,
+            "id": 23
+        },
+        {
+            "nombre": "El Paso",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 31.7619,
+            "longitud": -106.485,
+            "poblacion": 683012,
+            "id": 24
+        },
+        {
+            "nombre": "Las Vegas",
+            "estado": "NV",
+            "pais": "Estados Unidos",
+            "latitud": 36.1699,
+            "longitud": -115.1398,
+            "poblacion": 679817,
+            "id": 25
+        },
+        {
+            "nombre": "Boston",
+            "estado": "MA",
+            "pais": "Estados Unidos",
+            "latitud": 42.3601,
+            "longitud": -71.0589,
+            "poblacion": 672973,
+            "id": 26
+        },
+        {
+            "nombre": "Detroit",
+            "estado": "MI",
+            "pais": "Estados Unidos",
+            "latitud": 42.3314,
+            "longitud": -83.0458,
+            "poblacion": 649095,
+            "id": 27
+        },
+        {
+            "nombre": "Portland",
+            "estado": "OR",
+            "pais": "Estados Unidos",
+            "latitud": 45.5152,
+            "longitud": -122.6784,
+            "poblacion": 635109,
+            "id": 28
+        },
+        {
+            "nombre": "Memphis",
+            "estado": "TN",
+            "pais": "Estados Unidos",
+            "latitud": 35.1495,
+            "longitud": -90.049,
+            "poblacion": 609647,
+            "id": 29
+        },
+        {
+            "nombre": "Baltimore",
+            "estado": "MD",
+            "pais": "Estados Unidos",
+            "latitud": 39.2904,
+            "longitud": -76.6122,
+            "poblacion": 569997,
+            "id": 30
+        },
+        {
+            "nombre": "Milwaukee",
+            "estado": "WI",
+            "pais": "Estados Unidos",
+            "latitud": 43.0389,
+            "longitud": -87.9065,
+            "poblacion": 562407,
+            "id": 31
+        },
+        {
+            "nombre": "Albuquerque",
+            "estado": "NM",
+            "pais": "Estados Unidos",
+            "latitud": 35.0844,
+            "longitud": -106.6504,
+            "poblacion": 556588,
+            "id": 32
+        },
+        {
+            "nombre": "Fresno",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 36.7378,
+            "longitud": -119.7871,
+            "poblacion": 555549,
+            "id": 33
+        },
+        {
+            "nombre": "Tucson",
+            "estado": "AZ",
+            "pais": "Estados Unidos",
+            "latitud": 32.2226,
+            "longitud": -110.9747,
+            "poblacion": 548371,
+            "id": 34
+        },
+        {
+            "nombre": "Sacramento",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 38.5816,
+            "longitud": -121.4944,
+            "poblacion": 536449,
+            "id": 35
+        },
+        {
+            "nombre": "Atlanta",
+            "estado": "GA",
+            "pais": "Estados Unidos",
+            "latitud": 33.749,
+            "longitud": -84.388,
+            "poblacion": 529110,
+            "id": 36
+        },
+        {
+            "nombre": "Kansas City",
+            "estado": "MO",
+            "pais": "Estados Unidos",
+            "latitud": 39.0997,
+            "longitud": -94.5786,
+            "poblacion": 521220,
+            "id": 37
+        },
+        {
+            "nombre": "Mesa",
+            "estado": "AZ",
+            "pais": "Estados Unidos",
+            "latitud": 33.4152,
+            "longitud": -111.8315,
+            "poblacion": 513656,
+            "id": 38
+        },
+        {
+            "nombre": "Raleigh",
+            "estado": "NC",
+            "pais": "Estados Unidos",
+            "latitud": 35.7796,
+            "longitud": -78.6382,
+            "poblacion": 506306,
+            "id": 39
+        },
+        {
+            "nombre": "Colorado Springs",
+            "estado": "CO",
+            "pais": "Estados Unidos",
+            "latitud": 38.8339,
+            "longitud": -104.8214,
+            "poblacion": 494743,
+            "id": 40
+        },
+        {
+            "nombre": "Miami",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 25.7617,
+            "longitud": -80.1918,
+            "poblacion": 489812,
+            "id": 41
+        },
+        {
+            "nombre": "Omaha",
+            "estado": "NE",
+            "pais": "Estados Unidos",
+            "latitud": 41.2565,
+            "longitud": -95.9345,
+            "poblacion": 488797,
+            "id": 42
+        },
+        {
+            "nombre": "Virginia Beach",
+            "estado": "VA",
+            "pais": "Estados Unidos",
+            "latitud": 36.8529,
+            "longitud": -75.978,
+            "poblacion": 453737,
+            "id": 43
+        },
+        {
+            "nombre": "Long Beach",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.7701,
+            "longitud": -118.1937,
+            "poblacion": 450469,
+            "id": 44
+        },
+        {
+            "nombre": "Oakland",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.8044,
+            "longitud": -122.2712,
+            "poblacion": 440838,
+            "id": 45
+        },
+        {
+            "nombre": "Minneapolis",
+            "estado": "MN",
+            "pais": "Estados Unidos",
+            "latitud": 44.9778,
+            "longitud": -93.265,
+            "poblacion": 430324,
+            "id": 46
+        },
+        {
+            "nombre": "Bakersfield",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 35.3733,
+            "longitud": -119.0187,
+            "poblacion": 422165,
+            "id": 47
+        },
+        {
+            "nombre": "Tulsa",
+            "estado": "OK",
+            "pais": "Estados Unidos",
+            "latitud": 36.154,
+            "longitud": -95.9928,
+            "poblacion": 416209,
+            "id": 48
+        },
+        {
+            "nombre": "Tampa",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 27.9506,
+            "longitud": -82.4572,
+            "poblacion": 413554,
+            "id": 49
+        },
+        {
+            "nombre": "Aurora",
+            "estado": "CO",
+            "pais": "Estados Unidos",
+            "latitud": 39.7294,
+            "longitud": -104.8319,
+            "poblacion": 410053,
+            "id": 50
+        },
+        {
+            "nombre": "Arlington",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 32.7357,
+            "longitud": -97.1081,
+            "poblacion": 406000,
+            "id": 51
+        },
+        {
+            "nombre": "Wichita",
+            "estado": "KS",
+            "pais": "Estados Unidos",
+            "latitud": 37.6872,
+            "longitud": -97.3301,
+            "poblacion": 400000,
+            "id": 52
+        },
+        {
+            "nombre": "Cleveland",
+            "estado": "OH",
+            "pais": "Estados Unidos",
+            "latitud": 41.4993,
+            "longitud": -81.6944,
+            "poblacion": 365000,
+            "id": 53
+        },
+        {
+            "nombre": "New Orleans",
+            "estado": "LA",
+            "pais": "Estados Unidos",
+            "latitud": 29.9511,
+            "longitud": -90.0715,
+            "poblacion": 365000,
+            "id": 54
+        },
+        {
+            "nombre": "Henderson",
+            "estado": "NV",
+            "pais": "Estados Unidos",
+            "latitud": 36.0395,
+            "longitud": -114.9817,
+            "poblacion": 355000,
+            "id": 55
+        },
+        {
+            "nombre": "Anaheim",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.8366,
+            "longitud": -117.9143,
+            "poblacion": 345000,
+            "id": 56
+        },
+        {
+            "nombre": "Honolulu",
+            "estado": "HI",
+            "pais": "Estados Unidos",
+            "latitud": 21.3099,
+            "longitud": -157.8581,
+            "poblacion": 345000,
+            "id": 57
+        },
+        {
+            "nombre": "Orlando",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 28.5383,
+            "longitud": -81.3792,
+            "poblacion": 335000,
+            "id": 58
+        },
+        {
+            "nombre": "Lexington",
+            "estado": "KY",
+            "pais": "Estados Unidos",
+            "latitud": 38.0406,
+            "longitud": -84.5037,
+            "poblacion": 325000,
+            "id": 59
+        },
+        {
+            "nombre": "Riverside",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.9806,
+            "longitud": -117.3755,
+            "poblacion": 325000,
+            "id": 60
+        },
+        {
+            "nombre": "Stockton",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.9577,
+            "longitud": -121.2908,
+            "poblacion": 325000,
+            "id": 61
+        },
+        {
+            "nombre": "Corpus Christi",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 27.8006,
+            "longitud": -97.3964,
+            "poblacion": 320000,
+            "id": 62
+        },
+        {
+            "nombre": "Irvine",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.6846,
+            "longitud": -117.8265,
+            "poblacion": 315000,
+            "id": 63
+        },
+        {
+            "nombre": "Cincinnati",
+            "estado": "OH",
+            "pais": "Estados Unidos",
+            "latitud": 39.1031,
+            "longitud": -84.512,
+            "poblacion": 310000,
+            "id": 64
+        },
+        {
+            "nombre": "Santa Ana",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.7455,
+            "longitud": -117.8677,
+            "poblacion": 310000,
+            "id": 65
+        },
+        {
+            "nombre": "Greensboro",
+            "estado": "NC",
+            "pais": "Estados Unidos",
+            "latitud": 36.0726,
+            "longitud": -79.792,
+            "poblacion": 305000,
+            "id": 66
+        },
+        {
+            "nombre": "Pittsburgh",
+            "estado": "PA",
+            "pais": "Estados Unidos",
+            "latitud": 40.4406,
+            "longitud": -79.9959,
+            "poblacion": 305000,
+            "id": 67
+        },
+        {
+            "nombre": "St. Paul",
+            "estado": "MN",
+            "pais": "Estados Unidos",
+            "latitud": 44.9537,
+            "longitud": -93.09,
+            "poblacion": 305000,
+            "id": 68
+        },
+        {
+            "nombre": "Durham",
+            "estado": "NC",
+            "pais": "Estados Unidos",
+            "latitud": 35.994,
+            "longitud": -78.8986,
+            "poblacion": 300000,
+            "id": 69
+        },
+        {
+            "nombre": "Jersey City",
+            "estado": "NJ",
+            "pais": "Estados Unidos",
+            "latitud": 40.7178,
+            "longitud": -74.0431,
+            "poblacion": 300000,
+            "id": 70
+        },
+        {
+            "nombre": "Lincoln",
+            "estado": "NE",
+            "pais": "Estados Unidos",
+            "latitud": 40.8136,
+            "longitud": -96.7026,
+            "poblacion": 300000,
+            "id": 71
+        },
+        {
+            "nombre": "Plano",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 33.0198,
+            "longitud": -96.6989,
+            "poblacion": 295000,
+            "id": 72
+        },
+        {
+            "nombre": "Anchorage",
+            "estado": "AK",
+            "pais": "Estados Unidos",
+            "latitud": 61.2181,
+            "longitud": -149.9003,
+            "poblacion": 290000,
+            "id": 73
+        },
+        {
+            "nombre": "North Las Vegas",
+            "estado": "NV",
+            "pais": "Estados Unidos",
+            "latitud": 36.1989,
+            "longitud": -115.1175,
+            "poblacion": 290000,
+            "id": 74
+        },
+        {
+            "nombre": "Chandler",
+            "estado": "AZ",
+            "pais": "Estados Unidos",
+            "latitud": 33.3062,
+            "longitud": -111.8413,
+            "poblacion": 285000,
+            "id": 75
+        },
+        {
+            "nombre": "Gilbert",
+            "estado": "AZ",
+            "pais": "Estados Unidos",
+            "latitud": 33.3528,
+            "longitud": -111.789,
+            "poblacion": 285000,
+            "id": 76
+        },
+        {
+            "nombre": "Madison",
+            "estado": "WI",
+            "pais": "Estados Unidos",
+            "latitud": 43.0731,
+            "longitud": -89.4012,
+            "poblacion": 285000,
+            "id": 77
+        },
+        {
+            "nombre": "Reno",
+            "estado": "NV",
+            "pais": "Estados Unidos",
+            "latitud": 39.5296,
+            "longitud": -119.8138,
+            "poblacion": 280000,
+            "id": 78
+        },
+        {
+            "nombre": "Buffalo",
+            "estado": "NY",
+            "pais": "Estados Unidos",
+            "latitud": 42.8864,
+            "longitud": -78.8784,
+            "poblacion": 275000,
+            "id": 79
+        },
+        {
+            "nombre": "Fort Wayne",
+            "estado": "IN",
+            "pais": "Estados Unidos",
+            "latitud": 41.0793,
+            "longitud": -85.1394,
+            "poblacion": 270000,
+            "id": 80
+        },
+        {
+            "nombre": "Lubbock",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 33.5779,
+            "longitud": -101.8552,
+            "poblacion": 270000,
+            "id": 81
+        },
+        {
+            "nombre": "Toledo",
+            "estado": "OH",
+            "pais": "Estados Unidos",
+            "latitud": 41.6528,
+            "longitud": -83.5379,
+            "poblacion": 265000,
+            "id": 82
+        },
+        {
+            "nombre": "Laredo",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 27.5306,
+            "longitud": -99.4803,
+            "poblacion": 260000,
+            "id": 83
+        },
+        {
+            "nombre": "St. Petersburg",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 27.7676,
+            "longitud": -82.6403,
+            "poblacion": 260000,
+            "id": 84
+        },
+        {
+            "nombre": "Chesapeake",
+            "estado": "VA",
+            "pais": "Estados Unidos",
+            "latitud": 36.7682,
+            "longitud": -76.2875,
+            "poblacion": 255000,
+            "id": 85
+        },
+        {
+            "nombre": "Glendale",
+            "estado": "AZ",
+            "pais": "Estados Unidos",
+            "latitud": 33.5387,
+            "longitud": -112.186,
+            "poblacion": 255000,
+            "id": 86
+        },
+        {
+            "nombre": "Irving",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 32.814,
+            "longitud": -96.9489,
+            "poblacion": 255000,
+            "id": 87
+        },
+        {
+            "nombre": "Port St. Lucie",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 27.273,
+            "longitud": -80.3582,
+            "poblacion": 250000,
+            "id": 88
+        },
+        {
+            "nombre": "Garland",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 32.9126,
+            "longitud": -96.6389,
+            "poblacion": 245000,
+            "id": 89
+        },
+        {
+            "nombre": "Scottsdale",
+            "estado": "AZ",
+            "pais": "Estados Unidos",
+            "latitud": 33.4942,
+            "longitud": -111.9261,
+            "poblacion": 245000,
+            "id": 90
+        },
+        {
+            "nombre": "Boise",
+            "estado": "ID",
+            "pais": "Estados Unidos",
+            "latitud": 43.615,
+            "longitud": -116.2023,
+            "poblacion": 240000,
+            "id": 91
+        },
+        {
+            "nombre": "Richmond",
+            "estado": "VA",
+            "pais": "Estados Unidos",
+            "latitud": 37.5407,
+            "longitud": -77.436,
+            "poblacion": 235000,
+            "id": 92
+        },
+        {
+            "nombre": "Huntsville",
+            "estado": "AL",
+            "pais": "Estados Unidos",
+            "latitud": 34.7304,
+            "longitud": -86.5861,
+            "poblacion": 230000,
+            "id": 93
+        },
+        {
+            "nombre": "Norfolk",
+            "estado": "VA",
+            "pais": "Estados Unidos",
+            "latitud": 36.8508,
+            "longitud": -76.2859,
+            "poblacion": 230000,
+            "id": 94
+        },
+        {
+            "nombre": "Santa Clarita",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.3917,
+            "longitud": -118.5426,
+            "poblacion": 230000,
+            "id": 95
+        },
+        {
+            "nombre": "Spokane",
+            "estado": "WA",
+            "pais": "Estados Unidos",
+            "latitud": 47.6588,
+            "longitud": -117.426,
+            "poblacion": 230000,
+            "id": 96
+        },
+        {
+            "nombre": "Cape Coral",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 26.5629,
+            "longitud": -81.9495,
+            "poblacion": 225000,
+            "id": 97
+        },
+        {
+            "nombre": "Fremont",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.5485,
+            "longitud": -121.9886,
+            "poblacion": 225000,
+            "id": 98
+        },
+        {
+            "nombre": "San Bernardino",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.1083,
+            "longitud": -117.2898,
+            "poblacion": 225000,
+            "id": 99
+        },
+        {
+            "nombre": "Tacoma",
+            "estado": "WA",
+            "pais": "Estados Unidos",
+            "latitud": 47.2529,
+            "longitud": -122.4443,
+            "poblacion": 225000,
+            "id": 100
+        },
+        {
+            "nombre": "Baton Rouge",
+            "estado": "LA",
+            "pais": "Estados Unidos",
+            "latitud": 30.4515,
+            "longitud": -91.1871,
+            "poblacion": 220000,
+            "id": 101
+        },
+        {
+            "nombre": "Hialeah",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 25.8576,
+            "longitud": -80.2781,
+            "poblacion": 220000,
+            "id": 102
+        },
+        {
+            "nombre": "Modesto",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.6391,
+            "longitud": -120.9969,
+            "poblacion": 220000,
+            "id": 103
+        },
+        {
+            "nombre": "Des Moines",
+            "estado": "IA",
+            "pais": "Estados Unidos",
+            "latitud": 41.5868,
+            "longitud": -93.625,
+            "poblacion": 215000,
+            "id": 104
+        },
+        {
+            "nombre": "Fontana",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.0922,
+            "longitud": -117.435,
+            "poblacion": 215000,
+            "id": 105
+        },
+        {
+            "nombre": "Moreno Valley",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.9425,
+            "longitud": -117.2297,
+            "poblacion": 215000,
+            "id": 106
+        },
+        {
+            "nombre": "Fayetteville",
+            "estado": "NC",
+            "pais": "Estados Unidos",
+            "latitud": 35.0527,
+            "longitud": -78.8784,
+            "poblacion": 210000,
+            "id": 107
+        },
+        {
+            "nombre": "Salt Lake City",
+            "estado": "UT",
+            "pais": "Estados Unidos",
+            "latitud": 40.7608,
+            "longitud": -111.891,
+            "poblacion": 210000,
+            "id": 108
+        },
+        {
+            "nombre": "Sioux Falls",
+            "estado": "SD",
+            "pais": "Estados Unidos",
+            "latitud": 43.546,
+            "longitud": -96.7313,
+            "poblacion": 210000,
+            "id": 109
+        },
+        {
+            "nombre": "Worcester",
+            "estado": "MA",
+            "pais": "Estados Unidos",
+            "latitud": 42.2626,
+            "longitud": -71.8023,
+            "poblacion": 210000,
+            "id": 110
+        },
+        {
+            "nombre": "Amarillo",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 35.222,
+            "longitud": -101.8313,
+            "poblacion": 205000,
+            "id": 111
+        },
+        {
+            "nombre": "Augusta",
+            "estado": "GA",
+            "pais": "Estados Unidos",
+            "latitud": 33.4735,
+            "longitud": -82.0105,
+            "poblacion": 205000,
+            "id": 112
+        },
+        {
+            "nombre": "Columbus",
+            "estado": "GA",
+            "pais": "Estados Unidos",
+            "latitud": 32.461,
+            "longitud": -84.9877,
+            "poblacion": 205000,
+            "id": 113
+        },
+        {
+            "nombre": "Grand Prairie",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 32.746,
+            "longitud": -96.9978,
+            "poblacion": 205000,
+            "id": 114
+        },
+        {
+            "nombre": "Little Rock",
+            "estado": "AR",
+            "pais": "Estados Unidos",
+            "latitud": 34.7465,
+            "longitud": -92.2896,
+            "poblacion": 205000,
+            "id": 115
+        },
+        {
+            "nombre": "Overland Park",
+            "estado": "KS",
+            "pais": "Estados Unidos",
+            "latitud": 38.9822,
+            "longitud": -94.6708,
+            "poblacion": 205000,
+            "id": 116
+        },
+        {
+            "nombre": "Oxnard",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.1975,
+            "longitud": -119.1771,
+            "poblacion": 205000,
+            "id": 117
+        },
+        {
+            "nombre": "Rochester",
+            "estado": "NY",
+            "pais": "Estados Unidos",
+            "latitud": 43.1566,
+            "longitud": -77.6088,
+            "poblacion": 205000,
+            "id": 118
+        },
+        {
+            "nombre": "Yonkers",
+            "estado": "NY",
+            "pais": "Estados Unidos",
+            "latitud": 40.9312,
+            "longitud": -73.8987,
+            "poblacion": 205000,
+            "id": 119
+        },
+        {
+            "nombre": "Grand Rapids",
+            "estado": "MI",
+            "pais": "Estados Unidos",
+            "latitud": 42.9634,
+            "longitud": -85.6681,
+            "poblacion": 200000,
+            "id": 120
+        },
+        {
+            "nombre": "Knoxville",
+            "estado": "TN",
+            "pais": "Estados Unidos",
+            "latitud": 35.9606,
+            "longitud": -83.9207,
+            "poblacion": 200000,
+            "id": 121
+        },
+        {
+            "nombre": "Peoria",
+            "estado": "AZ",
+            "pais": "Estados Unidos",
+            "latitud": 33.5806,
+            "longitud": -112.2374,
+            "poblacion": 200000,
+            "id": 122
+        },
+        {
+            "nombre": "Tallahassee",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 30.4383,
+            "longitud": -84.2807,
+            "poblacion": 200000,
+            "id": 123
+        },
+        {
+            "nombre": "Birmingham",
+            "estado": "AL",
+            "pais": "Estados Unidos",
+            "latitud": 33.5186,
+            "longitud": -86.8104,
+            "poblacion": 195000,
+            "id": 124
+        },
+        {
+            "nombre": "Montgomery",
+            "estado": "AL",
+            "pais": "Estados Unidos",
+            "latitud": 32.3792,
+            "longitud": -86.3077,
+            "poblacion": 195000,
+            "id": 125
+        },
+        {
+            "nombre": "Vancouver",
+            "estado": "WA",
+            "pais": "Estados Unidos",
+            "latitud": 45.6387,
+            "longitud": -122.6615,
+            "poblacion": 195000,
+            "id": 126
+        },
+        {
+            "nombre": "Akron",
+            "estado": "OH",
+            "pais": "Estados Unidos",
+            "latitud": 41.0814,
+            "longitud": -81.519,
+            "poblacion": 190000,
+            "id": 127
+        },
+        {
+            "nombre": "Brownsville",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 25.9017,
+            "longitud": -97.4975,
+            "poblacion": 190000,
+            "id": 128
+        },
+        {
+            "nombre": "Chattanooga",
+            "estado": "TN",
+            "pais": "Estados Unidos",
+            "latitud": 35.0456,
+            "longitud": -85.3097,
+            "poblacion": 190000,
+            "id": 129
+        },
+        {
+            "nombre": "Glendale",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.1425,
+            "longitud": -118.2551,
+            "poblacion": 190000,
+            "id": 130
+        },
+        {
+            "nombre": "Huntington Beach",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.6595,
+            "longitud": -117.9988,
+            "poblacion": 190000,
+            "id": 131
+        },
+        {
+            "nombre": "Providence",
+            "estado": "RI",
+            "pais": "Estados Unidos",
+            "latitud": 41.824,
+            "longitud": -71.4128,
+            "poblacion": 190000,
+            "id": 132
+        },
+        {
+            "nombre": "Tempe",
+            "estado": "AZ",
+            "pais": "Estados Unidos",
+            "latitud": 33.4255,
+            "longitud": -111.94,
+            "poblacion": 190000,
+            "id": 133
+        },
+        {
+            "nombre": "Cary",
+            "estado": "NC",
+            "pais": "Estados Unidos",
+            "latitud": 35.7915,
+            "longitud": -78.7811,
+            "poblacion": 185000,
+            "id": 134
+        },
+        {
+            "nombre": "Mobile",
+            "estado": "AL",
+            "pais": "Estados Unidos",
+            "latitud": 30.6954,
+            "longitud": -88.0399,
+            "poblacion": 185000,
+            "id": 135
+        },
+        {
+            "nombre": "Newport News",
+            "estado": "VA",
+            "pais": "Estados Unidos",
+            "latitud": 37.0871,
+            "longitud": -76.473,
+            "poblacion": 185000,
+            "id": 136
+        },
+        {
+            "nombre": "Ontario",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.0633,
+            "longitud": -117.6509,
+            "poblacion": 185000,
+            "id": 137
+        },
+        {
+            "nombre": "Shreveport",
+            "estado": "LA",
+            "pais": "Estados Unidos",
+            "latitud": 32.5252,
+            "longitud": -93.7502,
+            "poblacion": 185000,
+            "id": 138
+        },
+        {
+            "nombre": "Clarksville",
+            "estado": "TN",
+            "pais": "Estados Unidos",
+            "latitud": 36.5298,
+            "longitud": -87.3595,
+            "poblacion": 180000,
+            "id": 139
+        },
+        {
+            "nombre": "Elk Grove",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 38.4088,
+            "longitud": -121.3716,
+            "poblacion": 180000,
+            "id": 140
+        },
+        {
+            "nombre": "Eugene",
+            "estado": "OR",
+            "pais": "Estados Unidos",
+            "latitud": 44.0521,
+            "longitud": -123.0868,
+            "poblacion": 180000,
+            "id": 141
+        },
+        {
+            "nombre": "Salem",
+            "estado": "OR",
+            "pais": "Estados Unidos",
+            "latitud": 44.9429,
+            "longitud": -123.0351,
+            "poblacion": 180000,
+            "id": 142
+        },
+        {
+            "nombre": "Fort Collins",
+            "estado": "CO",
+            "pais": "Estados Unidos",
+            "latitud": 40.5853,
+            "longitud": -105.0844,
+            "poblacion": 175000,
+            "id": 143
+        },
+        {
+            "nombre": "Lancaster",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.6868,
+            "longitud": -118.1542,
+            "poblacion": 175000,
+            "id": 144
+        },
+        {
+            "nombre": "Palmdale",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.5794,
+            "longitud": -118.1165,
+            "poblacion": 170000,
+            "id": 145
+        },
+        {
+            "nombre": "Alexandria",
+            "estado": "VA",
+            "pais": "Estados Unidos",
+            "latitud": 38.8048,
+            "longitud": -77.0469,
+            "poblacion": 160000,
+            "id": 146
+        },
+        {
+            "nombre": "Charleston",
+            "estado": "SC",
+            "pais": "Estados Unidos",
+            "latitud": 32.7765,
+            "longitud": -79.9311,
+            "poblacion": 160000,
+            "id": 147
+        },
+        {
+            "nombre": "Corona",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.8753,
+            "longitud": -117.5664,
+            "poblacion": 160000,
+            "id": 148
+        },
+        {
+            "nombre": "Hayward",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.6688,
+            "longitud": -122.0808,
+            "poblacion": 160000,
+            "id": 149
+        },
+        {
+            "nombre": "Killeen",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 31.1171,
+            "longitud": -97.7278,
+            "poblacion": 160000,
+            "id": 150
+        },
+        {
+            "nombre": "Lakewood",
+            "estado": "CO",
+            "pais": "Estados Unidos",
+            "latitud": 39.7047,
+            "longitud": -105.0814,
+            "poblacion": 160000,
+            "id": 151
+        },
+        {
+            "nombre": "Macon",
+            "estado": "GA",
+            "pais": "Estados Unidos",
+            "latitud": 32.8407,
+            "longitud": -83.6324,
+            "poblacion": 160000,
+            "id": 152
+        },
+        {
+            "nombre": "Roseville",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 38.7521,
+            "longitud": -121.288,
+            "poblacion": 160000,
+            "id": 153
+        },
+        {
+            "nombre": "Bellevue",
+            "estado": "WA",
+            "pais": "Estados Unidos",
+            "latitud": 47.6101,
+            "longitud": -122.2015,
+            "poblacion": 155000,
+            "id": 154
+        },
+        {
+            "nombre": "Denton",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 33.2148,
+            "longitud": -97.1331,
+            "poblacion": 155000,
+            "id": 155
+        },
+        {
+            "nombre": "Hollywood",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 26.0112,
+            "longitud": -80.1495,
+            "poblacion": 155000,
+            "id": 156
+        },
+        {
+            "nombre": "Kansas City",
+            "estado": "KS",
+            "pais": "Estados Unidos",
+            "latitud": 39.1142,
+            "longitud": -94.6275,
+            "poblacion": 155000,
+            "id": 157
+        },
+        {
+            "nombre": "Paterson",
+            "estado": "NJ",
+            "pais": "Estados Unidos",
+            "latitud": 40.9168,
+            "longitud": -74.1718,
+            "poblacion": 155000,
+            "id": 158
+        },
+        {
+            "nombre": "Springfield",
+            "estado": "MA",
+            "pais": "Estados Unidos",
+            "latitud": 42.1015,
+            "longitud": -72.5898,
+            "poblacion": 155000,
+            "id": 159
+        },
+        {
+            "nombre": "Sunnyvale",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.3688,
+            "longitud": -122.0363,
+            "poblacion": 155000,
+            "id": 160
+        },
+        {
+            "nombre": "Bridgeport",
+            "estado": "CT",
+            "pais": "Estados Unidos",
+            "latitud": 41.1792,
+            "longitud": -73.1894,
+            "poblacion": 150000,
+            "id": 161
+        },
+        {
+            "nombre": "Escondido",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.1192,
+            "longitud": -117.0864,
+            "poblacion": 150000,
+            "id": 162
+        },
+        {
+            "nombre": "Joliet",
+            "estado": "IL",
+            "pais": "Estados Unidos",
+            "latitud": 41.525,
+            "longitud": -88.0817,
+            "poblacion": 150000,
+            "id": 163
+        },
+        {
+            "nombre": "Mesquite",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 32.7668,
+            "longitud": -96.5992,
+            "poblacion": 150000,
+            "id": 164
+        },
+        {
+            "nombre": "Naperville",
+            "estado": "IL",
+            "pais": "Estados Unidos",
+            "latitud": 41.7508,
+            "longitud": -88.1535,
+            "poblacion": 150000,
+            "id": 165
+        },
+        {
+            "nombre": "Pasadena",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 29.6911,
+            "longitud": -95.2091,
+            "poblacion": 150000,
+            "id": 166
+        },
+        {
+            "nombre": "Pomona",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.0551,
+            "longitud": -117.75,
+            "poblacion": 150000,
+            "id": 167
+        },
+        {
+            "nombre": "Savannah",
+            "estado": "GA",
+            "pais": "Estados Unidos",
+            "latitud": 32.0809,
+            "longitud": -81.0912,
+            "poblacion": 150000,
+            "id": 168
+        },
+        {
+            "nombre": "Gainesville",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 29.6516,
+            "longitud": -82.3248,
+            "poblacion": 145000,
+            "id": 169
+        },
+        {
+            "nombre": "McAllen",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 26.2034,
+            "longitud": -98.23,
+            "poblacion": 145000,
+            "id": 170
+        },
+        {
+            "nombre": "Midland",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 31.9973,
+            "longitud": -102.0779,
+            "poblacion": 145000,
+            "id": 171
+        },
+        {
+            "nombre": "Olathe",
+            "estado": "KS",
+            "pais": "Estados Unidos",
+            "latitud": 38.8814,
+            "longitud": -94.8191,
+            "poblacion": 145000,
+            "id": 172
+        },
+        {
+            "nombre": "Rockford",
+            "estado": "IL",
+            "pais": "Estados Unidos",
+            "latitud": 42.2711,
+            "longitud": -89.094,
+            "poblacion": 145000,
+            "id": 173
+        },
+        {
+            "nombre": "Syracuse",
+            "estado": "NY",
+            "pais": "Estados Unidos",
+            "latitud": 43.0481,
+            "longitud": -76.1474,
+            "poblacion": 145000,
+            "id": 174
+        },
+        {
+            "nombre": "Thornton",
+            "estado": "CO",
+            "pais": "Estados Unidos",
+            "latitud": 39.868,
+            "longitud": -104.9719,
+            "poblacion": 145000,
+            "id": 175
+        },
+        {
+            "nombre": "Torrance",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.8358,
+            "longitud": -118.3406,
+            "poblacion": 145000,
+            "id": 176
+        },
+        {
+            "nombre": "Visalia",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 36.3302,
+            "longitud": -119.2921,
+            "poblacion": 145000,
+            "id": 177
+        },
+        {
+            "nombre": "Waco",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 31.5493,
+            "longitud": -97.1467,
+            "poblacion": 145000,
+            "id": 178
+        },
+        {
+            "nombre": "Cedar Rapids",
+            "estado": "IA",
+            "pais": "Estados Unidos",
+            "latitud": 41.9779,
+            "longitud": -91.6656,
+            "poblacion": 140000,
+            "id": 179
+        },
+        {
+            "nombre": "Columbia",
+            "estado": "SC",
+            "pais": "Estados Unidos",
+            "latitud": 34.0007,
+            "longitud": -81.0348,
+            "poblacion": 140000,
+            "id": 180
+        },
+        {
+            "nombre": "Elizabeth",
+            "estado": "NJ",
+            "pais": "Estados Unidos",
+            "latitud": 40.6639,
+            "longitud": -74.2107,
+            "poblacion": 140000,
+            "id": 181
+        },
+        {
+            "nombre": "Fullerton",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.8704,
+            "longitud": -117.9242,
+            "poblacion": 140000,
+            "id": 182
+        },
+        {
+            "nombre": "Hampton",
+            "estado": "VA",
+            "pais": "Estados Unidos",
+            "latitud": 37.0299,
+            "longitud": -76.3452,
+            "poblacion": 140000,
+            "id": 183
+        },
+        {
+            "nombre": "Metairie",
+            "estado": "LA",
+            "pais": "Estados Unidos",
+            "latitud": 29.9841,
+            "longitud": -90.1529,
+            "poblacion": 140000,
+            "id": 184
+        },
+        {
+            "nombre": "Miramar",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 25.9861,
+            "longitud": -80.3036,
+            "poblacion": 140000,
+            "id": 185
+        },
+        {
+            "nombre": "Orange",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.7879,
+            "longitud": -117.8531,
+            "poblacion": 140000,
+            "id": 186
+        },
+        {
+            "nombre": "Stamford",
+            "estado": "CT",
+            "pais": "Estados Unidos",
+            "latitud": 41.0534,
+            "longitud": -73.5387,
+            "poblacion": 140000,
+            "id": 187
+        },
+        {
+            "nombre": "Victorville",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.5361,
+            "longitud": -117.2912,
+            "poblacion": 140000,
+            "id": 188
+        },
+        {
+            "nombre": "Warren",
+            "estado": "MI",
+            "pais": "Estados Unidos",
+            "latitud": 42.5145,
+            "longitud": -83.0147,
+            "poblacion": 140000,
+            "id": 189
+        },
+        {
+            "nombre": "West Valley City",
+            "estado": "UT",
+            "pais": "Estados Unidos",
+            "latitud": 40.6916,
+            "longitud": -112.0011,
+            "poblacion": 140000,
+            "id": 190
+        },
+        {
+            "nombre": "Carrollton",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 32.9756,
+            "longitud": -96.8899,
+            "poblacion": 135000,
+            "id": 191
+        },
+        {
+            "nombre": "Coral Springs",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 26.2712,
+            "longitud": -80.2706,
+            "poblacion": 135000,
+            "id": 192
+        },
+        {
+            "nombre": "Dayton",
+            "estado": "OH",
+            "pais": "Estados Unidos",
+            "latitud": 39.7589,
+            "longitud": -84.1916,
+            "poblacion": 135000,
+            "id": 193
+        },
+        {
+            "nombre": "Fargo",
+            "estado": "ND",
+            "pais": "Estados Unidos",
+            "latitud": 46.8772,
+            "longitud": -96.7898,
+            "poblacion": 135000,
+            "id": 194
+        },
+        {
+            "nombre": "Kent",
+            "estado": "WA",
+            "pais": "Estados Unidos",
+            "latitud": 47.3809,
+            "longitud": -122.2348,
+            "poblacion": 135000,
+            "id": 195
+        },
+        {
+            "nombre": "New Haven",
+            "estado": "CT",
+            "pais": "Estados Unidos",
+            "latitud": 41.3083,
+            "longitud": -72.9279,
+            "poblacion": 135000,
+            "id": 196
+        },
+        {
+            "nombre": "Sterling Heights",
+            "estado": "MI",
+            "pais": "Estados Unidos",
+            "latitud": 42.5803,
+            "longitud": -83.0302,
+            "poblacion": 135000,
+            "id": 197
+        },
+        {
+            "nombre": "Abilene",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 32.4487,
+            "longitud": -99.7331,
+            "poblacion": 130000,
+            "id": 198
+        },
+        {
+            "nombre": "Athens",
+            "estado": "GA",
+            "pais": "Estados Unidos",
+            "latitud": 33.9519,
+            "longitud": -83.3576,
+            "poblacion": 130000,
+            "id": 199
+        },
+        {
+            "nombre": "Columbia",
+            "estado": "MO",
+            "pais": "Estados Unidos",
+            "latitud": 38.9517,
+            "longitud": -92.3341,
+            "poblacion": 130000,
+            "id": 200
+        },
+        {
+            "nombre": "Norman",
+            "estado": "OK",
+            "pais": "Estados Unidos",
+            "latitud": 35.2226,
+            "longitud": -97.4395,
+            "poblacion": 130000,
+            "id": 201
+        },
+        {
+            "nombre": "Pearland",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 29.5636,
+            "longitud": -95.286,
+            "poblacion": 130000,
+            "id": 202
+        },
+        {
+            "nombre": "Round Rock",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 30.5083,
+            "longitud": -97.6789,
+            "poblacion": 130000,
+            "id": 203
+        },
+        {
+            "nombre": "Allentown",
+            "estado": "PA",
+            "pais": "Estados Unidos",
+            "latitud": 40.6023,
+            "longitud": -75.4714,
+            "poblacion": 125000,
+            "id": 204
+        },
+        {
+            "nombre": "Arvada",
+            "estado": "CO",
+            "pais": "Estados Unidos",
+            "latitud": 39.8028,
+            "longitud": -105.0875,
+            "poblacion": 125000,
+            "id": 205
+        },
+        {
+            "nombre": "Berkeley",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.8715,
+            "longitud": -122.273,
+            "poblacion": 125000,
+            "id": 206
+        },
+        {
+            "nombre": "Clovis",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 36.8252,
+            "longitud": -119.7029,
+            "poblacion": 125000,
+            "id": 207
+        },
+        {
+            "nombre": "College Station",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 30.628,
+            "longitud": -96.3344,
+            "poblacion": 125000,
+            "id": 208
+        },
+        {
+            "nombre": "Concord",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.978,
+            "longitud": -122.0311,
+            "poblacion": 125000,
+            "id": 209
+        },
+        {
+            "nombre": "Independence",
+            "estado": "MO",
+            "pais": "Estados Unidos",
+            "latitud": 39.0911,
+            "longitud": -94.4155,
+            "poblacion": 125000,
+            "id": 210
+        },
+        {
+            "nombre": "Lafayette",
+            "estado": "LA",
+            "pais": "Estados Unidos",
+            "latitud": 30.2241,
+            "longitud": -92.0198,
+            "poblacion": 125000,
+            "id": 211
+        },
+        {
+            "nombre": "Rochester",
+            "estado": "MN",
+            "pais": "Estados Unidos",
+            "latitud": 44.0121,
+            "longitud": -92.4802,
+            "poblacion": 125000,
+            "id": 212
+        },
+        {
+            "nombre": "Simi Valley",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.2694,
+            "longitud": -118.7815,
+            "poblacion": 125000,
+            "id": 213
+        },
+        {
+            "nombre": "Topeka",
+            "estado": "KS",
+            "pais": "Estados Unidos",
+            "latitud": 39.0473,
+            "longitud": -95.6752,
+            "poblacion": 125000,
+            "id": 214
+        },
+        {
+            "nombre": "West Palm Beach",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 26.7153,
+            "longitud": -80.0534,
+            "poblacion": 125000,
+            "id": 215
+        },
+        {
+            "nombre": "Wilmington",
+            "estado": "NC",
+            "pais": "Estados Unidos",
+            "latitud": 34.2257,
+            "longitud": -77.9447,
+            "poblacion": 125000,
+            "id": 216
+        },
+        {
+            "nombre": "Ann Arbor",
+            "estado": "MI",
+            "pais": "Estados Unidos",
+            "latitud": 42.2808,
+            "longitud": -83.743,
+            "poblacion": 120000,
+            "id": 217
+        },
+        {
+            "nombre": "Billings",
+            "estado": "MT",
+            "pais": "Estados Unidos",
+            "latitud": 45.7833,
+            "longitud": -108.5007,
+            "poblacion": 120000,
+            "id": 218
+        },
+        {
+            "nombre": "Broken Arrow",
+            "estado": "OK",
+            "pais": "Estados Unidos",
+            "latitud": 36.0526,
+            "longitud": -95.7908,
+            "poblacion": 120000,
+            "id": 219
+        },
+        {
+            "nombre": "Cambridge",
+            "estado": "MA",
+            "pais": "Estados Unidos",
+            "latitud": 42.3736,
+            "longitud": -71.1097,
+            "poblacion": 120000,
+            "id": 220
+        },
+        {
+            "nombre": "Fairfield",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 38.2494,
+            "longitud": -122.04,
+            "poblacion": 120000,
+            "id": 221
+        },
+        {
+            "nombre": "Hartford",
+            "estado": "CT",
+            "pais": "Estados Unidos",
+            "latitud": 41.7658,
+            "longitud": -72.6734,
+            "poblacion": 120000,
+            "id": 222
+        },
+        {
+            "nombre": "League City",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 29.5075,
+            "longitud": -95.0949,
+            "poblacion": 120000,
+            "id": 223
+        },
+        {
+            "nombre": "Odessa",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 31.8457,
+            "longitud": -102.3676,
+            "poblacion": 120000,
+            "id": 224
+        },
+        {
+            "nombre": "Richardson",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 32.9483,
+            "longitud": -96.7299,
+            "poblacion": 120000,
+            "id": 225
+        },
+        {
+            "nombre": "Vallejo",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 38.1041,
+            "longitud": -122.2566,
+            "poblacion": 120000,
+            "id": 226
+        },
+        {
+            "nombre": "Antioch",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 38.0049,
+            "longitud": -121.8058,
+            "poblacion": 115000,
+            "id": 227
+        },
+        {
+            "nombre": "Beaumont",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 30.0802,
+            "longitud": -94.1266,
+            "poblacion": 115000,
+            "id": 228
+        },
+        {
+            "nombre": "Clearwater",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 27.9659,
+            "longitud": -82.8001,
+            "poblacion": 115000,
+            "id": 229
+        },
+        {
+            "nombre": "Evansville",
+            "estado": "IN",
+            "pais": "Estados Unidos",
+            "latitud": 37.9716,
+            "longitud": -87.5711,
+            "poblacion": 115000,
+            "id": 230
+        },
+        {
+            "nombre": "Greeley",
+            "estado": "CO",
+            "pais": "Estados Unidos",
+            "latitud": 40.4233,
+            "longitud": -104.7091,
+            "poblacion": 115000,
+            "id": 231
+        },
+        {
+            "nombre": "High Point",
+            "estado": "NC",
+            "pais": "Estados Unidos",
+            "latitud": 35.9557,
+            "longitud": -80.0053,
+            "poblacion": 115000,
+            "id": 232
+        },
+        {
+            "nombre": "Lansing",
+            "estado": "MI",
+            "pais": "Estados Unidos",
+            "latitud": 42.7325,
+            "longitud": -84.5555,
+            "poblacion": 115000,
+            "id": 233
+        },
+        {
+            "nombre": "Las Cruces",
+            "estado": "NM",
+            "pais": "Estados Unidos",
+            "latitud": 32.3199,
+            "longitud": -106.7637,
+            "poblacion": 115000,
+            "id": 234
+        },
+        {
+            "nombre": "Lowell",
+            "estado": "MA",
+            "pais": "Estados Unidos",
+            "latitud": 42.6334,
+            "longitud": -71.3162,
+            "poblacion": 115000,
+            "id": 235
+        },
+        {
+            "nombre": "Manchester",
+            "estado": "NH",
+            "pais": "Estados Unidos",
+            "latitud": 42.9956,
+            "longitud": -71.4548,
+            "poblacion": 115000,
+            "id": 236
+        },
+        {
+            "nombre": "Miami Gardens",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 25.942,
+            "longitud": -80.2456,
+            "poblacion": 115000,
+            "id": 237
+        },
+        {
+            "nombre": "Murrieta",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.5539,
+            "longitud": -117.2139,
+            "poblacion": 115000,
+            "id": 238
+        },
+        {
+            "nombre": "New Braunfels",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 29.703,
+            "longitud": -98.1245,
+            "poblacion": 115000,
+            "id": 239
+        },
+        {
+            "nombre": "Pompano Beach",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 26.2379,
+            "longitud": -80.1248,
+            "poblacion": 115000,
+            "id": 240
+        },
+        {
+            "nombre": "Provo",
+            "estado": "UT",
+            "pais": "Estados Unidos",
+            "latitud": 40.2338,
+            "longitud": -111.6585,
+            "poblacion": 115000,
+            "id": 241
+        },
+        {
+            "nombre": "Waterbury",
+            "estado": "CT",
+            "pais": "Estados Unidos",
+            "latitud": 41.5582,
+            "longitud": -73.0515,
+            "poblacion": 115000,
+            "id": 242
+        },
+        {
+            "nombre": "West Jordan",
+            "estado": "UT",
+            "pais": "Estados Unidos",
+            "latitud": 40.6097,
+            "longitud": -111.9391,
+            "poblacion": 115000,
+            "id": 243
+        },
+        {
+            "nombre": "Everett",
+            "estado": "WA",
+            "pais": "Estados Unidos",
+            "latitud": 47.97898,
+            "longitud": -122.2021,
+            "poblacion": 112000,
+            "id": 244
+        },
+        {
+            "nombre": "Allen",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 33.1032,
+            "longitud": -96.6706,
+            "poblacion": 110000,
+            "id": 245
+        },
+        {
+            "nombre": "Costa Mesa",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.6411,
+            "longitud": -117.9187,
+            "poblacion": 110000,
+            "id": 246
+        },
+        {
+            "nombre": "Davie",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 26.0765,
+            "longitud": -80.2521,
+            "poblacion": 110000,
+            "id": 247
+        },
+        {
+            "nombre": "Dearborn",
+            "estado": "MI",
+            "pais": "Estados Unidos",
+            "latitud": 42.3223,
+            "longitud": -83.1763,
+            "poblacion": 110000,
+            "id": 248
+        },
+        {
+            "nombre": "Downey",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.9401,
+            "longitud": -118.1332,
+            "poblacion": 110000,
+            "id": 249
+        },
+        {
+            "nombre": "Edinburg",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 26.3017,
+            "longitud": -98.1633,
+            "poblacion": 110000,
+            "id": 250
+        },
+        {
+            "nombre": "Hillsboro",
+            "estado": "OR",
+            "pais": "Estados Unidos",
+            "latitud": 45.5229,
+            "longitud": -122.9898,
+            "poblacion": 110000,
+            "id": 251
+        },
+        {
+            "nombre": "Jurupa Valley",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.9972,
+            "longitud": -117.4855,
+            "poblacion": 110000,
+            "id": 252
+        },
+        {
+            "nombre": "Menifee",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.6971,
+            "longitud": -117.1853,
+            "poblacion": 110000,
+            "id": 253
+        },
+        {
+            "nombre": "Rio Rancho",
+            "estado": "NM",
+            "pais": "Estados Unidos",
+            "latitud": 35.2328,
+            "longitud": -106.663,
+            "poblacion": 110000,
+            "id": 254
+        },
+        {
+            "nombre": "Sandy Springs",
+            "estado": "GA",
+            "pais": "Estados Unidos",
+            "latitud": 33.9304,
+            "longitud": -84.3733,
+            "poblacion": 110000,
+            "id": 255
+        },
+        {
+            "nombre": "Santa Maria",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.953,
+            "longitud": -120.4357,
+            "poblacion": 110000,
+            "id": 256
+        },
+        {
+            "nombre": "Sparks",
+            "estado": "NV",
+            "pais": "Estados Unidos",
+            "latitud": 39.5349,
+            "longitud": -119.7527,
+            "poblacion": 110000,
+            "id": 257
+        },
+        {
+            "nombre": "Sugar Land",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 29.6197,
+            "longitud": -95.6349,
+            "poblacion": 110000,
+            "id": 258
+        },
+        {
+            "nombre": "Temecula",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.4936,
+            "longitud": -117.1484,
+            "poblacion": 110000,
+            "id": 259
+        },
+        {
+            "nombre": "Tuscaloosa",
+            "estado": "AL",
+            "pais": "Estados Unidos",
+            "latitud": 33.2098,
+            "longitud": -87.5692,
+            "poblacion": 110000,
+            "id": 260
+        },
+        {
+            "nombre": "Tyler",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 32.3513,
+            "longitud": -95.3011,
+            "poblacion": 110000,
+            "id": 261
+        },
+        {
+            "nombre": "Bend",
+            "estado": "OR",
+            "pais": "Estados Unidos",
+            "latitud": 44.0582,
+            "longitud": -121.3153,
+            "poblacion": 105000,
+            "id": 262
+        },
+        {
+            "nombre": "Boulder",
+            "estado": "CO",
+            "pais": "Estados Unidos",
+            "latitud": 40.015,
+            "longitud": -105.2705,
+            "poblacion": 105000,
+            "id": 263
+        },
+        {
+            "nombre": "Brockton",
+            "estado": "MA",
+            "pais": "Estados Unidos",
+            "latitud": 42.0834,
+            "longitud": -71.0184,
+            "poblacion": 105000,
+            "id": 264
+        },
+        {
+            "nombre": "Burbank",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.1808,
+            "longitud": -118.309,
+            "poblacion": 105000,
+            "id": 265
+        },
+        {
+            "nombre": "Carmel",
+            "estado": "IN",
+            "pais": "Estados Unidos",
+            "latitud": 39.9784,
+            "longitud": -86.118,
+            "poblacion": 105000,
+            "id": 266
+        },
+        {
+            "nombre": "Chico",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 39.7285,
+            "longitud": -121.8375,
+            "poblacion": 105000,
+            "id": 267
+        },
+        {
+            "nombre": "Daly City",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.6879,
+            "longitud": -122.4702,
+            "poblacion": 105000,
+            "id": 268
+        },
+        {
+            "nombre": "El Monte",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.0686,
+            "longitud": -118.0276,
+            "poblacion": 105000,
+            "id": 269
+        },
+        {
+            "nombre": "Fishers",
+            "estado": "IN",
+            "pais": "Estados Unidos",
+            "latitud": 39.9568,
+            "longitud": -86.0139,
+            "poblacion": 105000,
+            "id": 270
+        },
+        {
+            "nombre": "Green Bay",
+            "estado": "WI",
+            "pais": "Estados Unidos",
+            "latitud": 44.5133,
+            "longitud": -88.0133,
+            "poblacion": 105000,
+            "id": 271
+        },
+        {
+            "nombre": "Hesperia",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.4264,
+            "longitud": -117.3009,
+            "poblacion": 105000,
+            "id": 272
+        },
+        {
+            "nombre": "Inglewood",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.9617,
+            "longitud": -118.3531,
+            "poblacion": 105000,
+            "id": 273
+        },
+        {
+            "nombre": "Lynn",
+            "estado": "MA",
+            "pais": "Estados Unidos",
+            "latitud": 42.4668,
+            "longitud": -70.9495,
+            "poblacion": 105000,
+            "id": 274
+        },
+        {
+            "nombre": "Quincy",
+            "estado": "MA",
+            "pais": "Estados Unidos",
+            "latitud": 42.2529,
+            "longitud": -71.0023,
+            "poblacion": 105000,
+            "id": 275
+        },
+        {
+            "nombre": "Renton",
+            "estado": "WA",
+            "pais": "Estados Unidos",
+            "latitud": 47.4829,
+            "longitud": -122.2171,
+            "poblacion": 105000,
+            "id": 276
+        },
+        {
+            "nombre": "Rialto",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 34.1064,
+            "longitud": -117.3703,
+            "poblacion": 105000,
+            "id": 277
+        },
+        {
+            "nombre": "San Mateo",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.563,
+            "longitud": -122.3255,
+            "poblacion": 105000,
+            "id": 278
+        },
+        {
+            "nombre": "South Bend",
+            "estado": "IN",
+            "pais": "Estados Unidos",
+            "latitud": 41.6764,
+            "longitud": -86.252,
+            "poblacion": 105000,
+            "id": 279
+        },
+        {
+            "nombre": "Spokane Valley",
+            "estado": "WA",
+            "pais": "Estados Unidos",
+            "latitud": 47.6732,
+            "longitud": -117.2394,
+            "poblacion": 105000,
+            "id": 280
+        },
+        {
+            "nombre": "Vacaville",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 38.3566,
+            "longitud": -121.9877,
+            "poblacion": 105000,
+            "id": 281
+        },
+        {
+            "nombre": "Woodbridge",
+            "estado": "NJ",
+            "pais": "Estados Unidos",
+            "latitud": 40.5576,
+            "longitud": -74.2846,
+            "poblacion": 105000,
+            "id": 282
+        },
+        {
+            "nombre": "Albany",
+            "estado": "NY",
+            "pais": "Estados Unidos",
+            "latitud": 42.6526,
+            "longitud": -73.7562,
+            "poblacion": 100000,
+            "id": 283
+        },
+        {
+            "nombre": "Boca Raton",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 26.3683,
+            "longitud": -80.1289,
+            "poblacion": 100000,
+            "id": 284
+        },
+        {
+            "nombre": "Davenport",
+            "estado": "IA",
+            "pais": "Estados Unidos",
+            "latitud": 41.5236,
+            "longitud": -90.5776,
+            "poblacion": 100000,
+            "id": 285
+        },
+        {
+            "nombre": "Edmond",
+            "estado": "OK",
+            "pais": "Estados Unidos",
+            "latitud": 35.6528,
+            "longitud": -97.4781,
+            "poblacion": 100000,
+            "id": 286
+        },
+        {
+            "nombre": "Federal Way",
+            "estado": "WA",
+            "pais": "Estados Unidos",
+            "latitud": 47.3223,
+            "longitud": -122.3126,
+            "poblacion": 100000,
+            "id": 287
+        },
+        {
+            "nombre": "Kenosha",
+            "estado": "WI",
+            "pais": "Estados Unidos",
+            "latitud": 42.5847,
+            "longitud": -87.8212,
+            "poblacion": 100000,
+            "id": 288
+        },
+        {
+            "nombre": "Longmont",
+            "estado": "CO",
+            "pais": "Estados Unidos",
+            "latitud": 40.1672,
+            "longitud": -105.1019,
+            "poblacion": 100000,
+            "id": 289
+        },
+        {
+            "nombre": "New Bedford",
+            "estado": "MA",
+            "pais": "Estados Unidos",
+            "latitud": 41.6362,
+            "longitud": -70.9342,
+            "poblacion": 100000,
+            "id": 290
+        },
+        {
+            "nombre": "Roanoke",
+            "estado": "VA",
+            "pais": "Estados Unidos",
+            "latitud": 37.271,
+            "longitud": -79.9414,
+            "poblacion": 100000,
+            "id": 291
+        },
+        {
+            "nombre": "San Angelo",
+            "estado": "TX",
+            "pais": "Estados Unidos",
+            "latitud": 31.4638,
+            "longitud": -100.437,
+            "poblacion": 100000,
+            "id": 292
+        },
+        {
+            "nombre": "Tracy",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.7397,
+            "longitud": -121.4252,
+            "poblacion": 100000,
+            "id": 293
+        },
+        {
+            "nombre": "Yakima",
+            "estado": "WA",
+            "pais": "Estados Unidos",
+            "latitud": 46.6021,
+            "longitud": -120.5059,
+            "poblacion": 100000,
+            "id": 294
+        },
+        {
+            "nombre": "Asheville",
+            "estado": "NC",
+            "pais": "Estados Unidos",
+            "latitud": 35.5951,
+            "longitud": -82.5515,
+            "poblacion": 95000,
+            "id": 295
+        },
+        {
+            "nombre": "Compton",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 33.8958,
+            "longitud": -118.2201,
+            "poblacion": 95000,
+            "id": 296
+        },
+        {
+            "nombre": "Manteca",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.7974,
+            "longitud": -121.2161,
+            "poblacion": 95000,
+            "id": 297
+        },
+        {
+            "nombre": "Plantation",
+            "estado": "FL",
+            "pais": "Estados Unidos",
+            "latitud": 26.1276,
+            "longitud": -80.2331,
+            "poblacion": 95000,
+            "id": 298
+        },
+        {
+            "nombre": "Lawrence",
+            "estado": "MA",
+            "pais": "Estados Unidos",
+            "latitud": 42.707,
+            "longitud": -71.1631,
+            "poblacion": 90000,
+            "id": 299
+        },
+        {
+            "nombre": "Livermore",
+            "estado": "CA",
+            "pais": "Estados Unidos",
+            "latitud": 37.6819,
+            "longitud": -121.768,
+            "poblacion": 90000,
+            "id": 300
+        }
+    ]
+}
