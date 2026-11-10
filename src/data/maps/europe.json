@@ -1,0 +1,2424 @@
+{
+    "metadatos": {
+        "total": 300,
+        "territorio": "Europa geográfica (incluye Reino Unido, Rusia europea, Turquía europea y territorios insulares europeos)",
+        "criterio": "300 ciudades y núcleos urbanos seleccionados principalmente por población aproximada; orden descendente orientativo; no se trata de un ranking oficial armonizado",
+        "poblacion": "Valores aproximados y redondeados, no cifras oficiales verificadas individualmente; años y criterios de delimitación diferentes; las ciudades ucranianas pueden reflejar referencias anteriores a la guerra; Estambul incluye una estimación de su parte europea",
+        "coordenadas": "Coordenadas aproximadas del centro de la ciudad (WGS84)",
+        "fuentes_referencia": [
+            "https://www.geonames.org/",
+            "https://ec.europa.eu/eurostat/",
+            "https://population.un.org/wup/",
+            "https://www.citypopulation.de/"
+        ],
+        "nota": "Selección ilustrativa apta para mapas, no para análisis estadístico oficial; no confundir población de municipio, ciudad y área metropolitana."
+    },
+    "mapa": {
+        "nombre": "Europa",
+        "latitud": 50.1,
+        "longitud": 14.0,
+        "zoom": 4
+    },
+    "ciudades": [
+        {
+            "nombre": "Moscú",
+            "pais": "Rusia",
+            "latitud": 55.7558,
+            "longitud": 37.6173,
+            "poblacion": 13000000,
+            "id": 1
+        },
+        {
+            "nombre": "Estambul (parte europea)",
+            "pais": "Turquía",
+            "latitud": 41.0082,
+            "longitud": 28.9784,
+            "poblacion": 10000000,
+            "id": 2
+        },
+        {
+            "nombre": "Londres",
+            "pais": "Reino Unido",
+            "latitud": 51.5074,
+            "longitud": -0.1278,
+            "poblacion": 9000000,
+            "id": 3
+        },
+        {
+            "nombre": "San Petersburgo",
+            "pais": "Rusia",
+            "latitud": 59.9343,
+            "longitud": 30.3351,
+            "poblacion": 5600000,
+            "id": 4
+        },
+        {
+            "nombre": "Berlín",
+            "pais": "Alemania",
+            "latitud": 52.52,
+            "longitud": 13.405,
+            "poblacion": 3900000,
+            "id": 5
+        },
+        {
+            "nombre": "Madrid",
+            "pais": "España",
+            "latitud": 40.4168,
+            "longitud": -3.7038,
+            "poblacion": 3506900,
+            "id": 6
+        },
+        {
+            "nombre": "Kiev",
+            "pais": "Ucrania",
+            "latitud": 50.4501,
+            "longitud": 30.5234,
+            "poblacion": 2950000,
+            "id": 7
+        },
+        {
+            "nombre": "Roma",
+            "pais": "Italia",
+            "latitud": 41.9028,
+            "longitud": 12.4964,
+            "poblacion": 2750000,
+            "id": 8
+        },
+        {
+            "nombre": "París",
+            "pais": "Francia",
+            "latitud": 48.8566,
+            "longitud": 2.3522,
+            "poblacion": 2100000,
+            "id": 9
+        },
+        {
+            "nombre": "Minsk",
+            "pais": "Bielorrusia",
+            "latitud": 53.9006,
+            "longitud": 27.559,
+            "poblacion": 2000000,
+            "id": 10
+        },
+        {
+            "nombre": "Viena",
+            "pais": "Austria",
+            "latitud": 48.2082,
+            "longitud": 16.3738,
+            "poblacion": 2000000,
+            "id": 11
+        },
+        {
+            "nombre": "Hamburgo",
+            "pais": "Alemania",
+            "latitud": 53.5511,
+            "longitud": 9.9937,
+            "poblacion": 1900000,
+            "id": 12
+        },
+        {
+            "nombre": "Varsovia",
+            "pais": "Polonia",
+            "latitud": 52.2297,
+            "longitud": 21.0122,
+            "poblacion": 1860000,
+            "id": 13
+        },
+        {
+            "nombre": "Bucarest",
+            "pais": "Rumanía",
+            "latitud": 44.4268,
+            "longitud": 26.1025,
+            "poblacion": 1750000,
+            "id": 14
+        },
+        {
+            "nombre": "Barcelona",
+            "pais": "España",
+            "latitud": 41.3874,
+            "longitud": 2.1686,
+            "poblacion": 1700000,
+            "id": 15
+        },
+        {
+            "nombre": "Budapest",
+            "pais": "Hungría",
+            "latitud": 47.4979,
+            "longitud": 19.0402,
+            "poblacion": 1680000,
+            "id": 16
+        },
+        {
+            "nombre": "Múnich",
+            "pais": "Alemania",
+            "latitud": 48.1351,
+            "longitud": 11.582,
+            "poblacion": 1600000,
+            "id": 17
+        },
+        {
+            "nombre": "Járkov",
+            "pais": "Ucrania",
+            "latitud": 49.9935,
+            "longitud": 36.2304,
+            "poblacion": 1420000,
+            "id": 18
+        },
+        {
+            "nombre": "Praga",
+            "pais": "Chequia",
+            "latitud": 50.0755,
+            "longitud": 14.4378,
+            "poblacion": 1400000,
+            "id": 19
+        },
+        {
+            "nombre": "Milán",
+            "pais": "Italia",
+            "latitud": 45.4642,
+            "longitud": 9.19,
+            "poblacion": 1370000,
+            "id": 20
+        },
+        {
+            "nombre": "Kazán",
+            "pais": "Rusia",
+            "latitud": 55.7903,
+            "longitud": 49.1125,
+            "poblacion": 1320000,
+            "id": 21
+        },
+        {
+            "nombre": "Sofía",
+            "pais": "Bulgaria",
+            "latitud": 42.6977,
+            "longitud": 23.3219,
+            "poblacion": 1230000,
+            "id": 22
+        },
+        {
+            "nombre": "Nizhni Nóvgorod",
+            "pais": "Rusia",
+            "latitud": 56.2965,
+            "longitud": 43.9361,
+            "poblacion": 1210000,
+            "id": 23
+        },
+        {
+            "nombre": "Belgrado",
+            "pais": "Serbia",
+            "latitud": 44.7866,
+            "longitud": 20.4489,
+            "poblacion": 1200000,
+            "id": 24
+        },
+        {
+            "nombre": "Samara",
+            "pais": "Rusia",
+            "latitud": 53.1959,
+            "longitud": 50.1002,
+            "poblacion": 1160000,
+            "id": 25
+        },
+        {
+            "nombre": "Birmingham",
+            "pais": "Reino Unido",
+            "latitud": 52.4862,
+            "longitud": -1.8904,
+            "poblacion": 1150000,
+            "id": 26
+        },
+        {
+            "nombre": "Ufa",
+            "pais": "Rusia",
+            "latitud": 54.7388,
+            "longitud": 55.9721,
+            "poblacion": 1150000,
+            "id": 27
+        },
+        {
+            "nombre": "Rostov del Don",
+            "pais": "Rusia",
+            "latitud": 47.2357,
+            "longitud": 39.7015,
+            "poblacion": 1140000,
+            "id": 28
+        },
+        {
+            "nombre": "Krasnodar",
+            "pais": "Rusia",
+            "latitud": 45.0355,
+            "longitud": 38.9753,
+            "poblacion": 1130000,
+            "id": 29
+        },
+        {
+            "nombre": "Colonia",
+            "pais": "Alemania",
+            "latitud": 50.9375,
+            "longitud": 6.9603,
+            "poblacion": 1100000,
+            "id": 30
+        },
+        {
+            "nombre": "Vorónezh",
+            "pais": "Rusia",
+            "latitud": 51.672,
+            "longitud": 39.1843,
+            "poblacion": 1050000,
+            "id": 31
+        },
+        {
+            "nombre": "Perm",
+            "pais": "Rusia",
+            "latitud": 58.0105,
+            "longitud": 56.2502,
+            "poblacion": 1030000,
+            "id": 32
+        },
+        {
+            "nombre": "Volgogrado",
+            "pais": "Rusia",
+            "latitud": 48.708,
+            "longitud": 44.5133,
+            "poblacion": 1020000,
+            "id": 33
+        },
+        {
+            "nombre": "Odesa",
+            "pais": "Ucrania",
+            "latitud": 46.4825,
+            "longitud": 30.7233,
+            "poblacion": 1010000,
+            "id": 34
+        },
+        {
+            "nombre": "Estocolmo",
+            "pais": "Suecia",
+            "latitud": 59.3293,
+            "longitud": 18.0686,
+            "poblacion": 990000,
+            "id": 35
+        },
+        {
+            "nombre": "Dnipró",
+            "pais": "Ucrania",
+            "latitud": 48.4647,
+            "longitud": 35.0462,
+            "poblacion": 980000,
+            "id": 36
+        },
+        {
+            "nombre": "Ámsterdam",
+            "pais": "Países Bajos",
+            "latitud": 52.3676,
+            "longitud": 4.9041,
+            "poblacion": 940000,
+            "id": 37
+        },
+        {
+            "nombre": "Nápoles",
+            "pais": "Italia",
+            "latitud": 40.8518,
+            "longitud": 14.2681,
+            "poblacion": 910000,
+            "id": 38
+        },
+        {
+            "nombre": "Donetsk",
+            "pais": "Ucrania",
+            "latitud": 48.0159,
+            "longitud": 37.8029,
+            "poblacion": 900000,
+            "id": 39
+        },
+        {
+            "nombre": "Marsella",
+            "pais": "Francia",
+            "latitud": 43.2965,
+            "longitud": 5.3698,
+            "poblacion": 880000,
+            "id": 40
+        },
+        {
+            "nombre": "Turín",
+            "pais": "Italia",
+            "latitud": 45.0703,
+            "longitud": 7.6869,
+            "poblacion": 850000,
+            "id": 41
+        },
+        {
+            "nombre": "Sarátov",
+            "pais": "Rusia",
+            "latitud": 51.5336,
+            "longitud": 46.0343,
+            "poblacion": 840000,
+            "id": 42
+        },
+        {
+            "nombre": "Valencia",
+            "pais": "España",
+            "latitud": 39.4699,
+            "longitud": -0.3763,
+            "poblacion": 825000,
+            "id": 43
+        },
+        {
+            "nombre": "Leeds",
+            "pais": "Reino Unido",
+            "latitud": 53.8008,
+            "longitud": -1.5491,
+            "poblacion": 810000,
+            "id": 44
+        },
+        {
+            "nombre": "Cracovia",
+            "pais": "Polonia",
+            "latitud": 50.0647,
+            "longitud": 19.945,
+            "poblacion": 805000,
+            "id": 45
+        },
+        {
+            "nombre": "Fráncfort del Meno",
+            "pais": "Alemania",
+            "latitud": 50.1109,
+            "longitud": 8.6821,
+            "poblacion": 780000,
+            "id": 46
+        },
+        {
+            "nombre": "Zagreb",
+            "pais": "Croacia",
+            "latitud": 45.815,
+            "longitud": 15.9819,
+            "poblacion": 770000,
+            "id": 47
+        },
+        {
+            "nombre": "Leópolis",
+            "pais": "Ucrania",
+            "latitud": 49.8397,
+            "longitud": 24.0297,
+            "poblacion": 720000,
+            "id": 48
+        },
+        {
+            "nombre": "Oslo",
+            "pais": "Noruega",
+            "latitud": 59.9139,
+            "longitud": 10.7522,
+            "poblacion": 720000,
+            "id": 49
+        },
+        {
+            "nombre": "Zaporiyia",
+            "pais": "Ucrania",
+            "latitud": 47.8388,
+            "longitud": 35.1396,
+            "poblacion": 710000,
+            "id": 50
+        },
+        {
+            "nombre": "Sevilla",
+            "pais": "España",
+            "latitud": 37.3891,
+            "longitud": -5.9845,
+            "poblacion": 690000,
+            "id": 51
+        },
+        {
+            "nombre": "Zaragoza",
+            "pais": "España",
+            "latitud": 41.6488,
+            "longitud": -0.8891,
+            "poblacion": 690000,
+            "id": 52
+        },
+        {
+            "nombre": "Helsinki",
+            "pais": "Finlandia",
+            "latitud": 60.1699,
+            "longitud": 24.9384,
+            "poblacion": 685000,
+            "id": 53
+        },
+        {
+            "nombre": "Toliatti",
+            "pais": "Rusia",
+            "latitud": 53.5078,
+            "longitud": 49.4204,
+            "poblacion": 675000,
+            "id": 54
+        },
+        {
+            "nombre": "Wroclaw",
+            "pais": "Polonia",
+            "latitud": 51.1079,
+            "longitud": 17.0385,
+            "poblacion": 675000,
+            "id": 55
+        },
+        {
+            "nombre": "Róterdam",
+            "pais": "Países Bajos",
+            "latitud": 51.9244,
+            "longitud": 4.4777,
+            "poblacion": 670000,
+            "id": 56
+        },
+        {
+            "nombre": "Copenhague",
+            "pais": "Dinamarca",
+            "latitud": 55.6761,
+            "longitud": 12.5683,
+            "poblacion": 660000,
+            "id": 57
+        },
+        {
+            "nombre": "Atenas",
+            "pais": "Grecia",
+            "latitud": 37.9838,
+            "longitud": 23.7275,
+            "poblacion": 650000,
+            "id": 58
+        },
+        {
+            "nombre": "Chisináu",
+            "pais": "Moldavia",
+            "latitud": 47.0105,
+            "longitud": 28.8638,
+            "poblacion": 650000,
+            "id": 59
+        },
+        {
+            "nombre": "Düsseldorf",
+            "pais": "Alemania",
+            "latitud": 51.2277,
+            "longitud": 6.7735,
+            "poblacion": 650000,
+            "id": 60
+        },
+        {
+            "nombre": "Łódź",
+            "pais": "Polonia",
+            "latitud": 51.7592,
+            "longitud": 19.456,
+            "poblacion": 650000,
+            "id": 61
+        },
+        {
+            "nombre": "Stuttgart",
+            "pais": "Alemania",
+            "latitud": 48.7758,
+            "longitud": 9.1829,
+            "poblacion": 635000,
+            "id": 62
+        },
+        {
+            "nombre": "Glasgow",
+            "pais": "Reino Unido",
+            "latitud": 55.8642,
+            "longitud": -4.2518,
+            "poblacion": 630000,
+            "id": 63
+        },
+        {
+            "nombre": "Izhevsk",
+            "pais": "Rusia",
+            "latitud": 56.8528,
+            "longitud": 53.2115,
+            "poblacion": 630000,
+            "id": 64
+        },
+        {
+            "nombre": "Palermo",
+            "pais": "Italia",
+            "latitud": 38.1157,
+            "longitud": 13.3615,
+            "poblacion": 630000,
+            "id": 65
+        },
+        {
+            "nombre": "Leipzig",
+            "pais": "Alemania",
+            "latitud": 51.3397,
+            "longitud": 12.3731,
+            "poblacion": 620000,
+            "id": 66
+        },
+        {
+            "nombre": "Majachkalá",
+            "pais": "Rusia",
+            "latitud": 42.9849,
+            "longitud": 47.5047,
+            "poblacion": 620000,
+            "id": 67
+        },
+        {
+            "nombre": "Uliánovsk",
+            "pais": "Rusia",
+            "latitud": 54.3142,
+            "longitud": 48.4031,
+            "poblacion": 615000,
+            "id": 68
+        },
+        {
+            "nombre": "Gotemburgo",
+            "pais": "Suecia",
+            "latitud": 57.7089,
+            "longitud": 11.9746,
+            "poblacion": 610000,
+            "id": 69
+        },
+        {
+            "nombre": "Krivói Rog",
+            "pais": "Ucrania",
+            "latitud": 47.9105,
+            "longitud": 33.3918,
+            "poblacion": 610000,
+            "id": 70
+        },
+        {
+            "nombre": "Riga",
+            "pais": "Letonia",
+            "latitud": 56.9496,
+            "longitud": 24.1052,
+            "poblacion": 605000,
+            "id": 71
+        },
+        {
+            "nombre": "Dortmund",
+            "pais": "Alemania",
+            "latitud": 51.5136,
+            "longitud": 7.4653,
+            "poblacion": 600000,
+            "id": 72
+        },
+        {
+            "nombre": "Vilna",
+            "pais": "Lituania",
+            "latitud": 54.6872,
+            "longitud": 25.2797,
+            "poblacion": 600000,
+            "id": 73
+        },
+        {
+            "nombre": "Dublín",
+            "pais": "Irlanda",
+            "latitud": 53.3498,
+            "longitud": -6.2603,
+            "poblacion": 595000,
+            "id": 74
+        },
+        {
+            "nombre": "Málaga",
+            "pais": "España",
+            "latitud": 36.7213,
+            "longitud": -4.4214,
+            "poblacion": 595000,
+            "id": 75
+        },
+        {
+            "nombre": "Essen",
+            "pais": "Alemania",
+            "latitud": 51.4566,
+            "longitud": 7.0123,
+            "poblacion": 580000,
+            "id": 76
+        },
+        {
+            "nombre": "Lisboa",
+            "pais": "Portugal",
+            "latitud": 38.7223,
+            "longitud": -9.1393,
+            "poblacion": 575000,
+            "id": 77
+        },
+        {
+            "nombre": "Bremen",
+            "pais": "Alemania",
+            "latitud": 53.0793,
+            "longitud": 8.8017,
+            "poblacion": 570000,
+            "id": 78
+        },
+        {
+            "nombre": "Dresde",
+            "pais": "Alemania",
+            "latitud": 51.0504,
+            "longitud": 13.7373,
+            "poblacion": 570000,
+            "id": 79
+        },
+        {
+            "nombre": "Manchester",
+            "pais": "Reino Unido",
+            "latitud": 53.4808,
+            "longitud": -2.2426,
+            "poblacion": 570000,
+            "id": 80
+        },
+        {
+            "nombre": "Yaroslavl",
+            "pais": "Rusia",
+            "latitud": 57.6261,
+            "longitud": 39.8845,
+            "poblacion": 570000,
+            "id": 81
+        },
+        {
+            "nombre": "La Haya",
+            "pais": "Países Bajos",
+            "latitud": 52.0705,
+            "longitud": 4.3007,
+            "poblacion": 565000,
+            "id": 82
+        },
+        {
+            "nombre": "Génova",
+            "pais": "Italia",
+            "latitud": 44.4056,
+            "longitud": 8.9463,
+            "poblacion": 560000,
+            "id": 83
+        },
+        {
+            "nombre": "Sheffield",
+            "pais": "Reino Unido",
+            "latitud": 53.3811,
+            "longitud": -1.4701,
+            "poblacion": 560000,
+            "id": 84
+        },
+        {
+            "nombre": "Bradford",
+            "pais": "Reino Unido",
+            "latitud": 53.796,
+            "longitud": -1.7594,
+            "poblacion": 550000,
+            "id": 85
+        },
+        {
+            "nombre": "Hannover",
+            "pais": "Alemania",
+            "latitud": 52.3759,
+            "longitud": 9.732,
+            "poblacion": 550000,
+            "id": 86
+        },
+        {
+            "nombre": "Naberezhnye Chelny",
+            "pais": "Rusia",
+            "latitud": 55.7436,
+            "longitud": 52.3958,
+            "poblacion": 550000,
+            "id": 87
+        },
+        {
+            "nombre": "Orenburgo",
+            "pais": "Rusia",
+            "latitud": 51.7682,
+            "longitud": 55.0969,
+            "poblacion": 550000,
+            "id": 88
+        },
+        {
+            "nombre": "Stávropol",
+            "pais": "Rusia",
+            "latitud": 45.0448,
+            "longitud": 41.969,
+            "poblacion": 550000,
+            "id": 89
+        },
+        {
+            "nombre": "Tirana",
+            "pais": "Albania",
+            "latitud": 41.3275,
+            "longitud": 19.8187,
+            "poblacion": 550000,
+            "id": 90
+        },
+        {
+            "nombre": "Amberes",
+            "pais": "Bélgica",
+            "latitud": 51.2194,
+            "longitud": 4.4025,
+            "poblacion": 540000,
+            "id": 91
+        },
+        {
+            "nombre": "Poznan",
+            "pais": "Polonia",
+            "latitud": 52.4064,
+            "longitud": 16.9252,
+            "poblacion": 540000,
+            "id": 92
+        },
+        {
+            "nombre": "Edimburgo",
+            "pais": "Reino Unido",
+            "latitud": 55.9533,
+            "longitud": -3.1883,
+            "poblacion": 530000,
+            "id": 93
+        },
+        {
+            "nombre": "Lyon",
+            "pais": "Francia",
+            "latitud": 45.764,
+            "longitud": 4.8357,
+            "poblacion": 530000,
+            "id": 94
+        },
+        {
+            "nombre": "Núremberg",
+            "pais": "Alemania",
+            "latitud": 49.4521,
+            "longitud": 11.0767,
+            "poblacion": 530000,
+            "id": 95
+        },
+        {
+            "nombre": "Riazán",
+            "pais": "Rusia",
+            "latitud": 54.6292,
+            "longitud": 39.7364,
+            "poblacion": 530000,
+            "id": 96
+        },
+        {
+            "nombre": "Skopie",
+            "pais": "Macedonia del Norte",
+            "latitud": 41.9981,
+            "longitud": 21.4254,
+            "poblacion": 530000,
+            "id": 97
+        },
+        {
+            "nombre": "Toulouse",
+            "pais": "Francia",
+            "latitud": 43.6047,
+            "longitud": 1.4442,
+            "poblacion": 510000,
+            "id": 98
+        },
+        {
+            "nombre": "Duisburgo",
+            "pais": "Alemania",
+            "latitud": 51.4344,
+            "longitud": 6.7623,
+            "poblacion": 505000,
+            "id": 99
+        },
+        {
+            "nombre": "Liverpool",
+            "pais": "Reino Unido",
+            "latitud": 53.4084,
+            "longitud": -2.9916,
+            "poblacion": 505000,
+            "id": 100
+        },
+        {
+            "nombre": "Gómel",
+            "pais": "Bielorrusia",
+            "latitud": 52.4345,
+            "longitud": 30.9754,
+            "poblacion": 500000,
+            "id": 101
+        },
+        {
+            "nombre": "Sebastopol",
+            "pais": "Ucrania",
+            "latitud": 44.6167,
+            "longitud": 33.5254,
+            "poblacion": 500000,
+            "id": 102
+        },
+        {
+            "nombre": "Cheboksary",
+            "pais": "Rusia",
+            "latitud": 56.1322,
+            "longitud": 47.2519,
+            "poblacion": 495000,
+            "id": 103
+        },
+        {
+            "nombre": "Kaliningrado",
+            "pais": "Rusia",
+            "latitud": 54.7104,
+            "longitud": 20.4522,
+            "poblacion": 490000,
+            "id": 104
+        },
+        {
+            "nombre": "Lipetsk",
+            "pais": "Rusia",
+            "latitud": 52.6031,
+            "longitud": 39.5708,
+            "poblacion": 490000,
+            "id": 105
+        },
+        {
+            "nombre": "Penza",
+            "pais": "Rusia",
+            "latitud": 53.1959,
+            "longitud": 45.0183,
+            "poblacion": 490000,
+            "id": 106
+        },
+        {
+            "nombre": "Gdansk",
+            "pais": "Polonia",
+            "latitud": 54.352,
+            "longitud": 18.6466,
+            "poblacion": 485000,
+            "id": 107
+        },
+        {
+            "nombre": "Bristol",
+            "pais": "Reino Unido",
+            "latitud": 51.4545,
+            "longitud": -2.5879,
+            "poblacion": 480000,
+            "id": 108
+        },
+        {
+            "nombre": "Astracán",
+            "pais": "Rusia",
+            "latitud": 46.3497,
+            "longitud": 48.0408,
+            "poblacion": 475000,
+            "id": 109
+        },
+        {
+            "nombre": "Murcia",
+            "pais": "España",
+            "latitud": 37.9922,
+            "longitud": -1.1307,
+            "poblacion": 475000,
+            "id": 110
+        },
+        {
+            "nombre": "Kírov",
+            "pais": "Rusia",
+            "latitud": 58.6036,
+            "longitud": 49.668,
+            "poblacion": 470000,
+            "id": 111
+        },
+        {
+            "nombre": "Mykolaiv",
+            "pais": "Ucrania",
+            "latitud": 46.975,
+            "longitud": 31.9946,
+            "poblacion": 470000,
+            "id": 112
+        },
+        {
+            "nombre": "Tula",
+            "pais": "Rusia",
+            "latitud": 54.1961,
+            "longitud": 37.6182,
+            "poblacion": 465000,
+            "id": 113
+        },
+        {
+            "nombre": "Tallin",
+            "pais": "Estonia",
+            "latitud": 59.437,
+            "longitud": 24.7536,
+            "poblacion": 460000,
+            "id": 114
+        },
+        {
+            "nombre": "Zúrich",
+            "pais": "Suiza",
+            "latitud": 47.3769,
+            "longitud": 8.5417,
+            "poblacion": 445000,
+            "id": 115
+        },
+        {
+            "nombre": "Kursk",
+            "pais": "Rusia",
+            "latitud": 51.73,
+            "longitud": 36.1926,
+            "poblacion": 440000,
+            "id": 116
+        },
+        {
+            "nombre": "Sochi",
+            "pais": "Rusia",
+            "latitud": 43.5855,
+            "longitud": 39.7231,
+            "poblacion": 440000,
+            "id": 117
+        },
+        {
+            "nombre": "Mariúpol",
+            "pais": "Ucrania",
+            "latitud": 47.0951,
+            "longitud": 37.5413,
+            "poblacion": 430000,
+            "id": 118
+        },
+        {
+            "nombre": "Palma",
+            "pais": "España",
+            "latitud": 39.5696,
+            "longitud": 2.6502,
+            "poblacion": 430000,
+            "id": 119
+        },
+        {
+            "nombre": "Tver",
+            "pais": "Rusia",
+            "latitud": 56.8587,
+            "longitud": 35.9176,
+            "poblacion": 415000,
+            "id": 120
+        },
+        {
+            "nombre": "Ivanovo",
+            "pais": "Rusia",
+            "latitud": 57.0003,
+            "longitud": 40.9739,
+            "poblacion": 400000,
+            "id": 121
+        },
+        {
+            "nombre": "Lugansk",
+            "pais": "Ucrania",
+            "latitud": 48.574,
+            "longitud": 39.3078,
+            "poblacion": 400000,
+            "id": 122
+        },
+        {
+            "nombre": "Bolonia",
+            "pais": "Italia",
+            "latitud": 44.4949,
+            "longitud": 11.3426,
+            "poblacion": 390000,
+            "id": 123
+        },
+        {
+            "nombre": "Sintra",
+            "pais": "Portugal",
+            "latitud": 38.8029,
+            "longitud": -9.3817,
+            "poblacion": 390000,
+            "id": 124
+        },
+        {
+            "nombre": "Szczecin",
+            "pais": "Polonia",
+            "latitud": 53.4285,
+            "longitud": 14.5528,
+            "poblacion": 390000,
+            "id": 125
+        },
+        {
+            "nombre": "Briansk",
+            "pais": "Rusia",
+            "latitud": 53.2521,
+            "longitud": 34.3717,
+            "poblacion": 380000,
+            "id": 126
+        },
+        {
+            "nombre": "Utrecht",
+            "pais": "Países Bajos",
+            "latitud": 52.0907,
+            "longitud": 5.1214,
+            "poblacion": 375000,
+            "id": 127
+        },
+        {
+            "nombre": "Aarhus",
+            "pais": "Dinamarca",
+            "latitud": 56.1629,
+            "longitud": 10.2039,
+            "poblacion": 370000,
+            "id": 128
+        },
+        {
+            "nombre": "Cardiff",
+            "pais": "Reino Unido",
+            "latitud": 51.4816,
+            "longitud": -3.1791,
+            "poblacion": 370000,
+            "id": 129
+        },
+        {
+            "nombre": "Leicester",
+            "pais": "Reino Unido",
+            "latitud": 52.6369,
+            "longitud": -1.1398,
+            "poblacion": 370000,
+            "id": 130
+        },
+        {
+            "nombre": "Vinnytsia",
+            "pais": "Ucrania",
+            "latitud": 49.2331,
+            "longitud": 28.4682,
+            "poblacion": 370000,
+            "id": 131
+        },
+        {
+            "nombre": "Alicante",
+            "pais": "España",
+            "latitud": 38.3452,
+            "longitud": -0.481,
+            "poblacion": 365000,
+            "id": 132
+        },
+        {
+            "nombre": "Bochum",
+            "pais": "Alemania",
+            "latitud": 51.4818,
+            "longitud": 7.2162,
+            "poblacion": 365000,
+            "id": 133
+        },
+        {
+            "nombre": "Malmö",
+            "pais": "Suecia",
+            "latitud": 55.605,
+            "longitud": 13.0038,
+            "poblacion": 365000,
+            "id": 134
+        },
+        {
+            "nombre": "Florencia",
+            "pais": "Italia",
+            "latitud": 43.7696,
+            "longitud": 11.2558,
+            "poblacion": 360000,
+            "id": 135
+        },
+        {
+            "nombre": "Grodno",
+            "pais": "Bielorrusia",
+            "latitud": 53.6694,
+            "longitud": 23.8131,
+            "poblacion": 360000,
+            "id": 136
+        },
+        {
+            "nombre": "Vítebsk",
+            "pais": "Bielorrusia",
+            "latitud": 55.1904,
+            "longitud": 30.2049,
+            "poblacion": 360000,
+            "id": 137
+        },
+        {
+            "nombre": "Wuppertal",
+            "pais": "Alemania",
+            "latitud": 51.2562,
+            "longitud": 7.1508,
+            "poblacion": 360000,
+            "id": 138
+        },
+        {
+            "nombre": "Moguiliov",
+            "pais": "Bielorrusia",
+            "latitud": 53.9,
+            "longitud": 30.3315,
+            "poblacion": 355000,
+            "id": 139
+        },
+        {
+            "nombre": "Niza",
+            "pais": "Francia",
+            "latitud": 43.7102,
+            "longitud": 7.262,
+            "poblacion": 350000,
+            "id": 140
+        },
+        {
+            "nombre": "Belfast",
+            "pais": "Reino Unido",
+            "latitud": 54.5973,
+            "longitud": -5.9301,
+            "poblacion": 345000,
+            "id": 141
+        },
+        {
+            "nombre": "Bilbao",
+            "pais": "España",
+            "latitud": 43.263,
+            "longitud": -2.935,
+            "poblacion": 345000,
+            "id": 142
+        },
+        {
+            "nombre": "Brest",
+            "pais": "Bielorrusia",
+            "latitud": 52.0976,
+            "longitud": 23.7341,
+            "poblacion": 345000,
+            "id": 143
+        },
+        {
+            "nombre": "Coventry",
+            "pais": "Reino Unido",
+            "latitud": 52.4068,
+            "longitud": -1.5197,
+            "poblacion": 345000,
+            "id": 144
+        },
+        {
+            "nombre": "Vladimir",
+            "pais": "Rusia",
+            "latitud": 56.1291,
+            "longitud": 40.4066,
+            "poblacion": 345000,
+            "id": 145
+        },
+        {
+            "nombre": "Bélgorod",
+            "pais": "Rusia",
+            "latitud": 50.5954,
+            "longitud": 36.5873,
+            "poblacion": 340000,
+            "id": 146
+        },
+        {
+            "nombre": "Makiivka",
+            "pais": "Ucrania",
+            "latitud": 48.0478,
+            "longitud": 37.9258,
+            "poblacion": 340000,
+            "id": 147
+        },
+        {
+            "nombre": "Simferópol",
+            "pais": "Ucrania",
+            "latitud": 44.9521,
+            "longitud": 34.1024,
+            "poblacion": 340000,
+            "id": 148
+        },
+        {
+            "nombre": "Bielefeld",
+            "pais": "Alemania",
+            "latitud": 52.0302,
+            "longitud": 8.5325,
+            "poblacion": 335000,
+            "id": 149
+        },
+        {
+            "nombre": "Bonn",
+            "pais": "Alemania",
+            "latitud": 50.7374,
+            "longitud": 7.0982,
+            "poblacion": 335000,
+            "id": 150
+        },
+        {
+            "nombre": "Kaluga",
+            "pais": "Rusia",
+            "latitud": 54.5138,
+            "longitud": 36.2612,
+            "poblacion": 335000,
+            "id": 151
+        },
+        {
+            "nombre": "Bydgoszcz",
+            "pais": "Polonia",
+            "latitud": 53.1235,
+            "longitud": 18.0084,
+            "poblacion": 330000,
+            "id": 152
+        },
+        {
+            "nombre": "Grozni",
+            "pais": "Rusia",
+            "latitud": 43.3178,
+            "longitud": 45.6981,
+            "poblacion": 330000,
+            "id": 153
+        },
+        {
+            "nombre": "Lublin",
+            "pais": "Polonia",
+            "latitud": 51.2465,
+            "longitud": 22.5684,
+            "poblacion": 330000,
+            "id": 154
+        },
+        {
+            "nombre": "Nantes",
+            "pais": "Francia",
+            "latitud": 47.2184,
+            "longitud": -1.5536,
+            "poblacion": 330000,
+            "id": 155
+        },
+        {
+            "nombre": "Plovdiv",
+            "pais": "Bulgaria",
+            "latitud": 42.1354,
+            "longitud": 24.7453,
+            "poblacion": 330000,
+            "id": 156
+        },
+        {
+            "nombre": "Córdoba",
+            "pais": "España",
+            "latitud": 37.8882,
+            "longitud": -4.7794,
+            "poblacion": 325000,
+            "id": 157
+        },
+        {
+            "nombre": "Nottingham",
+            "pais": "Reino Unido",
+            "latitud": 52.9548,
+            "longitud": -1.1581,
+            "poblacion": 325000,
+            "id": 158
+        },
+        {
+            "nombre": "Mannheim",
+            "pais": "Alemania",
+            "latitud": 49.4875,
+            "longitud": 8.466,
+            "poblacion": 320000,
+            "id": 159
+        },
+        {
+            "nombre": "Münster",
+            "pais": "Alemania",
+            "latitud": 51.9607,
+            "longitud": 7.6261,
+            "poblacion": 320000,
+            "id": 160
+        },
+        {
+            "nombre": "Smolensk",
+            "pais": "Rusia",
+            "latitud": 54.7826,
+            "longitud": 32.0453,
+            "poblacion": 320000,
+            "id": 161
+        },
+        {
+            "nombre": "Tesalónica",
+            "pais": "Grecia",
+            "latitud": 40.6401,
+            "longitud": 22.9444,
+            "poblacion": 320000,
+            "id": 162
+        },
+        {
+            "nombre": "Bari",
+            "pais": "Italia",
+            "latitud": 41.1171,
+            "longitud": 16.8719,
+            "poblacion": 315000,
+            "id": 163
+        },
+        {
+            "nombre": "Espoo",
+            "pais": "Finlandia",
+            "latitud": 60.2055,
+            "longitud": 24.6559,
+            "poblacion": 315000,
+            "id": 164
+        },
+        {
+            "nombre": "Varna",
+            "pais": "Bulgaria",
+            "latitud": 43.2141,
+            "longitud": 27.9147,
+            "poblacion": 315000,
+            "id": 165
+        },
+        {
+            "nombre": "Volzhski",
+            "pais": "Rusia",
+            "latitud": 48.7858,
+            "longitud": 44.7797,
+            "poblacion": 315000,
+            "id": 166
+        },
+        {
+            "nombre": "Karlsruhe",
+            "pais": "Alemania",
+            "latitud": 49.0069,
+            "longitud": 8.4037,
+            "poblacion": 310000,
+            "id": 167
+        },
+        {
+            "nombre": "Montpellier",
+            "pais": "Francia",
+            "latitud": 43.6108,
+            "longitud": 3.8767,
+            "poblacion": 310000,
+            "id": 168
+        },
+        {
+            "nombre": "Newcastle upon Tyne",
+            "pais": "Reino Unido",
+            "latitud": 54.9783,
+            "longitud": -1.6178,
+            "poblacion": 310000,
+            "id": 169
+        },
+        {
+            "nombre": "Saransk",
+            "pais": "Rusia",
+            "latitud": 54.1838,
+            "longitud": 45.1749,
+            "poblacion": 310000,
+            "id": 170
+        },
+        {
+            "nombre": "Vólogda",
+            "pais": "Rusia",
+            "latitud": 59.2205,
+            "longitud": 39.8915,
+            "poblacion": 310000,
+            "id": 171
+        },
+        {
+            "nombre": "Augsburgo",
+            "pais": "Alemania",
+            "latitud": 48.3705,
+            "longitud": 10.8978,
+            "poblacion": 305000,
+            "id": 172
+        },
+        {
+            "nombre": "Kaunas",
+            "pais": "Lituania",
+            "latitud": 54.8985,
+            "longitud": 23.9036,
+            "poblacion": 305000,
+            "id": 173
+        },
+        {
+            "nombre": "Vila Nova de Gaia",
+            "pais": "Portugal",
+            "latitud": 41.1336,
+            "longitud": -8.6174,
+            "poblacion": 305000,
+            "id": 174
+        },
+        {
+            "nombre": "Arcángel",
+            "pais": "Rusia",
+            "latitud": 64.5399,
+            "longitud": 40.5158,
+            "poblacion": 300000,
+            "id": 175
+        },
+        {
+            "nombre": "Catania",
+            "pais": "Italia",
+            "latitud": 37.5079,
+            "longitud": 15.083,
+            "poblacion": 300000,
+            "id": 176
+        },
+        {
+            "nombre": "Cherepovéts",
+            "pais": "Rusia",
+            "latitud": 59.1269,
+            "longitud": 37.9097,
+            "poblacion": 300000,
+            "id": 177
+        },
+        {
+            "nombre": "Liubliana",
+            "pais": "Eslovenia",
+            "latitud": 46.0569,
+            "longitud": 14.5058,
+            "poblacion": 300000,
+            "id": 178
+        },
+        {
+            "nombre": "Novi Sad",
+            "pais": "Serbia",
+            "latitud": 45.2671,
+            "longitud": 19.8335,
+            "poblacion": 300000,
+            "id": 179
+        },
+        {
+            "nombre": "Oriol",
+            "pais": "Rusia",
+            "latitud": 52.9651,
+            "longitud": 36.0785,
+            "poblacion": 300000,
+            "id": 180
+        },
+        {
+            "nombre": "Valladolid",
+            "pais": "España",
+            "latitud": 41.6523,
+            "longitud": -4.7245,
+            "poblacion": 300000,
+            "id": 181
+        },
+        {
+            "nombre": "Bialystok",
+            "pais": "Polonia",
+            "latitud": 53.1325,
+            "longitud": 23.1688,
+            "poblacion": 295000,
+            "id": 182
+        },
+        {
+            "nombre": "Estrasburgo",
+            "pais": "Francia",
+            "latitud": 48.5734,
+            "longitud": 7.7521,
+            "poblacion": 295000,
+            "id": 183
+        },
+        {
+            "nombre": "Vigo",
+            "pais": "España",
+            "latitud": 42.2406,
+            "longitud": -8.7207,
+            "poblacion": 295000,
+            "id": 184
+        },
+        {
+            "nombre": "Vladikavkaz",
+            "pais": "Rusia",
+            "latitud": 43.0367,
+            "longitud": 44.6678,
+            "poblacion": 295000,
+            "id": 185
+        },
+        {
+            "nombre": "Bergen",
+            "pais": "Noruega",
+            "latitud": 60.3913,
+            "longitud": 5.3221,
+            "poblacion": 290000,
+            "id": 186
+        },
+        {
+            "nombre": "Cluj-Napoca",
+            "pais": "Rumanía",
+            "latitud": 46.7712,
+            "longitud": 23.6236,
+            "poblacion": 290000,
+            "id": 187
+        },
+        {
+            "nombre": "Milton Keynes",
+            "pais": "Reino Unido",
+            "latitud": 52.0406,
+            "longitud": -0.7594,
+            "poblacion": 290000,
+            "id": 188
+        },
+        {
+            "nombre": "Tambov",
+            "pais": "Rusia",
+            "latitud": 52.7212,
+            "longitud": 41.4523,
+            "poblacion": 290000,
+            "id": 189
+        },
+        {
+            "nombre": "Wiesbaden",
+            "pais": "Alemania",
+            "latitud": 50.0782,
+            "longitud": 8.2398,
+            "poblacion": 290000,
+            "id": 190
+        },
+        {
+            "nombre": "Çorlu",
+            "pais": "Turquía",
+            "latitud": 41.1592,
+            "longitud": 27.8,
+            "poblacion": 290000,
+            "id": 191
+        },
+        {
+            "nombre": "Brighton and Hove",
+            "pais": "Reino Unido",
+            "latitud": 50.8225,
+            "longitud": -0.1372,
+            "poblacion": 280000,
+            "id": 192
+        },
+        {
+            "nombre": "Cherníhiv",
+            "pais": "Ucrania",
+            "latitud": 51.4982,
+            "longitud": 31.2893,
+            "poblacion": 280000,
+            "id": 193
+        },
+        {
+            "nombre": "Jersón",
+            "pais": "Ucrania",
+            "latitud": 46.6354,
+            "longitud": 32.6169,
+            "poblacion": 280000,
+            "id": 194
+        },
+        {
+            "nombre": "Katowice",
+            "pais": "Polonia",
+            "latitud": 50.2649,
+            "longitud": 19.0238,
+            "poblacion": 280000,
+            "id": 195
+        },
+        {
+            "nombre": "L'Hospitalet de Llobregat",
+            "pais": "España",
+            "latitud": 41.3597,
+            "longitud": 2.1,
+            "poblacion": 280000,
+            "id": 196
+        },
+        {
+            "nombre": "Poltava",
+            "pais": "Ucrania",
+            "latitud": 49.5883,
+            "longitud": 34.5514,
+            "poblacion": 280000,
+            "id": 197
+        },
+        {
+            "nombre": "Sunderland",
+            "pais": "Reino Unido",
+            "latitud": 54.9069,
+            "longitud": -1.3838,
+            "poblacion": 280000,
+            "id": 198
+        },
+        {
+            "nombre": "Yoshkar-Olá",
+            "pais": "Rusia",
+            "latitud": 56.6344,
+            "longitud": 47.8998,
+            "poblacion": 280000,
+            "id": 199
+        },
+        {
+            "nombre": "Jmelnitski",
+            "pais": "Ucrania",
+            "latitud": 49.4229,
+            "longitud": 26.9871,
+            "poblacion": 275000,
+            "id": 200
+        },
+        {
+            "nombre": "Novorossiysk",
+            "pais": "Rusia",
+            "latitud": 44.7235,
+            "longitud": 37.7686,
+            "poblacion": 275000,
+            "id": 201
+        },
+        {
+            "nombre": "Sarajevo",
+            "pais": "Bosnia y Herzegovina",
+            "latitud": 43.8563,
+            "longitud": 18.4131,
+            "poblacion": 275000,
+            "id": 202
+        },
+        {
+            "nombre": "Cherkasy",
+            "pais": "Ucrania",
+            "latitud": 49.4444,
+            "longitud": 32.0598,
+            "poblacion": 270000,
+            "id": 203
+        },
+        {
+            "nombre": "Gante",
+            "pais": "Bélgica",
+            "latitud": 51.0543,
+            "longitud": 3.7174,
+            "poblacion": 270000,
+            "id": 204
+        },
+        {
+            "nombre": "Gijón",
+            "pais": "España",
+            "latitud": 43.5322,
+            "longitud": -5.6611,
+            "poblacion": 270000,
+            "id": 205
+        },
+        {
+            "nombre": "Iași",
+            "pais": "Rumanía",
+            "latitud": 47.1585,
+            "longitud": 27.6014,
+            "poblacion": 270000,
+            "id": 206
+        },
+        {
+            "nombre": "Kostromá",
+            "pais": "Rusia",
+            "latitud": 57.7679,
+            "longitud": 40.9269,
+            "poblacion": 270000,
+            "id": 207
+        },
+        {
+            "nombre": "Mönchengladbach",
+            "pais": "Alemania",
+            "latitud": 51.1805,
+            "longitud": 6.4428,
+            "poblacion": 270000,
+            "id": 208
+        },
+        {
+            "nombre": "Burdeos",
+            "pais": "Francia",
+            "latitud": 44.8378,
+            "longitud": -0.5792,
+            "poblacion": 265000,
+            "id": 209
+        },
+        {
+            "nombre": "Chernivtsí",
+            "pais": "Ucrania",
+            "latitud": 48.2921,
+            "longitud": 25.9358,
+            "poblacion": 265000,
+            "id": 210
+        },
+        {
+            "nombre": "Derby",
+            "pais": "Reino Unido",
+            "latitud": 52.9225,
+            "longitud": -1.4746,
+            "poblacion": 265000,
+            "id": 211
+        },
+        {
+            "nombre": "Gelsenkirchen",
+            "pais": "Alemania",
+            "latitud": 51.5177,
+            "longitud": 7.0857,
+            "poblacion": 265000,
+            "id": 212
+        },
+        {
+            "nombre": "Murmansk",
+            "pais": "Rusia",
+            "latitud": 68.9585,
+            "longitud": 33.0827,
+            "poblacion": 265000,
+            "id": 213
+        },
+        {
+            "nombre": "Plymouth",
+            "pais": "Reino Unido",
+            "latitud": 50.3755,
+            "longitud": -4.1427,
+            "poblacion": 265000,
+            "id": 214
+        },
+        {
+            "nombre": "Wolverhampton",
+            "pais": "Reino Unido",
+            "latitud": 52.5862,
+            "longitud": -2.128,
+            "poblacion": 265000,
+            "id": 215
+        },
+        {
+            "nombre": "Aquisgrán",
+            "pais": "Alemania",
+            "latitud": 50.7753,
+            "longitud": 6.0839,
+            "poblacion": 260000,
+            "id": 216
+        },
+        {
+            "nombre": "Constanza",
+            "pais": "Rumanía",
+            "latitud": 44.1598,
+            "longitud": 28.6348,
+            "poblacion": 260000,
+            "id": 217
+        },
+        {
+            "nombre": "Tampere",
+            "pais": "Finlandia",
+            "latitud": 61.4978,
+            "longitud": 23.761,
+            "poblacion": 260000,
+            "id": 218
+        },
+        {
+            "nombre": "Vitoria-Gasteiz",
+            "pais": "España",
+            "latitud": 42.8467,
+            "longitud": -2.6716,
+            "poblacion": 260000,
+            "id": 219
+        },
+        {
+            "nombre": "Zhitómir",
+            "pais": "Ucrania",
+            "latitud": 50.2547,
+            "longitud": 28.6587,
+            "poblacion": 260000,
+            "id": 220
+        },
+        {
+            "nombre": "Braunschweig",
+            "pais": "Alemania",
+            "latitud": 52.2689,
+            "longitud": 10.5268,
+            "poblacion": 255000,
+            "id": 221
+        },
+        {
+            "nombre": "Southampton",
+            "pais": "Reino Unido",
+            "latitud": 50.9097,
+            "longitud": -1.4044,
+            "poblacion": 255000,
+            "id": 222
+        },
+        {
+            "nombre": "Sumy",
+            "pais": "Ucrania",
+            "latitud": 50.9077,
+            "longitud": 34.7981,
+            "poblacion": 255000,
+            "id": 223
+        },
+        {
+            "nombre": "Timișoara",
+            "pais": "Rumanía",
+            "latitud": 45.7489,
+            "longitud": 21.2087,
+            "poblacion": 255000,
+            "id": 224
+        },
+        {
+            "nombre": "Verona",
+            "pais": "Italia",
+            "latitud": 45.4384,
+            "longitud": 10.9916,
+            "poblacion": 255000,
+            "id": 225
+        },
+        {
+            "nombre": "A Coruña",
+            "pais": "España",
+            "latitud": 43.3623,
+            "longitud": -8.4115,
+            "poblacion": 250000,
+            "id": 226
+        },
+        {
+            "nombre": "Chemnitz",
+            "pais": "Alemania",
+            "latitud": 50.8278,
+            "longitud": 12.9214,
+            "poblacion": 250000,
+            "id": 227
+        },
+        {
+            "nombre": "Kiel",
+            "pais": "Alemania",
+            "latitud": 54.3233,
+            "longitud": 10.1228,
+            "poblacion": 250000,
+            "id": 228
+        },
+        {
+            "nombre": "Northampton",
+            "pais": "Reino Unido",
+            "latitud": 52.2405,
+            "longitud": -0.9027,
+            "poblacion": 250000,
+            "id": 229
+        },
+        {
+            "nombre": "Oporto",
+            "pais": "Portugal",
+            "latitud": 41.1579,
+            "longitud": -8.6291,
+            "poblacion": 250000,
+            "id": 230
+        },
+        {
+            "nombre": "Vantaa",
+            "pais": "Finlandia",
+            "latitud": 60.2934,
+            "longitud": 25.0378,
+            "poblacion": 250000,
+            "id": 231
+        },
+        {
+            "nombre": "Venecia",
+            "pais": "Italia",
+            "latitud": 45.4408,
+            "longitud": 12.3155,
+            "poblacion": 250000,
+            "id": 232
+        },
+        {
+            "nombre": "Eindhoven",
+            "pais": "Países Bajos",
+            "latitud": 51.4416,
+            "longitud": 5.4697,
+            "poblacion": 245000,
+            "id": 233
+        },
+        {
+            "nombre": "Gdynia",
+            "pais": "Polonia",
+            "latitud": 54.5189,
+            "longitud": 18.5305,
+            "poblacion": 245000,
+            "id": 234
+        },
+        {
+            "nombre": "Halle (Saale)",
+            "pais": "Alemania",
+            "latitud": 51.4825,
+            "longitud": 11.9705,
+            "poblacion": 245000,
+            "id": 235
+        },
+        {
+            "nombre": "Rivne",
+            "pais": "Ucrania",
+            "latitud": 50.6199,
+            "longitud": 26.2516,
+            "poblacion": 245000,
+            "id": 236
+        },
+        {
+            "nombre": "Uppsala",
+            "pais": "Suecia",
+            "latitud": 59.8586,
+            "longitud": 17.6389,
+            "poblacion": 245000,
+            "id": 237
+        },
+        {
+            "nombre": "Brașov",
+            "pais": "Rumanía",
+            "latitud": 45.6579,
+            "longitud": 25.6012,
+            "poblacion": 240000,
+            "id": 238
+        },
+        {
+            "nombre": "Elche",
+            "pais": "España",
+            "latitud": 38.2699,
+            "longitud": -0.7126,
+            "poblacion": 240000,
+            "id": 239
+        },
+        {
+            "nombre": "Groninga",
+            "pais": "Países Bajos",
+            "latitud": 53.2194,
+            "longitud": 6.5665,
+            "poblacion": 240000,
+            "id": 240
+        },
+        {
+            "nombre": "Horlivka",
+            "pais": "Ucrania",
+            "latitud": 48.3058,
+            "longitud": 38.0547,
+            "poblacion": 240000,
+            "id": 241
+        },
+        {
+            "nombre": "Lille",
+            "pais": "Francia",
+            "latitud": 50.6292,
+            "longitud": 3.0573,
+            "poblacion": 240000,
+            "id": 242
+        },
+        {
+            "nombre": "Magdeburgo",
+            "pais": "Alemania",
+            "latitud": 52.1205,
+            "longitud": 11.6276,
+            "poblacion": 240000,
+            "id": 243
+        },
+        {
+            "nombre": "Nálchik",
+            "pais": "Rusia",
+            "latitud": 43.4981,
+            "longitud": 43.6189,
+            "poblacion": 240000,
+            "id": 244
+        },
+        {
+            "nombre": "Portsmouth",
+            "pais": "Reino Unido",
+            "latitud": 50.8198,
+            "longitud": -1.088,
+            "poblacion": 240000,
+            "id": 245
+        },
+        {
+            "nombre": "Swansea",
+            "pais": "Reino Unido",
+            "latitud": 51.6214,
+            "longitud": -3.9436,
+            "poblacion": 240000,
+            "id": 246
+        },
+        {
+            "nombre": "Taganrog",
+            "pais": "Rusia",
+            "latitud": 47.2362,
+            "longitud": 38.8969,
+            "poblacion": 240000,
+            "id": 247
+        },
+        {
+            "nombre": "Craiova",
+            "pais": "Rumanía",
+            "latitud": 44.3302,
+            "longitud": 23.7949,
+            "poblacion": 235000,
+            "id": 248
+        },
+        {
+            "nombre": "Friburgo de Brisgovia",
+            "pais": "Alemania",
+            "latitud": 47.999,
+            "longitud": 7.8421,
+            "poblacion": 235000,
+            "id": 249
+        },
+        {
+            "nombre": "Granada",
+            "pais": "España",
+            "latitud": 37.1773,
+            "longitud": -3.5986,
+            "poblacion": 235000,
+            "id": 250
+        },
+        {
+            "nombre": "Ivano-Frankivsk",
+            "pais": "Ucrania",
+            "latitud": 48.9226,
+            "longitud": 24.7111,
+            "poblacion": 235000,
+            "id": 251
+        },
+        {
+            "nombre": "Petrozavodsk",
+            "pais": "Rusia",
+            "latitud": 61.7849,
+            "longitud": 34.3469,
+            "poblacion": 235000,
+            "id": 252
+        },
+        {
+            "nombre": "Swindon",
+            "pais": "Reino Unido",
+            "latitud": 51.5558,
+            "longitud": -1.7797,
+            "poblacion": 235000,
+            "id": 253
+        },
+        {
+            "nombre": "Aberdeen",
+            "pais": "Reino Unido",
+            "latitud": 57.1497,
+            "longitud": -2.0943,
+            "poblacion": 230000,
+            "id": 254
+        },
+        {
+            "nombre": "Krefeld",
+            "pais": "Alemania",
+            "latitud": 51.3388,
+            "longitud": 6.5853,
+            "poblacion": 230000,
+            "id": 255
+        },
+        {
+            "nombre": "Terrassa",
+            "pais": "España",
+            "latitud": 41.5632,
+            "longitud": 2.0089,
+            "poblacion": 230000,
+            "id": 256
+        },
+        {
+            "nombre": "Tilburgo",
+            "pais": "Países Bajos",
+            "latitud": 51.5555,
+            "longitud": 5.0913,
+            "poblacion": 230000,
+            "id": 257
+        },
+        {
+            "nombre": "Almere",
+            "pais": "Países Bajos",
+            "latitud": 52.3508,
+            "longitud": 5.2647,
+            "poblacion": 225000,
+            "id": 258
+        },
+        {
+            "nombre": "Badalona",
+            "pais": "España",
+            "latitud": 41.4469,
+            "longitud": 2.245,
+            "poblacion": 225000,
+            "id": 259
+        },
+        {
+            "nombre": "Cork",
+            "pais": "Irlanda",
+            "latitud": 51.8985,
+            "longitud": -8.4756,
+            "poblacion": 225000,
+            "id": 260
+        },
+        {
+            "nombre": "Engels",
+            "pais": "Rusia",
+            "latitud": 51.4855,
+            "longitud": 46.1268,
+            "poblacion": 225000,
+            "id": 261
+        },
+        {
+            "nombre": "Luton",
+            "pais": "Reino Unido",
+            "latitud": 51.8787,
+            "longitud": -0.42,
+            "poblacion": 225000,
+            "id": 262
+        },
+        {
+            "nombre": "Mainz",
+            "pais": "Alemania",
+            "latitud": 49.9929,
+            "longitud": 8.2473,
+            "poblacion": 225000,
+            "id": 263
+        },
+        {
+            "nombre": "Rennes",
+            "pais": "Francia",
+            "latitud": 48.1173,
+            "longitud": -1.6778,
+            "poblacion": 225000,
+            "id": 264
+        },
+        {
+            "nombre": "Shajty",
+            "pais": "Rusia",
+            "latitud": 47.7085,
+            "longitud": 40.2144,
+            "poblacion": 225000,
+            "id": 265
+        },
+        {
+            "nombre": "Ternópil",
+            "pais": "Ucrania",
+            "latitud": 49.5535,
+            "longitud": 25.5948,
+            "poblacion": 225000,
+            "id": 266
+        },
+        {
+            "nombre": "Veliki Nóvgorod",
+            "pais": "Rusia",
+            "latitud": 58.5213,
+            "longitud": 31.271,
+            "poblacion": 225000,
+            "id": 267
+        },
+        {
+            "nombre": "Cartagena",
+            "pais": "España",
+            "latitud": 37.6257,
+            "longitud": -0.9966,
+            "poblacion": 220000,
+            "id": 268
+        },
+        {
+            "nombre": "Galați",
+            "pais": "Rumanía",
+            "latitud": 45.4353,
+            "longitud": 28.008,
+            "poblacion": 220000,
+            "id": 269
+        },
+        {
+            "nombre": "Kropyvnytskyi",
+            "pais": "Ucrania",
+            "latitud": 48.5079,
+            "longitud": 32.2623,
+            "poblacion": 220000,
+            "id": 270
+        },
+        {
+            "nombre": "Lutsk",
+            "pais": "Ucrania",
+            "latitud": 50.7472,
+            "longitud": 25.3254,
+            "poblacion": 220000,
+            "id": 271
+        },
+        {
+            "nombre": "Lübeck",
+            "pais": "Alemania",
+            "latitud": 53.8655,
+            "longitud": 10.6866,
+            "poblacion": 220000,
+            "id": 272
+        },
+        {
+            "nombre": "Messina",
+            "pais": "Italia",
+            "latitud": 38.1938,
+            "longitud": 15.554,
+            "poblacion": 220000,
+            "id": 273
+        },
+        {
+            "nombre": "Oviedo",
+            "pais": "España",
+            "latitud": 43.3619,
+            "longitud": -5.8494,
+            "poblacion": 220000,
+            "id": 274
+        },
+        {
+            "nombre": "Sabadell",
+            "pais": "España",
+            "latitud": 41.5463,
+            "longitud": 2.1086,
+            "poblacion": 220000,
+            "id": 275
+        },
+        {
+            "nombre": "Syktyvkar",
+            "pais": "Rusia",
+            "latitud": 61.6688,
+            "longitud": 50.8364,
+            "poblacion": 220000,
+            "id": 276
+        },
+        {
+            "nombre": "Cascais",
+            "pais": "Portugal",
+            "latitud": 38.6979,
+            "longitud": -9.4215,
+            "poblacion": 215000,
+            "id": 277
+        },
+        {
+            "nombre": "Erfurt",
+            "pais": "Alemania",
+            "latitud": 50.9848,
+            "longitud": 11.0299,
+            "poblacion": 215000,
+            "id": 278
+        },
+        {
+            "nombre": "Jerez de la Frontera",
+            "pais": "España",
+            "latitud": 36.6817,
+            "longitud": -6.1378,
+            "poblacion": 215000,
+            "id": 279
+        },
+        {
+            "nombre": "Kremenchuk",
+            "pais": "Ucrania",
+            "latitud": 49.068,
+            "longitud": 33.4204,
+            "poblacion": 215000,
+            "id": 280
+        },
+        {
+            "nombre": "Oulu",
+            "pais": "Finlandia",
+            "latitud": 65.0121,
+            "longitud": 25.4651,
+            "poblacion": 215000,
+            "id": 281
+        },
+        {
+            "nombre": "Peterborough",
+            "pais": "Reino Unido",
+            "latitud": 52.5695,
+            "longitud": -0.2405,
+            "poblacion": 215000,
+            "id": 282
+        },
+        {
+            "nombre": "Trondheim",
+            "pais": "Noruega",
+            "latitud": 63.4305,
+            "longitud": 10.3951,
+            "poblacion": 215000,
+            "id": 283
+        },
+        {
+            "nombre": "Babruisk",
+            "pais": "Bielorrusia",
+            "latitud": 53.1384,
+            "longitud": 29.2214,
+            "poblacion": 210000,
+            "id": 284
+        },
+        {
+            "nombre": "Bila Tserkva",
+            "pais": "Ucrania",
+            "latitud": 49.7968,
+            "longitud": 30.1311,
+            "poblacion": 210000,
+            "id": 285
+        },
+        {
+            "nombre": "Czestochowa",
+            "pais": "Polonia",
+            "latitud": 50.8118,
+            "longitud": 19.1203,
+            "poblacion": 210000,
+            "id": 286
+        },
+        {
+            "nombre": "Móstoles",
+            "pais": "España",
+            "latitud": 40.3223,
+            "longitud": -3.865,
+            "poblacion": 210000,
+            "id": 287
+        },
+        {
+            "nombre": "Oberhausen",
+            "pais": "Alemania",
+            "latitud": 51.4963,
+            "longitud": 6.8638,
+            "poblacion": 210000,
+            "id": 288
+        },
+        {
+            "nombre": "Odense",
+            "pais": "Dinamarca",
+            "latitud": 55.4038,
+            "longitud": 10.4024,
+            "poblacion": 210000,
+            "id": 289
+        },
+        {
+            "nombre": "Padua",
+            "pais": "Italia",
+            "latitud": 45.4064,
+            "longitud": 11.8768,
+            "poblacion": 210000,
+            "id": 290
+        },
+        {
+            "nombre": "Pamplona",
+            "pais": "España",
+            "latitud": 42.8125,
+            "longitud": -1.6458,
+            "poblacion": 210000,
+            "id": 291
+        },
+        {
+            "nombre": "Rostock",
+            "pais": "Alemania",
+            "latitud": 54.0924,
+            "longitud": 12.0991,
+            "poblacion": 210000,
+            "id": 292
+        },
+        {
+            "nombre": "York",
+            "pais": "Reino Unido",
+            "latitud": 53.959,
+            "longitud": -1.0815,
+            "poblacion": 210000,
+            "id": 293
+        },
+        {
+            "nombre": "Almería",
+            "pais": "España",
+            "latitud": 36.834,
+            "longitud": -2.4637,
+            "poblacion": 205000,
+            "id": 294
+        },
+        {
+            "nombre": "Charleroi",
+            "pais": "Bélgica",
+            "latitud": 50.4108,
+            "longitud": 4.4446,
+            "poblacion": 205000,
+            "id": 295
+        },
+        {
+            "nombre": "Ginebra",
+            "pais": "Suiza",
+            "latitud": 46.2044,
+            "longitud": 6.1432,
+            "poblacion": 205000,
+            "id": 296
+        },
+        {
+            "nombre": "Kassel",
+            "pais": "Alemania",
+            "latitud": 51.3127,
+            "longitud": 9.4797,
+            "poblacion": 205000,
+            "id": 297
+        },
+        {
+            "nombre": "Loures",
+            "pais": "Portugal",
+            "latitud": 38.8309,
+            "longitud": -9.1684,
+            "poblacion": 205000,
+            "id": 298
+        },
+        {
+            "nombre": "Trieste",
+            "pais": "Italia",
+            "latitud": 45.6495,
+            "longitud": 13.7768,
+            "poblacion": 205000,
+            "id": 299
+        },
+        {
+            "nombre": "Turku",
+            "pais": "Finlandia",
+            "latitud": 60.4518,
+            "longitud": 22.2666,
+            "poblacion": 205000,
+            "id": 300
+        }
+    ]
+}

@@ -13,17 +13,17 @@ const base = { money: 1000, day: 1, paused: false, tracks: [{ a: 'a', b: 'b', km
 describe('simulación de trenes', () => {
   it('avanza en el tramo y paga al llegar, nunca antes', () => {
     const halfway = advanceSimulation(base, cities, 6.25);
-    expect(halfway.money).toBe(1000);
+    expect(halfway.money).toBe(1000 - halfway.stats.total.expenses);
     expect(halfway.lines[0].train.progress).toBeCloseTo(.5);
     const arrived = advanceSimulation(halfway, cities, 6.25);
-    expect(arrived.money).toBe(1000 + arrived.arrivals[0].amount);
+    expect(arrived.money).toBe(1000 - arrived.stats.total.expenses + arrived.arrivals[0].amount);
     expect(arrived.arrivals[0].cityId).toBe('b');
     expect(arrived.stats.lines['line-1'].income).toBe(arrived.arrivals[0].amount);
     expect(arrived.stats.tracks['a|b'].income).toBe(arrived.arrivals[0].amount);
     expect(arrived.stats.cities.b.income).toBe(arrived.arrivals[0].amount);
     expect(arrived.lines[0].train.stopIndex).toBe(1);
     const returned = advanceSimulation(arrived, cities, 12.5);
-    expect(returned.money).toBe(arrived.money + returned.arrivals[0].amount);
+    expect(returned.money).toBe(arrived.money - (returned.stats.total.expenses - arrived.stats.total.expenses) + returned.arrivals.reduce((sum, event) => sum + event.amount, 0));
     expect(returned.lines[0].train.stopIndex).toBe(0);
   });
   it('limita la vía básica a un tren aunque circulen en sentidos opuestos', () => {
@@ -36,13 +36,13 @@ describe('simulación de trenes', () => {
     expect(afterArrival.lines[0].train.moving).toBe(false);
   });
   it('permite cruces en vía rápida de alta ocupación de doble sentido' , () => {
-    const game = { ...base, tracks: [{ ...base.tracks[0], type: 'fast_high_capacity_bidirectional' }], lines: [base.lines[0], { name: 'Dos', stops: ['b', 'a'] }] };
+    const game = { ...base, tracks: [{ ...base.tracks[0], type: 'fast_high_capacity_bidirectional' }], lines: [{ ...base.lines[0], trainType: 'fast' }, { name: 'Dos', stops: ['b', 'a'], trainType: 'fast' }] };
     const running = advanceSimulation(game, cities, 25 / 12);
     expect(running.lines.filter(line => line.train.moving)).toHaveLength(2);
     expect(running.lines[0].train.progress).toBeCloseTo(.5);
     const arrived = advanceSimulation(running, cities, 25 / 12);
     expect(arrived.arrivals).toHaveLength(2);
-    expect(arrived.money).toBe(1000 + arrived.arrivals.reduce((sum, event) => sum + event.amount, 0));
+    expect(arrived.money).toBe(1000 - arrived.stats.total.expenses + arrived.arrivals.reduce((sum, event) => sum + event.amount, 0));
   });
   it('no permite cruces en una vía sencilla de alta ocupación', () => {
     const game = { ...base, tracks: [{ ...base.tracks[0], type: 'high_capacity' }], lines: [base.lines[0], { name: 'Dos', stops: ['b', 'a'] }] };
@@ -144,7 +144,8 @@ describe('simulación de trenes', () => {
   it('aplica km/h de juego con 120 segundos reales por día', () => {
     for (const [type, speed] of [['basic', 40], ['normal', 80], ['high_speed', 260], ['ultra_fast', 350]]) {
       const game = { ...base, tracks: [{ ...base.tracks[0], type }] };
-      const realSeconds = 100 / speed / 24 * 120;
+      const effectiveSpeed = Math.min(speed, 100); // Tren estándar: máximo 100 km/h.
+      const realSeconds = 100 / effectiveSpeed / 24 * 120;
       expect(advanceSimulation(game, cities, realSeconds / 2).lines[0].train.progress).toBeCloseTo(.5);
       expect(advanceSimulation(game, cities, realSeconds).arrivals).toHaveLength(1);
     }
