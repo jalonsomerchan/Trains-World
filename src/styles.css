@@ -1567,7 +1567,7 @@ input:focus-visible {
 }
 
 .train-marker {
-  min-width: 44px;
-  min-height: 44px;
+  min-width: 28px;
+  min-height: 28px;
   touch-action: manipulation;
 }
