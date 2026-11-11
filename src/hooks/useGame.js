@@ -48,7 +48,10 @@ export function useGame(session) {
       const now = performance.now();
       const seconds = Math.min(.5, (now - last) / 1000);
       last = now;
-      setGame(previous => advanceSimulation(previous, cities, seconds * (previous.speed || 1)));
+      setGame(previous => {
+        const speed = previous.speed || 1;
+        return advanceSimulation(previous, cities, seconds * (speed === 1 ? 1.2 : speed));
+      });
     }, 200);
     return () => clearInterval(timer);
   }, [game.paused, cities]);

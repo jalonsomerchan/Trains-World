@@ -41,6 +41,7 @@ function Game({ session }) {
   const [mapStatus, setMapStatus] = useState('loading');
   const [notice, setNotice] = useState('');
   const lastArrival = useRef(null);
+  const knownBreakdowns = useRef(new Set());
   const notify = text => { setNotice(text); };
   useEffect(() => { if (!notice) return undefined; const timer = setTimeout(() => setNotice(''), 3500); return () => clearTimeout(timer); }, [notice]);
 
@@ -50,12 +51,20 @@ function Game({ session }) {
       lastArrival.current = game.arrivalSequence || 0;
       return;
     }
-    const latest = events.filter(event => event.id > lastArrival.current).at(-1);
-    if (latest) {
-      notify(latest.lineName + ' llegó a ' + latest.cityName + ': +' + new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 }).format(latest.amount));
-      lastArrival.current = latest.id;
-    }
+    lastArrival.current = Math.max(lastArrival.current, ...events.map(event => event.id));
   }, [game.arrivals, game.arrivalSequence]);
+
+  useEffect(() => {
+    const current = new Set();
+    for (const line of game.lines) for (const [index, train] of lineTrains(line).entries()) {
+      const key = String(train.id || line.id + ':' + index);
+      if (train.breakdownRemaining > 0) {
+        current.add(key);
+        if (!knownBreakdowns.current.has(key)) notify('Avería en ' + line.name + '. El tren está detenido.');
+      }
+    }
+    knownBreakdowns.current = current;
+  }, [game.lines]);
 
   function selectCity(city) {
     if (!city) return;
